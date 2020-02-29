@@ -864,7 +864,7 @@ on_actions = {
 				}
 				ITA = {
 					release = VAT
-					release = MIL
+					release = LOM
 					release = TIR
 					release = VNC
 					release = SAV
@@ -872,6 +872,9 @@ on_actions = {
 					release = NAP
 					release = SIC
 					release = TUS
+					release = PAM
+					release = LUC
+					release = MOD
 				}
 				VNC = {
 					annex_country = {
