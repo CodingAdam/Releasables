@@ -337,3 +337,6 @@
  CZH_FRAGMENTATION_STATUS:0 "Czechoslovakia Fragmentation Status"
  RULE_OPTION_CZH_FRAGMENTED_DESC:0 "Czechoslovakia is fragmented into their constituent parts."
  RULE_OPTION_CZH_FRAGMENTED:0 "Czechoslovakia Fragmented"
+ TUR_FRAGMENTATION_STATUS:0 "Turkey Fragmentation Status"
+ RULE_OPTION_TUR_FRAGMENTED_DESC:0 "Turkey is fragmented into its constituent parts."
+ RULE_OPTION_TUR_FRAGMENTED:0 "Turkey Fragmented"

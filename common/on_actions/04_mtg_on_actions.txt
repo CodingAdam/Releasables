@@ -800,6 +800,29 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
+						rule = tur_fragmentation_status
+						option = tur_FRAGMENTED
+					}
+				}
+				TUR = {
+					release = IST
+					release = AKD
+					release = KUR
+					release = ARM
+					release = IZM
+					release = AZD
+					release = ANK
+					release = KAR
+				}
+				ANK = {
+					annex_country = {
+						target = TUR
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
 						rule = czh_fragmentation_status
 						option = czh_FRAGMENTED
 					}
