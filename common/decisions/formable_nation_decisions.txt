@@ -1647,6 +1647,200 @@ form_italy_category = {
 		}
 	}
 }
+form_greece_category = {
+
+	form_greece = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = THR
+				original_tag = THE
+				original_tag = ATH
+				original_tag = EPR
+				original_tag = PEL
+				original_tag = CRE
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_greece_required_states_tt
+				controls_state = 731
+				controls_state = 185
+				controls_state = 186
+				controls_state = 47
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = THR
+				original_tag = THE
+				original_tag = ATH
+				original_tag = EPR
+				original_tag = PEL
+				original_tag = CRE
+			}
+			NOT = { has_global_flag = form_gre_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GRE
+			# 2nd balkan war 
+			custom_effect_tooltip = form_eu_greece_coring_states_tt
+			hidden_effect = {
+				184 = { add_core_of = ROOT }
+				731 = { add_core_of = ROOT }
+				185 = { add_core_of = ROOT }
+				47 = { add_core_of = ROOT }
+				186 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				182 = { add_core_of = ROOT }
+				164 = { add_claim_by = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_gre_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_england_category = {
+
+	form_england = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CRW
+				original_tag = SUX
+				original_tag = LON
+				original_tag = MRC
+				original_tag = NUT
+				original_tag = WAL
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_eng_required_states_tt
+				controls_state = 123
+				controls_state = 127
+				controls_state = 125
+				controls_state = 126
+				controls_state = 338
+				controls_state = 128
+				controls_state = 129
+				controls_state = 132
+				controls_state = 130
+				controls_state = 131
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = CRW
+				original_tag = SUX
+				original_tag = LON
+				original_tag = MRC
+				original_tag = NUT
+				original_tag = WLS
+			}
+			NOT = { has_global_flag = form_eng_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ENG
+			custom_effect_tooltip = form_eu_eng_coring_states_tt
+			hidden_effect = {
+				123 = { add_core_of = ROOT }
+				127 = { add_core_of = ROOT }
+				125 = { add_core_of = ROOT }
+				126 = { add_core_of = ROOT }
+				338 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+				129 = { add_core_of = ROOT }
+				130 = { add_core_of = ROOT }
+				132 = { add_core_of = ROOT }
+				131 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_eng_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_italy_category = {
+
+	form_lombardyVenetia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = VNC
+				original_tag = LOM
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_lov_required_states_tt
+				controls_state = 160
+				controls_state = 159
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = VNC
+				original_tag = LOM
+			}
+			NOT = { has_global_flag = form_lov_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = lov
+			custom_effect_tooltip = form_eu_lov_coring_states_tt
+			hidden_effect = {
+				160 = { add_core_of = ROOT }
+				159 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_lov_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_usa_category = {
 
 	form_usa = {

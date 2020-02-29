@@ -241,3 +241,7 @@ ngc = {
 	color = rgb { 41 82 163 }
 	color_ui = rgb { 41 82 165 }
 }
+lov = {
+	color = rgb { 38 173 67 }
+	color_ui = rgb { 38 173 69 }
+}

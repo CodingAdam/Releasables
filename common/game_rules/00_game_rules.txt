@@ -1616,18 +1616,3 @@ czh_fragmentation_status = {
 		desc = "RULE_OPTION_CZH_FRAGMENTED_DESC"
 	}
 }
-tur_fragmentation_status = {
-	name = "TUR_FRAGMENTATION_STATUS"
-	required_dlc = "Man the Guns"
-	group = "RULE_GROUP_GAME_SETUP"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
-	}
-	option = {
-		name = TUR_FRAGMENTED
-		text = "RULE_OPTION_TUR_FRAGMENTED"
-		desc = "RULE_OPTION_TUR_FRAGMENTED_DESC"
-	}
-}
