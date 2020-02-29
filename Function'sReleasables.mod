@@ -1,9 +1,9 @@
-version="1.8.2"
-path="mod/AR_Fixed/"
+version="1.9.0"
+path="mod/Releaseables_Functions/"
 tags={
 	"Gameplay"
 	"Map"
 	"Balance"
 }
-name="AR_Fixed"
+name="Function'sReleasables"
 supported_version="1.9.0"
