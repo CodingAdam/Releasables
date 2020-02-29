@@ -1,0 +1,29 @@
+
+state={
+	id=799
+	name="STATE_799"
+	manpower = 204732
+	
+	state_category = town
+	
+	resources={
+		aluminium=3 # was: 16
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			6973 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ITA
+		add_core_of = MOD
+	}
+
+	provinces={
+		3976 6973 9752
+	}
+}
