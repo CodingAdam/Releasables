@@ -1,4 +1,4 @@
-capital = 341
+capital = 339
 set_research_slots = 3
 # Starting tech
 set_technology = {
@@ -52,15 +52,15 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 40
-	fascism = 0
+	democratic = 30
+	fascism = 40
 	communism = 30
-	neutrality = 30
+	neutrality = 0
 }

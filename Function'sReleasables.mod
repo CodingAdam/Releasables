@@ -1,9 +1,0 @@
-version="1.9.0"
-path="mod/Releasables_Functions/"
-tags={
-	"Gameplay"
-	"Map"
-	"Balance"
-}
-name="Function'sReleasables"
-supported_version="1.9.0"
