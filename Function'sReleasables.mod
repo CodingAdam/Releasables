@@ -1,5 +1,5 @@
 version="1.9.0"
-path="mod/Releaseables_Functions/"
+path="mod/Releasables_Functions/"
 tags={
 	"Gameplay"
 	"Map"
