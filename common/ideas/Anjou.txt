@@ -1,0 +1,266 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		ANJ_pot = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		ANJ_coi = {
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ANJ_stc = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		ANJ_aco2 = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = ANJ
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ANJ_acd2 = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		ANJ_acr = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ANJ_acgs = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		ANJ_nccr = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = ANJ
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ANJ_ncm = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = ANJ
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		ANJ_ar = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		ANJ_ai2 = {
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ANJ_aa2 = {
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ANJ_acas = {
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ANJ_ncs = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		ANJ_mt = {
+			
+			picture = generic_army_europe_6
+
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		ANJ_nt = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		ANJ_awt = {
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = ANJ
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

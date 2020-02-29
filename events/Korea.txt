@@ -1,0 +1,72 @@
+﻿###########################
+# Korean Events
+###########################
+
+add_namespace = korea
+
+# NKR
+country_event = {
+	id = korea.1
+	title = korea.1.t
+	desc = korea.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	trigger = {
+		KOR = { has_government = democratic }
+		NOT = { has_country_flag = korea.1_fired }
+		527 = { is_owned_by = KOR }
+		tag = KOR
+	}
+
+	immediate = {
+		FROM = { set_country_flag = korea.1_fired }
+	}
+
+	option = { # war
+		name = korea.1.a
+		ai_chance = { factor = 5 }
+		NRK = { transfer_state = 527 }
+		create_wargoal = {
+			type = take_state_focus
+			target = NRK
+			generator = { 527 }
+		}
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_owned_by = NRK
+				}
+				add_core_of = NRK
+			}
+		}
+	}
+}
+
+country_event = {
+	id = korea.2
+	title = korea.2.t
+	desc = korea.2.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	trigger = {
+		NOT = { has_country_flag = korea.2_fired }
+		525 = { is_owned_by = NRK }
+		tag = NRK
+	}
+
+	immediate = {
+		FROM = { set_country_flag = korea.2_fired }
+	}
+
+	option = { # cores
+		name = korea.2.a
+		ai_chance = { factor = 5 }
+		NRK = { add_core_of = 525 }
+		hidden_effect = {
+				525 = { add_core_of = NRK }
+				525 = { remove_core_of = KOR }
+				527 = { remove_core_of = KOR }
+			}
+		}
+	}
+}

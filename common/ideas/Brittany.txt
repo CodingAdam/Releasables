@@ -1,0 +1,266 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		BRT_pot = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		BRT_coi = {
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		BRT_stc = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		BRT_aco2 = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = BRT
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BRT_acd2 = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		BRT_acr = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BRT_acgs = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		BRT_nccr = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BRT
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BRT_ncm = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = BRT
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		BRT_ar = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		BRT_ai2 = {
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BRT_aa2 = {
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BRT_acas = {
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		BRT_ncs = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		BRT_mt = {
+			
+			picture = generic_army_europe_6
+
+			allowed = {
+				original_tag = BRT
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		BRT_nt = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		BRT_awt = {
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = BRT
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}
