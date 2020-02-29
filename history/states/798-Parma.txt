@@ -1,0 +1,30 @@
+state={
+	id=798
+	name="STATE_798"
+	state_category = large_town
+	history={
+		owner = ITA
+		victory_points = {
+			3773 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ITA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 3
+			}
+
+		}
+
+	}
+
+	provinces={
+		13236 3773 6790 13237 13235
+	}
+	manpower=195136
+	buildings_max_level_factor=1.000
+}
