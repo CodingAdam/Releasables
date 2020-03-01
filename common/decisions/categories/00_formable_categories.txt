@@ -307,3 +307,10 @@ form_ire_category = {
 	allowed = {
 	}
 }
+form_siberia_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
