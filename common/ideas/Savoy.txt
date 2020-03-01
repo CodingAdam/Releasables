@@ -141,7 +141,8 @@ ideas = {
 	high_command = {
 
 		SAV_ar = {
-			
+			ledger = army
+
 			picture = generic_army_europe_5
 			
 			allowed = {
@@ -156,6 +157,7 @@ ideas = {
 		}
 		
 		SAV_ai2 = {
+			ledger = army
 
 			picture = generic_army_europe_3
 			
@@ -171,6 +173,7 @@ ideas = {
 		}
 
 		SAV_aa2 = {
+			ledger = army
 
 			picture = generic_army_europe_2
 			
@@ -186,6 +189,7 @@ ideas = {
 		}
 
 		SAV_acas = {
+			ledger = air
 
 			picture = generic_air_europe_2
 			
@@ -201,7 +205,7 @@ ideas = {
 		}
 
 		SAV_ncs = {
-
+			ledger = navy
 			picture = generic_navy_europe_2
 			
 			allowed = {
@@ -218,7 +222,7 @@ ideas = {
 
 	theorist = {
 		SAV_mt = {
-			
+			ledger = army
 			picture = generic_army_europe_6
 
 			allowed = {
@@ -233,7 +237,7 @@ ideas = {
 		}
 		
 		SAV_nt = {
-
+			ledger = navy
 			picture = generic_navy_europe_3
 			
 			allowed = {
@@ -248,7 +252,7 @@ ideas = {
 		}	
 
 		SAV_awt = {
-
+			ledger = air
 			picture = generic_air_europe_2
 			
 			allowed = {
