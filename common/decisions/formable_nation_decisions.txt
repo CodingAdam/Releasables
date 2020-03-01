@@ -2045,6 +2045,76 @@ form_siberia_category = {
 		}
 	}
 }
+form_newEngland_category = {
+
+	form_newEng = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = MAI
+				original_tag = NHM
+				original_tag = MAS
+				original_tag = RHI
+				original_tag = CNE
+				original_tag = VMT
+			}
+			
+			
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_newEng_required_states_tt
+				controls_state = 357
+				controls_state = 801
+				controls_state = 802
+				controls_state = 803
+				controls_state = 804
+				controls_state = 805
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = MAI
+				original_tag = NHM
+				original_tag = MAS
+				original_tag = RHI
+				original_tag = CNE
+				original_tag = VMT
+			}
+			
+			NOT = { has_global_flag = form_newEng_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = newEng
+			custom_effect_tooltip = form_newEng_coring_states_tt
+			hidden_effect = {
+				357 = { add_core_of = ROOT }
+				801 = { add_core_of = ROOT }
+				802 = { add_core_of = ROOT }
+				803 = { add_core_of = ROOT }
+				804 = { add_core_of = ROOT }
+				805 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_newEng_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_usa_category = {
 
 	form_usa = {

@@ -253,3 +253,7 @@ gerAus = {
 	color = rgb { 148 156 161 }
 	color_ui = rgb { 148 156 161 }
 }
+newEngland = {
+	color = rgb { 41 128 57 }
+	color_ui = rgb { 41 128 57 }
+}

@@ -994,3 +994,7 @@
  form_gerAus:0 "Unify Greater Austria!"
  form_eu_gerAus_required_states_tt:0 "Controls all of §YAustria§!."
  form_gerAus_coring_states_tt:0 "Gain cores on \n The §YSudetenland§!.\n The §YTrentino§!.\n The §YSolvenia§!.\n The §YEastern Sudentenland§!.\n"
+ form_newEngland_category:0 "Recreate New England!"
+ form_newEng:0 "Unify New England!"
+ form_newEng_required_states_tt:0 "Controls all of §YNew England§! in America."
+ form_newEng_coring_states_tt:0 "Gain cores on all of §YNew England§! in America.\n"

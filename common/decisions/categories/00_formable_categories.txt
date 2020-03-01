@@ -321,3 +321,10 @@ form_greaterAustria_category = {
 	allowed = {
 	}
 }
+form_newEngland_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
