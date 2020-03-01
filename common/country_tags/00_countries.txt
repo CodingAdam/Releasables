@@ -345,3 +345,5 @@ VMT = "countries/Vermont.txt"
 CNE = "countries/Connecticut.txt"
 MAS = "countries/Massachusetts.txt"
 RHI = "countries/RhodeIsland.txt"
+AKD = "countries/Akdeniz.txt"
+KUR = "countries/Kurdistan
