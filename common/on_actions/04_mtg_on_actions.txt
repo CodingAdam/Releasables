@@ -1114,6 +1114,13 @@ on_actions = {
 					release = OHI
 					release = ALS
 					release = KNT
+					release = MAI
+					release = MAS
+					release = VMT
+					release = CNE
+					release = RHI
+					release = NHM
+					release = PUE
 				}
 				HAW = {
 					annex_country = {

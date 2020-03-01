@@ -23,7 +23,7 @@ state={
 
 		}
 		add_core_of = USA
-		
+		add_core_of = MAN
 		victory_points = {
 			12459 2
 		}
