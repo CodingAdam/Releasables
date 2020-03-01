@@ -802,6 +802,31 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
+						rule = sov_fragmentation_status
+						option = sib_FRAGMENTED
+					}
+				}
+				SOV = {
+					release = KAM
+					release = YAK
+					release = PRI
+					release = SAK
+					release = AMU
+					release = OKH
+					release = CTA
+					release = ULA
+					release = IRK
+					release = KRA
+					release = KMO
+					release = NVO
+					release = GNO
+					release = TOM
+					release = OMK
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
 						rule = gre_fragmentation_status
 						option = GRE_FRAGMENTED
 					}
