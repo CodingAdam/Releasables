@@ -1841,6 +1841,57 @@ form_italy_category = {
 		}
 	}
 }
+form_greaterAustria_category = {
+
+	form_lombardyVenetia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = VNC
+				original_tag = LOM
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_lov_required_states_tt
+				controls_state = 160
+				controls_state = 159
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = VNC
+				original_tag = LOM
+			}
+			NOT = { has_global_flag = form_lov_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = lov
+			custom_effect_tooltip = form_eu_lov_coring_states_tt
+			hidden_effect = {
+				160 = { add_core_of = ROOT }
+				159 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_lov_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_siberia_category = {
 
 	form_siberia = {
@@ -2271,6 +2322,7 @@ form_italy_category = {
 				115 = { add_core_of = ROOT }
 				117 = { add_core_of = ROOT }
 				156 = { add_core_of = ROOT }
+				157 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = form_twosic_flag
 			}
