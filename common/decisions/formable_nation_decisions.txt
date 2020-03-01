@@ -1841,6 +1841,124 @@ form_italy_category = {
 		}
 	}
 }
+form_siberia_category = {
+
+	form_siberia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = OKH
+				original_tag = PRI
+				original_tag = SAK
+				original_tag = AMU
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = IRK
+				original_tag = KRA
+				original_tag = KMO
+				original_tag = GNO
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_sib_required_states_tt
+				controls_state = 637
+				controls_state = 562
+				controls_state = 655
+				controls_state = 537
+				controls_state = 555
+				controls_state = 655
+				controls_state = 560
+				controls_state = 409
+				controls_state = 408
+				controls_state = 657
+				controls_state = 561
+				controls_state = 574
+				controls_state = 644
+				controls_state = 575
+				controls_state = 563
+				controls_state = 565
+				controls_state = 564
+				controls_state = 566
+				controls_state = 567
+				controls_state = 568
+				controls_state = 576
+				controls_state = 569
+				controls_state = 654
+				controls_state = 516
+				controls_state = 329
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = OKH
+				original_tag = PRI
+				original_tag = SAK
+				original_tag = AMU
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = IRK
+				original_tag = KRA
+				original_tag = KMO
+				original_tag = GNO
+				original_tag = TAN
+			}
+			NOT = { has_global_flag = form_sib_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = sib
+			custom_effect_tooltip = form_eu_sib_coring_states_tt
+			hidden_effect = {
+				637 = { add_core_of = ROOT }
+				562 = { add_core_of = ROOT }
+				655 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				555 = { add_core_of = ROOT }
+				655 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
+				408 = { add_core_of = ROOT }
+				657 = { add_core_of = ROOT }
+				561 = { add_core_of = ROOT }
+				574 = { add_core_of = ROOT }
+				644 = { add_core_of = ROOT }
+				575 = { add_core_of = ROOT }
+				563 = { add_core_of = ROOT }
+				565 = { add_core_of = ROOT }
+				564 = { add_core_of = ROOT }
+				566 = { add_core_of = ROOT }
+				567 = { add_core_of = ROOT }
+				568 = { add_core_of = ROOT }
+				576 = { add_core_of = ROOT }
+				569 = { add_core_of = ROOT }
+				654 = { add_core_of = ROOT }
+				516 = { add_core_of = ROOT }
+				329 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_sib_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_usa_category = {
 
 	form_usa = {

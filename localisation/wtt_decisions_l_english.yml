@@ -986,3 +986,7 @@
  form_england:0 "Restore England!"
  form_eu_eng_required_states_tt:0 "Controls all §YEnglish§! states in Europe." 
  form_eu_eng_coring_states_tt:0 "Gain cores on all §YEnglish§! states in Europe."
+ form_siberia_category:0 "Unify Siberia!"
+ form_siberia:0 "Unify Siberia!"
+ form_eu_sib_required_states_tt:0 "Controls all §YSiberian§! states in Siberia."
+ form_eu_sib_coring_states_tt:0 "Gain cores on all §YSiberian§! states in Siberia.\n"

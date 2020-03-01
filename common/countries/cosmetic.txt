@@ -245,3 +245,7 @@ lov = {
 	color = rgb { 38 173 67 }
 	color_ui = rgb { 38 173 69 }
 }
+sib = {
+	color = rgb { 153 223 228 }
+	color_ui = rgb { 153 223 228 }
+}
