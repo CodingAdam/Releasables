@@ -822,6 +822,9 @@ on_actions = {
 					release = GNO
 					release = TOM
 					release = OMK
+					release = TYU
+					release = TOB
+					release = SVE
 				}
 			}
 			if = {
