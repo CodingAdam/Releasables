@@ -1861,6 +1861,8 @@ form_siberia_category = {
 				original_tag = KRA
 				original_tag = KMO
 				original_tag = GNO
+				original_tag = NVO
+				original_tag = TOM
 			}
 		}
 
@@ -1893,6 +1895,10 @@ form_siberia_category = {
 				controls_state = 654
 				controls_state = 516
 				controls_state = 329
+				controls_state = 40
+				controls_state = 570
+				controls_state = 578
+				controls_state = 577
 			}
 		}
 
@@ -1911,6 +1917,8 @@ form_siberia_category = {
 				original_tag = KMO
 				original_tag = GNO
 				original_tag = TAN
+				original_tag = NVO
+				original_tag = TOM
 			}
 			NOT = { has_global_flag = form_sib_flag }
 		}
@@ -1944,6 +1952,10 @@ form_siberia_category = {
 				654 = { add_core_of = ROOT }
 				516 = { add_core_of = ROOT }
 				329 = { add_core_of = ROOT }
+				40 = { add_core_of = ROOT }
+				570 = { add_core_of = ROOT }
+				578 = { add_core_of = ROOT }
+				577 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_sib_flag
