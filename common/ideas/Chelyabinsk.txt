@@ -4,34 +4,34 @@ ideas = {
 
 	political_advisor = {
 
-		MAG_pot = {
+		CYA_pot = {
 
 			picture = generic_political_advisor_europe_2
 
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { prince_of_terror }
 		}
 
-		MAG_coi = {
+		CYA_coi = {
 
 			picture = generic_political_advisor_europe_1
 				
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { captain_of_industry }
 		}
 
-		MAG_stc = {
+		CYA_stc = {
 
 			picture = generic_political_advisor_europe_3
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { smooth_talking_charmer }
@@ -40,12 +40,12 @@ ideas = {
 
 	army_chief = {
 
-		MAG_aco2 = {
+		CYA_aco2 = {
 
 			picture = generic_army_europe_4
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}		
 			
 			traits = { army_chief_organizational_2 }
@@ -55,12 +55,12 @@ ideas = {
 			}
 		}
 
-		MAG_acd2 = {
+		CYA_acd2 = {
 
 			picture = generic_army_europe_1
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { army_chief_defensive_2 }
@@ -73,12 +73,12 @@ ideas = {
 
 	air_chief = {
 
-		MAG_acr = {
+		CYA_acr = {
 
 			picture = generic_air_europe_3
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { air_chief_reform_2 }
@@ -88,12 +88,12 @@ ideas = {
 			}
 		}
 
-		MAG_acgs = {
+		CYA_acgs = {
 
 			picture = generic_air_europe_3
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { air_chief_ground_support_2 }
@@ -107,12 +107,12 @@ ideas = {
 
 	navy_chief = {
 
-		MAG_nccr = {
+		CYA_nccr = {
 
 			picture = generic_navy_europe_2
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 					
 			traits = { navy_chief_commerce_raiding_2 }
@@ -122,12 +122,12 @@ ideas = {
 			}
 		}
 
-		MAG_ncm = {
+		CYA_ncm = {
 
 			picture = generic_navy_europe_3
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 					
 			traits = { navy_chief_maneuver_2 }
@@ -140,13 +140,13 @@ ideas = {
 
 	high_command = {
 
-		MAG_ar = {
+		CYA_ar = {
 			ledger = army
 
 			picture = generic_army_europe_5
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { army_regrouping_2 }
@@ -156,13 +156,13 @@ ideas = {
 			}
 		}
 		
-		MAG_ai2 = {
+		CYA_ai2 = {
 			ledger = army
 
 			picture = generic_army_europe_3
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { army_infantry_2 }
@@ -172,13 +172,13 @@ ideas = {
 			}
 		}
 
-		MAG_aa2 = {
+		CYA_aa2 = {
 			ledger = army
 
 			picture = generic_army_europe_2
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { army_armored_2 }
@@ -188,13 +188,13 @@ ideas = {
 			}
 		}
 
-		MAG_acas = {
+		CYA_acas = {
 			ledger = air
 
 			picture = generic_air_europe_2
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -204,12 +204,12 @@ ideas = {
 			}
 		}
 
-		MAG_ncs = {
+		CYA_ncs = {
 			ledger = navy
 			picture = generic_navy_europe_2
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			traits = { navy_capital_ship_2 }
@@ -221,12 +221,12 @@ ideas = {
 	}	
 
 	theorist = {
-		MAG_mt = {
+		CYA_mt = {
 			ledger = army
 			picture = generic_army_europe_6
 
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			research_bonus = {
@@ -236,12 +236,12 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		MAG_nt = {
+		CYA_nt = {
 			ledger = navy
 			picture = generic_navy_europe_3
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			research_bonus = {
@@ -251,12 +251,12 @@ ideas = {
 			traits = { naval_theorist }
 		}	
 
-		MAG_awt = {
+		CYA_awt = {
 			ledger = air
 			picture = generic_air_europe_2
 			
 			allowed = {
-				original_tag = MAG
+				original_tag = CYA
 			}
 			
 			research_bonus = {
