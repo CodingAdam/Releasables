@@ -990,3 +990,7 @@
  form_siberia:0 "Unify Siberia!"
  form_eu_sib_required_states_tt:0 "Controls all §YSiberian§! states in Siberia."
  form_eu_sib_coring_states_tt:0 "Gain cores on all §YSiberian§! states in Siberia.\n"
+ form_greaterAustria_category:0 "Recreate German Austria!"
+ form_gerAus:0 "Unify Greater Austria!"
+ form_eu_gerAus_required_states_tt:0 "Controls all of §YAustria§!."
+ form_gerAus_coring_states_tt:0 "Gain cores on \n The §YSudetenland§!.\n The §YTrentino§!.\n The §YSolvenia§!.\n The §YEastern Sudentenland§!.\n"

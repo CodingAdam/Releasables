@@ -249,3 +249,7 @@ sib = {
 	color = rgb { 153 223 228 }
 	color_ui = rgb { 153 223 228 }
 }
+gerAus = {
+	color = rgb { 148 156 161 }
+	color_ui = rgb { 148 156 161 }
+}

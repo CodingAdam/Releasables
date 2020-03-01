@@ -314,3 +314,10 @@ form_siberia_category = {
 	allowed = {
 	}
 }
+form_greaterAustria_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
