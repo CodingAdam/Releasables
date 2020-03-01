@@ -9,6 +9,7 @@ state={
 			industrial_complex = 2
 		}
 		add_core_of = USA
+		add_core_of = CNE
 		victory_points = {
 			9832 3 
 		}
