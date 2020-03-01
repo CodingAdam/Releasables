@@ -1579,6 +1579,10 @@ form_italy_category = {
 				original_tag = SIC
 				original_tag = SAR
 				original_tag = VNC
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = LUC
+				original_tag = LOM
 			}
 		}
 
@@ -1588,6 +1592,7 @@ form_italy_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_eu_italy_required_states_tt
 				controls_state = 159
+				controls_state = 158
 				controls_state = 161
 				controls_state = 117
 				controls_state = 156
@@ -1598,6 +1603,10 @@ form_italy_category = {
 				controls_state = 162
 				controls_state = 160
 				controls_state = 163
+				controls_state = 798
+				controls_state = 799
+				controls_state = 797
+				controls_state = 800
 			}
 		}
 
@@ -1611,6 +1620,10 @@ form_italy_category = {
 				original_tag = SAR
 				original_tag = SIC
 				original_tag = NAP
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = LUC
+				original_tag = LOM
 			}
 			NOT = { has_global_flag = form_ita_flag }
 		}
@@ -1632,6 +1645,12 @@ form_italy_category = {
 				160 = { add_core_of = ROOT }
 				163 = { add_core_of = ROOT }
 				39 = { add_core_of = ROOT }
+				158 = { add_core_of = ROOT }
+				798 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+				806 = { add_core_of = ROOT }
+				800 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_ita_flag
@@ -1843,43 +1862,47 @@ form_italy_category = {
 }
 form_greaterAustria_category = {
 
-	form_lombardyVenetia = {
+	form_gerAus = {
 
 		icon = generic_form_nation
 
 		allowed = {
-			OR = {
-				original_tag = VNC
-				original_tag = LOM
-			}
+			original_tag = aus
 		}
 
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = form_eu_lov_required_states_tt
-				controls_state = 160
-				controls_state = 159
+				tooltip = form_eu_gerAus_required_states_tt
+				controls_state = 153
+				controls_state = 152
+				controls_state = 4
+			}
+			AND{
+				controls_state = 69
+			}
+			OR {
+				controls_state = 39
+				controls_state = 102
 			}
 		}
 
 		visible = {
-			OR = {
-				original_tag = VNC
-				original_tag = LOM
-			}
-			NOT = { has_global_flag = form_lov_flag }
+			original_tag = aus
+			NOT = { has_global_flag = form_gerAus_flag }
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = lov
-			custom_effect_tooltip = form_eu_lov_coring_states_tt
+			set_cosmetic_tag = gerAus
+			custom_effect_tooltip = form_gerAus_coring_states_tt
 			hidden_effect = {
-				160 = { add_core_of = ROOT }
-				159 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				69 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-				set_global_flag = form_lov_flag
+				set_global_flag = form_gerAus_flag
 			}
 		}
 
@@ -2072,7 +2095,12 @@ form_usa_category = {
 				original_tag = ALA
 				original_tag = MIS
 				original_tag = MRY
-				original_tag = HAW
+				original_tag = MAS
+				original_tag = MAI
+				original_tag = CNE
+				original_tag = VMT
+				original_tag = NHM
+				original_tag = RHI
 			}
 		}
 
@@ -2124,6 +2152,12 @@ form_usa_category = {
 				controls_state = 396
 				controls_state = 463
 				controls_state = 629
+				controls_state = 733
+				controls_state = 801
+				controls_state = 802
+				controls_state = 803
+				controls_state = 804
+				controls_state = 805
 			}
 		}
 
@@ -2172,6 +2206,12 @@ form_usa_category = {
 				original_tag = MIS
 				original_tag = MRY
 				original_tag = HAW
+				original_tag = MAS
+				original_tag = MAI
+				original_tag = CNE
+				original_tag = VMT
+				original_tag = NHM
+				original_tag = RHI
 			}
 			NOT = { has_global_flag = form_usa_flag }
 		}
@@ -2224,6 +2264,11 @@ form_usa_category = {
 				396 = { add_core_of = ROOT }
 				463 = { add_core_of = ROOT }
 				629 = { add_core_of = ROOT }
+				801 = { add_core_of = ROOT }
+				802 = { add_core_of = ROOT }
+				803 = { add_core_of = ROOT }
+				804 = { add_core_of = ROOT }
+				805 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_usa_flag
