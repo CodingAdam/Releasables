@@ -286,6 +286,20 @@ prs_integrate_category = {
 	}
 }
 
+form_greece_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_england_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
 form_ire_category = {
 
 	icon = generic_formable_nations
