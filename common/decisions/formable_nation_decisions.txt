@@ -2171,6 +2171,9 @@ form_usa_category = {
 				original_tag = VMT
 				original_tag = NHM
 				original_tag = RHI
+				original_tag = WDC
+				original_tag = WVA
+				original_tag = DEL
 			}
 		}
 
@@ -2228,6 +2231,9 @@ form_usa_category = {
 				controls_state = 803
 				controls_state = 804
 				controls_state = 805
+				controls_state = 807
+				controls_state = 808
+				controls_state = 809
 			}
 		}
 
@@ -2282,6 +2288,9 @@ form_usa_category = {
 				original_tag = VMT
 				original_tag = NHM
 				original_tag = RHI
+				original_tag = WVA
+				original_tag = WDC
+				original_tag = DEL
 			}
 			NOT = { has_global_flag = form_usa_flag }
 		}
