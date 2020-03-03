@@ -1173,6 +1173,9 @@ on_actions = {
 					release = RHI
 					release = NHM
 					release = PUE
+					release = WDC
+					release = WVA
+					release = DEL
 				}
 				HAW = {
 					annex_country = {
