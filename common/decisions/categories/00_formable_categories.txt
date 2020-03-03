@@ -328,3 +328,17 @@ form_newEngland_category = {
 	allowed = {
 	}
 }
+form_urals_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_tartary_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}

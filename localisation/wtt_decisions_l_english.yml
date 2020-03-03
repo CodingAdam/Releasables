@@ -998,3 +998,13 @@
  form_newEng:0 "Unify New England!"
  form_newEng_required_states_tt:0 "Controls all of §YNew England§! in America."
  form_newEng_coring_states_tt:0 "Gain cores on all of §YNew England§! in America.\n"
+ form_urals_category:0 "Unify the Ural Mountains!"
+ form_urals:0 "Unify the Ural Mountains!"
+ form_eu_urals_required_states_tt:0 "Controls §YMagnitogorsk, Chelyabinsk, Zlatoust, Zverdlovsk, Northern Urals, Tobolsk, and Salekhard§!."
+ form_urals_coring_states_tt:0 "Gain cores on all of the §YUral Mountains§!.\n"
+ form_tartary_category:0 "Create the Empire of Tartary!"
+ form_tartary:0 "Create the Empire of Tartary!"
+ form_eu_tartary_required_states_tt:0 "Controls all states in §YSiberia, Mongolia, Manchuria, and Mengukuo§! in Asia."
+ form_tartary_coring_states_tt:0 "Gain cores on all of §YTartary§!.\n"
+ 
+ 

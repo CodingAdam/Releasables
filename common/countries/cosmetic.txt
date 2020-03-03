@@ -257,3 +257,11 @@ newEngland = {
 	color = rgb { 41 128 57 }
 	color_ui = rgb { 41 128 57 }
 }
+urals = {
+	color = rgb { 183  51  145 }
+	color_ui = rgb { 183  51  145 }
+}
+tartary = {
+	color = rgb { 214  202  177 }
+	color_ui = rgb { 214  202  177 }
+}

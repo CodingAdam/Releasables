@@ -1915,6 +1915,69 @@ form_greaterAustria_category = {
 		}
 	}
 }
+form_urals_category = {
+
+	form_urals = {
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+			original_tag = CYA
+			original_tag = SVE
+			original_tag = TOB
+			 }
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_urals_required_states_tt
+				controls_state = 572
+				controls_state = 582
+				controls_state = 573
+				controls_state = 653
+				controls_state = 581
+				controls_state = 580
+				controls_state = 579
+			}
+		}
+
+		visible = {
+		OR = {
+			original_tag = CYA
+			original_tag = SVE
+			original_tag = TOB
+			 }
+			NOT = { has_global_flag = form_urals_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = urals
+			custom_effect_tooltip = form_urals_coring_states_tt
+			hidden_effect = {
+				572 = { add_core_of = ROOT }
+				582 = { add_core_of = ROOT }
+				573 = { add_core_of = ROOT }
+				653 = { add_core_of = ROOT }
+				581 = { add_core_of = ROOT }
+				580 = { add_core_of = ROOT }
+				579 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_urals_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_siberia_category = {
 
 	form_siberia = {
@@ -2033,6 +2096,164 @@ form_siberia_category = {
 			}
 			hidden_effect = {
 				set_global_flag = form_sib_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_tartary_category = {
+
+	form_tartary = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = OKH
+				original_tag = PRI
+				original_tag = SAK
+				original_tag = AMU
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = IRK
+				original_tag = KRA
+				original_tag = KMO
+				original_tag = GNO
+				original_tag = NVO
+				original_tag = TOM
+				original_tag = MON
+				original_tag = MAN
+				original_tag = MEN
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_tartary_required_states_tt
+				controls_state = 637
+				controls_state = 562
+				controls_state = 655
+				controls_state = 537
+				controls_state = 555
+				controls_state = 655
+				controls_state = 560
+				controls_state = 409
+				controls_state = 408
+				controls_state = 657
+				controls_state = 561
+				controls_state = 574
+				controls_state = 644
+				controls_state = 575
+				controls_state = 563
+				controls_state = 565
+				controls_state = 564
+				controls_state = 566
+				controls_state = 567
+				controls_state = 568
+				controls_state = 576
+				controls_state = 569
+				controls_state = 654
+				controls_state = 516
+				controls_state = 329
+				controls_state = 40
+				controls_state = 570
+				controls_state = 578
+				controls_state = 577
+				controls_state = 330
+				controls_state = 612
+				controls_state = 611
+				controls_state = 761
+				controls_state = 714
+				controls_state = 717
+				controls_state = 328
+				controls_state = 715
+				controls_state = 610
+				controls_state = 745
+				controls_state = 716
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = OKH
+				original_tag = PRI
+				original_tag = SAK
+				original_tag = AMU
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = IRK
+				original_tag = KRA
+				original_tag = KMO
+				original_tag = GNO
+				original_tag = TAN
+				original_tag = NVO
+				original_tag = TOM
+				original_tag = MON
+				original_tag = MAN
+				original_tag = MEN
+			}
+			NOT = { has_global_flag = form_tartary_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = tartary
+			custom_effect_tooltip = form_eu_tartary_coring_states_tt
+			hidden_effect = {
+				637 = { add_core_of = ROOT }
+				562 = { add_core_of = ROOT }
+				655 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				555 = { add_core_of = ROOT }
+				655 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
+				408 = { add_core_of = ROOT }
+				657 = { add_core_of = ROOT }
+				561 = { add_core_of = ROOT }
+				574 = { add_core_of = ROOT }
+				644 = { add_core_of = ROOT }
+				575 = { add_core_of = ROOT }
+				563 = { add_core_of = ROOT }
+				565 = { add_core_of = ROOT }
+				564 = { add_core_of = ROOT }
+				566 = { add_core_of = ROOT }
+				567 = { add_core_of = ROOT }
+				568 = { add_core_of = ROOT }
+				576 = { add_core_of = ROOT }
+				569 = { add_core_of = ROOT }
+				654 = { add_core_of = ROOT }
+				516 = { add_core_of = ROOT }
+				329 = { add_core_of = ROOT }
+				40 = { add_core_of = ROOT }
+				570 = { add_core_of = ROOT }
+				578 = { add_core_of = ROOT }
+				577 = { add_core_of = ROOT }
+				330 = { add_core_of = ROOT }
+				612 = { add_core_of = ROOT }
+				611 = { add_core_of = ROOT }
+				761 = { add_core_of = ROOT }
+				714 = { add_core_of = ROOT }
+				717 = { add_core_of = ROOT }
+				328 = { add_core_of = ROOT }
+				715 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
+				745 = { add_core_of = ROOT }
+				716 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_tartary_flag
 			}
 		}
 
