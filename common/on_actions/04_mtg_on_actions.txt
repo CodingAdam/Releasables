@@ -803,7 +803,7 @@ on_actions = {
 				limit = {
 					has_game_rule = {
 						rule = sov_fragmentation_status
-						option = sib_FRAGMENTED
+						option = rus_FRAGMENTED
 					}
 				}
 				SOV = {
@@ -826,6 +826,22 @@ on_actions = {
 					release = TOB
 					release = SVE
 					release = CYA
+					release = NOV
+					release = LPI
+					release = MUS
+					release = BLR
+					release = UKR
+					release = GEO
+					release = ARM
+					release = AZR
+					release = KAZ
+					release = UZB
+					release = KYR
+					release = TAJ
+					release = TMS
+					release = KZN
+					release = CRI
+					release = STA
 				}
 			}
 			if = {
