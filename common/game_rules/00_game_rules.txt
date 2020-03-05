@@ -1436,9 +1436,9 @@ sov_fragmentation_status = {
 		desc = "RULE_OPTION_SOV_FRAGMENTED_DESC"
 	}
 	option = {
-		name = SIB_FRAGMENTED
-		text = "RULE_OPTION_SIB_FRAGMENTED"
-		desc = "RULE_OPTION_SIB_FRAGMENTED_DESC"
+		name = RUS_FRAGMENTED
+		text = "RULE_OPTION_RUS_FRAGMENTED"
+		desc = "RULE_OPTION_RUS_FRAGMENTED_DESC"
 	}
 }
 raj_fragmentation_status = {
