@@ -842,6 +842,9 @@ on_actions = {
 					release = KZN
 					release = CRI
 					release = STA
+					release = PRM
+					release = DON
+					release = KUB
 				}
 			}
 			if = {

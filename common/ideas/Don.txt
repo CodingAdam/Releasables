@@ -1,0 +1,270 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		DON_pot = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		DON_coi = {
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		DON_stc = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		DON_aco2 = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = DON
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DON_acd2 = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		DON_acr = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DON_acgs = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		DON_nccr = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = DON
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DON_ncm = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = DON
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		DON_ar = {
+			ledger = army
+
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		DON_ai2 = {
+			ledger = army
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DON_aa2 = {
+			ledger = army
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DON_acas = {
+			ledger = air
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		DON_ncs = {
+			ledger = navy
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		DON_mt = {
+			ledger = army
+			picture = generic_army_europe_6
+
+			allowed = {
+				original_tag = DON
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		DON_nt = {
+			ledger = navy
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		DON_awt = {
+			ledger = air
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = DON
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}
