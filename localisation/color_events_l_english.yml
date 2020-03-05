@@ -1,0 +1,9 @@
+﻿l_english:
+ colored_puppets:0 "Colored Puppets"
+ colour_puppet:0 "Change color of [From.GetName]"
+ remove_color:0 "Remove color of [From.GetName]"
+ no_color:0 "Remove Color"
+ form_colored_puppets:0 "Colored Puppets (Formable)"
+ form_colored_puppet:0 "Change color of [From.GetName] (Formable)"
+ form_remove_color:0 "Remove color of [From.GetName] (Formable)"
+ form_no_color:0 "Remove Color (Formable)"

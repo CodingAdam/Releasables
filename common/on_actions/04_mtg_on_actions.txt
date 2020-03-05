@@ -1116,17 +1116,17 @@ on_actions = {
 					release = BRN
 					release = POM
 					release = HES
-					release = PRS
+					release = PRE
 					release = WUR
-					release = BAV
+					release = BAY
 					release = HAN
 					release = RHE
 					release = SAX
-					release = HLS
-					release = MCK
+					release = SHL
+					release = MEK
 					release = SIL
 				}
-				PRS = {
+				PRE = {
 					annex_country = {
 						target = GER
 					}
@@ -1394,6 +1394,29 @@ on_actions = {
 					}
 				}
 				set_country_flag = assuming_direct_control_achievement_flag
+			}
+		}
+	}
+	#ROOT is subject FROM is previous overlord
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					has_country_flag = color_changd
+				} 
+				clr_country_flag = color_changd
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+	on_subject_annexed = {
+		effect = {
+			if = {
+				limit = { 
+					has_country_flag = color_changd
+				} 
+				clr_country_flag = color_changd
+				drop_cosmetic_tag = yes
 			}
 		}
 	}

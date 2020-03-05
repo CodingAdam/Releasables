@@ -245,6 +245,10 @@ lov = {
 	color = rgb { 38 173 67 }
 	color_ui = rgb { 38 173 69 }
 }
+ITA = {
+	color = rgb{ 65  175  179  }
+	color_ui = rgb{ 65  175  179  }
+}
 sib = {
 	color = rgb { 153 223 228 }
 	color_ui = rgb { 153 223 228 }
@@ -264,4 +268,1487 @@ urals = {
 tartary = {
 	color = rgb { 214  202  177 }
 	color_ui = rgb { 214  202  177 }
+}
+### Formable Puppet Colors
+HOL_benelux_unified_puppet = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
+}
+
+sarpie_puppet = {
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 153 0 }
+}
+
+twosic_puppet = {
+	color = rgb { 102 0 255 }
+	color_ui = rgb { 102 0 255 }
+}
+
+ara_puppet = {
+	color = rgb { 255 102 0 }
+	color_ui = rgb { 255 102 0 }
+}
+
+ngc_puppet = {
+	color = rgb { 41 82 163 }
+	color_ui = rgb { 41 82 165 }
+}
+lov_puppet = {
+	color = rgb { 38 173 67 }
+	color_ui = rgb { 38 173 69 }
+}
+sib_puppet = {
+	color = rgb { 153 223 228 }
+	color_ui = rgb { 153 223 228 }
+}
+gerAus_puppet = {
+	color = rgb { 148 156 161 }
+	color_ui = rgb { 148 156 161 }
+}
+newEngland_puppet = {
+	color = rgb { 41 128 57 }
+	color_ui = rgb { 41 128 57 }
+}
+urals_puppet = {
+	color = rgb { 183  51  145 }
+	color_ui = rgb { 183  51  145 }
+}
+tartary_puppet = {
+	color = rgb { 214  202  177 }
+	color_ui = rgb { 214  202  177 }
+}
+### Puppet Colors
+
+GER_PUPPET = {
+color = rgb{ 106  119  89  }
+color_ui = rgb{ 106  119  89  }
+}
+ENG_PUPPET = {
+color = rgb{ 201  56  93  }
+color_ui = rgb{ 201  56  93  }
+}
+SOV_PUPPET = {
+color = rgb{ 125  13  24  }
+color_ui = rgb{ 125  13  24  }
+}
+SWE_PUPPET = {
+color = rgb{ 36  132  247  }
+color_ui = rgb{ 36  132  247  }
+}
+FRA_PUPPET = {
+color = rgb{ 57  113  228  }
+color_ui = rgb{ 57  113  228  }
+}
+LUX_PUPPET = {
+color = rgb{ 65  175  179  }
+color_ui = rgb{ 65  175  179  }
+}
+BEL_PUPPET = {
+color = rgb{ 193  171  8  }
+color_ui = rgb{ 193  171  8  }
+}
+HOL_PUPPET = {
+color = rgb{ 204  68  0  }
+color_ui = rgb{ 204  68  0  }
+}
+CZE_PUPPET = {
+color = rgb{ 54  167  156  }
+color_ui = rgb{ 54  167  156  }
+}
+POL_PUPPET = {
+color = rgb{ 197  92  106  }
+color_ui = rgb{ 197  92  106  }
+}
+AUS_PUPPET = {
+color = rgb{ 224  228  255  }
+color_ui = rgb{ 224  228  255  }
+}
+LIT_PUPPET = {
+color = rgb{ 219  219  119  }
+color_ui = rgb{ 219  219  119  }
+}
+EST_PUPPET = {
+color = rgb{ 76  157  195  }
+color_ui = rgb{ 76  157  195  }
+}
+LAT_PUPPET = {
+color = rgb{ 112  90  87  }
+color_ui = rgb{ 112  90  87  }
+}
+SPR_PUPPET = {
+color = rgb{ 242  205  94  }
+color_ui = rgb{ 242  205  94  }
+}
+ITA_PUPPET = {
+color = rgb{ 67  127  63  }
+color_ui = rgb{ 67  127  63  }
+}
+ROM_PUPPET = {
+color = rgb{ 235  216  92  }
+color_ui = rgb{ 235  216  92  }
+}
+YUG_PUPPET = {
+color = rgb{ 72  73  126  }
+color_ui = rgb{ 72  73  126  }
+}
+SER_PUPPET = {
+color = rgb{ 90 80 110  }
+color_ui = rgb{ 90 80 110  }
+}
+SWI_PUPPET = {
+color = rgb{ 33 14 19  }
+color_ui = rgb{ 33 14 19  }
+}
+TUR_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+GRE_PUPPET = {
+color = rgb{ 93  181  227  }
+color_ui = rgb{ 93  181  227  }
+}
+ALB_PUPPET = {
+color = rgb{ 149 45 102  }
+color_ui = rgb{ 149 45 102  }
+}
+NOR_PUPPET = {
+color = rgb{ 111  71  71  }
+color_ui = rgb{ 111  71  71  }
+}
+DEN_PUPPET = {
+color = rgb{ 153  116  93  }
+color_ui = rgb{ 153  116  93  }
+}
+BUL_PUPPET = {
+color = rgb{ 66  113  69  }
+color_ui = rgb{ 66  113  69  }
+}
+POR_PUPPET = {
+color = rgb{ 39  116  70  }
+color_ui = rgb{ 39  116  70  }
+}
+FIN_PUPPET = {
+color = rgb{ 205  212  228  }
+color_ui = rgb{ 205  212  228  }
+}
+IRE_PUPPET = {
+color = rgb{ 80  159  90  }
+color_ui = rgb{ 80  159  90  }
+}
+HUN_PUPPET = {
+color = rgb{ 249  126  98  }
+color_ui = rgb{ 249  126  98  }
+}
+AFG_PUPPET = {
+color = rgb{ 64  160  167  }
+color_ui = rgb{ 64  160  167  }
+}
+ARG_PUPPET = {
+color = rgb{ 145  157  236  }
+color_ui = rgb{ 145  157  236  }
+}
+AST_PUPPET = {
+color = rgb{ 57  143  97  }
+color_ui = rgb{ 57  143  97  }
+}
+BHU_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+BOL_PUPPET = {
+color = rgb{ 255  180  136  }
+color_ui = rgb{ 255  180  136  }
+}
+BRA_PUPPET = {
+color = rgb{ 76  145  63  }
+color_ui = rgb{ 76  145  63  }
+}
+CAN_PUPPET = {
+color = rgb{ 119  48  39  }
+color_ui = rgb{ 119  48  39  }
+}
+CHI_PUPPET = {
+color = rgb{ 255  244  190  }
+color_ui = rgb{ 255  244  190  }
+}
+CHL_PUPPET = {
+color = rgb{ 155  101  107  }
+color_ui = rgb{ 155  101  107  }
+}
+COL_PUPPET = {
+color = rgb{ 222  187  91  }
+color_ui = rgb{ 222  187  91  }
+}
+COS_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+ECU_PUPPET = {
+color = rgb{ 249  146  98  }
+color_ui = rgb{ 249  146  98  }
+}
+ELS_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+ETH_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+GUA_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+HON_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+IRQ_PUPPET = {
+color = rgb{ 178  114  99  }
+color_ui = rgb{ 178  114  99  }
+}
+JAP_PUPPET = {
+color = rgb{ 255 191 191  }
+color_ui = rgb{ 255 191 191  }
+}
+KOR_PUPPET = {
+color = rgb{ 255  240  195  }
+color_ui = rgb{ 255  240  195  }
+}
+LIB_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+MEX_PUPPET = {
+color = rgb{ 104  152  83  }
+color_ui = rgb{ 104  152  83  }
+}
+MEN_PUPPET = {
+color = rgb{ 165  102  152  }
+color_ui = rgb{ 165  102  152  }
+}
+NEP_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+NIC_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+NZL_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+PAN_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+PER_PUPPET = {
+color = rgb{ 71  113  97  }
+color_ui = rgb{ 71  113  97  }
+}
+PHI_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+PRU_PUPPET = {
+color = rgb{ 196  189  204  }
+color_ui = rgb{ 196  189  204  }
+}
+SAF_PUPPET = {
+color = rgb{ 152 130 191  }
+color_ui = rgb{ 152 130 191  }
+}
+SAU_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+SIA_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+SIK_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+TIB_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+URG_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+VEN_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+YUN_PUPPET = {
+color = rgb{ 171  190  152  }
+color_ui = rgb{ 171  190  152  }
+}
+USA_PUPPET = {
+color = rgb{ 67  123  237  }
+color_ui = rgb{ 67  123  237  }
+}
+MON_PUPPET = {
+color = rgb{ 161  190  102  }
+color_ui = rgb{ 161  190  102  }
+}
+TAN_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+PAR_PUPPET = {
+color = rgb{ 57  113  228  }
+color_ui = rgb{ 57  113  228  }
+}
+CUB_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+DOM_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+HAI_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+YEM_PUPPET = {
+color = rgb{ 155  101  107  }
+color_ui = rgb{ 155  101  107  }
+}
+OMA_PUPPET = {
+color = rgb{ 155  101  107  }
+color_ui = rgb{ 155  101  107  }
+}
+SLO_PUPPET = {
+color = rgb{ 54  167  156  }
+color_ui = rgb{ 54  167  156  }
+}
+RAJ_PUPPET = {
+color = rgb{ 170  10  10  }
+color_ui = rgb{ 170  10  10  }
+}
+CRO_PUPPET = {
+color = rgb{ 245  70  70  }
+color_ui = rgb{ 245  70  70  }
+}
+GXC_PUPPET = {
+color = rgb{ 9  171  190  }
+color_ui = rgb{ 9  171  190  }
+}
+PRC_PUPPET = {
+color = rgb{ 82  2  15  }
+color_ui = rgb{ 82  2  15  }
+}
+SHX_PUPPET = {
+color = rgb{ 9  171  190  }
+color_ui = rgb{ 9  171  190  }
+}
+XSM_PUPPET = {
+color = rgb{ 9  171  190  }
+color_ui = rgb{ 9  171  190  }
+}
+ICE_PUPPET = {
+color = rgb{ 100  125  175  }
+color_ui = rgb{ 100  125  175  }
+}
+LEB_PUPPET = {
+color = rgb{ 130  150  60  }
+color_ui = rgb{ 130  150  60  }
+}
+JOR_PUPPET = {
+color = rgb{ 111  55  78  }
+color_ui = rgb{ 111  55  78  }
+}
+SYR_PUPPET = {
+color = rgb{ 100  100  150  }
+color_ui = rgb{ 100  100  150  }
+}
+EGY_PUPPET = {
+color = rgb{ 230 230 70  }
+color_ui = rgb{ 230 230 70  }
+}
+LBA_PUPPET = {
+color = rgb{ 200 180 90  }
+color_ui = rgb{ 200 180 90  }
+}
+WGR_PUPPET = {
+color = rgb{ 120  110  89  }
+color_ui = rgb{ 120  110  89  }
+}
+DDR_PUPPET = {
+color = rgb{ 106  100  95  }
+color_ui = rgb{ 106  100  95  }
+}
+PAL_PUPPET = {
+color = rgb{ 170  125  80  }
+color_ui = rgb{ 170  125  80  }
+}
+ISR_PUPPET = {
+color = rgb{ 152  130  191  }
+color_ui = rgb{ 152  130  191  }
+}
+VIN_PUPPET = {
+color = rgb{ 230  223  50  }
+color_ui = rgb{ 230  223  50  }
+}
+CAM_PUPPET = {
+color = rgb{ 160  71  102  }
+color_ui = rgb{ 160  71  102  }
+}
+MAL_PUPPET = {
+color = rgb{ 213  169  121  }
+color_ui = rgb{ 213  169  121  }
+}
+INS_PUPPET = {
+color = rgb{ 128  158  118  }
+color_ui = rgb{ 128  158  118  }
+}
+LAO_PUPPET = {
+color = rgb{ 30  71  190  }
+color_ui = rgb{ 30  71  190  }
+}
+MNT_PUPPET = {
+color = rgb{ 171  107  109  }
+color_ui = rgb{ 171  107  109  }
+}
+UKR_PUPPET = {
+color = rgb{ 255  255  95  }
+color_ui = rgb{ 255  255  95  }
+}
+GEO_PUPPET = {
+color = rgb{ 255  204  204  }
+color_ui = rgb{ 255  204  204  }
+}
+KAZ_PUPPET = {
+color = rgb{ 75  184  203  }
+color_ui = rgb{ 75  184  203  }
+}
+AZR_PUPPET = {
+color = rgb{ 69  151  49  }
+color_ui = rgb{ 69  151  49  }
+}
+ARM_PUPPET = {
+color = rgb{ 176  102  136  }
+color_ui = rgb{ 176  102  136  }
+}
+BLR_PUPPET = {
+color = rgb{ 180 220 190  }
+color_ui = rgb{ 180 220 190  }
+}
+ANG_PUPPET = {
+color = rgb{ 155  135  195  }
+color_ui = rgb{ 155  135  195  }
+}
+MZB_PUPPET = {
+color = rgb{ 255  135  195  }
+color_ui = rgb{ 255  135  195  }
+}
+ZIM_PUPPET = {
+color = rgb{ 155  255  195  }
+color_ui = rgb{ 155  255  195  }
+}
+COG_PUPPET = {
+color = rgb{ 155  135  255  }
+color_ui = rgb{ 155  135  255  }
+}
+KEN_PUPPET = {
+color = rgb{ 255  57  195  }
+color_ui = rgb{ 255  57  195  }
+}
+PAK_PUPPET = {
+color = rgb{ 170  50  150  }
+color_ui = rgb{ 170  50  150  }
+}
+BOT_PUPPET = {
+color = rgb{ 55  235  95  }
+color_ui = rgb{ 55  235  95  }
+}
+MAN_PUPPET = {
+color = rgb{ 215  172  52  }
+color_ui = rgb{ 215  172  52  }
+}
+BAH_PUPPET = {
+color = rgb{ 204 255 204  }
+color_ui = rgb{ 204 255 204  }
+}
+BAN_PUPPET = {
+color = rgb{ 204 204 0  }
+color_ui = rgb{ 204 204 0  }
+}
+BLZ_PUPPET = {
+color = rgb{ 0 204 204  }
+color_ui = rgb{ 0 204 204  }
+}
+BRM_PUPPET = {
+color = rgb{ 76 153 0  }
+color_ui = rgb{ 76 153 0  }
+}
+CRC_PUPPET = {
+color = rgb{ 255 102 102  }
+color_ui = rgb{ 255 102 102  }
+}
+GDL_PUPPET = {
+color = rgb{ 153 255 255  }
+color_ui = rgb{ 153 255 255  }
+}
+GYA_PUPPET = {
+color = rgb{ 255 204 153  }
+color_ui = rgb{ 255 204 153  }
+}
+JAM_PUPPET = {
+color = rgb{ 102 102 0  }
+color_ui = rgb{ 102 102 0  }
+}
+KYR_PUPPET = {
+color = rgb{ 153 76 0  }
+color_ui = rgb{ 153 76 0  }
+}
+MAD_PUPPET = {
+color = rgb{ 255 255 153  }
+color_ui = rgb{ 255 255 153  }
+}
+MOL_PUPPET = {
+color = rgb{ 255 204 204  }
+color_ui = rgb{ 255 204 204  }
+}
+PNG_PUPPET = {
+color = rgb{ 153 0 76  }
+color_ui = rgb{ 153 0 76  }
+}
+PUE_PUPPET = {
+color = rgb{ 153 153 255  }
+color_ui = rgb{ 153 153 255  }
+}
+QAT_PUPPET = {
+color = rgb{ 128 0 0  }
+color_ui = rgb{ 128 0 0  }
+}
+SCO_PUPPET = {
+color = rgb{ 232 232 0  }
+color_ui = rgb{ 232 232 0  }
+}
+SRL_PUPPET = {
+color = rgb{ 204 0 102  }
+color_ui = rgb{ 204 0 102  }
+}
+SUR_PUPPET = {
+color = rgb{ 255 178 102  }
+color_ui = rgb{ 255 178 102  }
+}
+TAJ_PUPPET = {
+color = rgb{ 51 102 0  }
+color_ui = rgb{ 51 102 0  }
+}
+TRI_PUPPET = {
+color = rgb{ 96 96 96  }
+color_ui = rgb{ 96 96 96  }
+}
+TMS_PUPPET = {
+color = rgb{ 0 76 153  }
+color_ui = rgb{ 0 76 153  }
+}
+UAE_PUPPET = {
+color = rgb{ 102 102 0  }
+color_ui = rgb{ 102 102 0  }
+}
+UZB_PUPPET = {
+color = rgb{ 0 102 102  }
+color_ui = rgb{ 0 102 102  }
+}
+KUW_PUPPET = {
+color = rgb{ 153 76 0  }
+color_ui = rgb{ 153 76 0  }
+}
+CYP_PUPPET = {
+color = rgb{ 255 204 0  }
+color_ui = rgb{ 255 204 0  }
+}
+MLT_PUPPET = {
+color = rgb{ 255 255 153  }
+color_ui = rgb{ 255 255 153  }
+}
+ALG_PUPPET = {
+color = rgb{ 153 102 51  }
+color_ui = rgb{ 153 102 51  }
+}
+MOR_PUPPET = {
+color = rgb{ 102 51 0  }
+color_ui = rgb{ 102 51 0  }
+}
+TUN_PUPPET = {
+color = rgb{ 153 153 102  }
+color_ui = rgb{ 153 153 102  }
+}
+SUD_PUPPET = {
+color = rgb{ 204 102 0  }
+color_ui = rgb{ 204 102 0  }
+}
+ERI_PUPPET = {
+color = rgb{ 153 51 0  }
+color_ui = rgb{ 153 51 0  }
+}
+DJI_PUPPET = {
+color = rgb{ 0 102 153  }
+color_ui = rgb{ 0 102 153  }
+}
+SOM_PUPPET = {
+color = rgb{ 51 102 0  }
+color_ui = rgb{ 51 102 0  }
+}
+UGA_PUPPET = {
+color = rgb{ 255 80 80  }
+color_ui = rgb{ 255 80 80  }
+}
+RWA_PUPPET = {
+color = rgb{ 255 255 102  }
+color_ui = rgb{ 255 255 102  }
+}
+BRD_PUPPET = {
+color = rgb{ 204 153 0  }
+color_ui = rgb{ 204 153 0  }
+}
+TZN_PUPPET = {
+color = rgb{ 255 204 153  }
+color_ui = rgb{ 255 204 153  }
+}
+ZAM_PUPPET = {
+color = rgb{ 102 102 255  }
+color_ui = rgb{ 102 102 255  }
+}
+MLW_PUPPET = {
+color = rgb{ 153 204 0  }
+color_ui = rgb{ 153 204 0  }
+}
+GAB_PUPPET = {
+color = rgb{ 51 204 204  }
+color_ui = rgb{ 51 204 204  }
+}
+RCG_PUPPET = {
+color = rgb{ 102 204 255  }
+color_ui = rgb{ 102 204 255  }
+}
+EQG_PUPPET = {
+color = rgb{ 255 204 0  }
+color_ui = rgb{ 255 204 0  }
+}
+CMR_PUPPET = {
+color = rgb{ 255 51 0  }
+color_ui = rgb{ 255 51 0  }
+}
+CAR_PUPPET = {
+color = rgb{ 153 0 0  }
+color_ui = rgb{ 153 0 0  }
+}
+CHA_PUPPET = {
+color = rgb{ 204 255 204  }
+color_ui = rgb{ 204 255 204  }
+}
+NGA_PUPPET = {
+color = rgb{ 255 204 102  }
+color_ui = rgb{ 255 204 102  }
+}
+DAH_PUPPET = {
+color = rgb{ 0 51 204  }
+color_ui = rgb{ 0 51 204  }
+}
+TOG_PUPPET = {
+color = rgb{ 0 102 0  }
+color_ui = rgb{ 0 102 0  }
+}
+GHA_PUPPET = {
+color = rgb{ 102 102 51  }
+color_ui = rgb{ 102 102 51  }
+}
+IVO_PUPPET = {
+color = rgb{ 255 255 204  }
+color_ui = rgb{ 255 255 204  }
+}
+VOL_PUPPET = {
+color = rgb{ 153 153 255  }
+color_ui = rgb{ 153 153 255  }
+}
+MLI_PUPPET = {
+color = rgb{ 204 204 255  }
+color_ui = rgb{ 204 204 255  }
+}
+SIE_PUPPET = {
+color = rgb{ 204 102 255  }
+color_ui = rgb{ 204 102 255  }
+}
+GNA_PUPPET = {
+color = rgb{ 102 153 255  }
+color_ui = rgb{ 102 153 255  }
+}
+GNB_PUPPET = {
+color = rgb{ 153 102 0  }
+color_ui = rgb{ 153 102 0  }
+}
+SEN_PUPPET = {
+color = rgb{ 204 51 0  }
+color_ui = rgb{ 204 51 0  }
+}
+GAM_PUPPET = {
+color = rgb{ 153 0 0  }
+color_ui = rgb{ 153 0 0  }
+}
+WLS_PUPPET = {
+color = rgb{ 255 0 0  }
+color_ui = rgb{ 255 0 0  }
+}
+NGR_PUPPET = {
+color = rgb{ 255 153 102  }
+color_ui = rgb{ 255 153 102  }
+}
+CSA_PUPPET = {
+color = rgb{ 145 163 176  }
+color_ui = rgb{ 145 163 176  }
+}
+USB_PUPPET = {
+color = rgb{ 167  123  237  }
+color_ui = rgb{ 167  123  237  }
+}
+MRT_PUPPET = {
+color = rgb{ 255 153 153  }
+color_ui = rgb{ 255 153 153  }
+}
+NMB_PUPPET = {
+color = rgb{ 229 204 255  }
+color_ui = rgb{ 229 204 255  }
+}
+WES_PUPPET = {
+color = rgb{ 255 178 102  }
+color_ui = rgb{ 255 178 102  }
+}
+BAS_PUPPET = {
+color = rgb{ 255 102 102  }
+color_ui = rgb{ 255 102 102  }
+}
+CAY_PUPPET = {
+color = rgb{ 51 153 255  }
+color_ui = rgb{ 51 153 255  }
+}
+MLD_PUPPET = {
+color = rgb{ 178 255 102  }
+color_ui = rgb{ 178 255 102  }
+}
+FIJ_PUPPET = {
+color = rgb{ 0 204 204  }
+color_ui = rgb{ 0 204 204  }
+}
+FSM_PUPPET = {
+color = rgb{ 118 179 222  }
+color_ui = rgb{ 118 179 222  }
+}
+TAH_PUPPET = {
+color = rgb{ 73 33 248  }
+color_ui = rgb{ 73 33 248  }
+}
+GUM_PUPPET = {
+color = rgb{ 60 240 100  }
+color_ui = rgb{ 60 240 100  }
+}
+SOL_PUPPET = {
+color = rgb{ 20 20 90  }
+color_ui = rgb{ 20 20 90  }
+}
+SAM_PUPPET = {
+color = rgb{ 205 20 95  }
+color_ui = rgb{ 205 20 95  }
+}
+SLV_PUPPET = {
+color = rgb{ 102 178 255  }
+color_ui = rgb{ 102 178 255  }
+}
+BOS_PUPPET = {
+color = rgb{ 204 102 0  }
+color_ui = rgb{ 204 102 0  }
+}
+MAC_PUPPET = {
+color = rgb{ 255 51 51  }
+color_ui = rgb{ 255 51 51  }
+}
+NIR_PUPPET = {
+color = rgb{ 255 153 51  }
+color_ui = rgb{ 255 153 51  }
+}
+CAT_PUPPET = {
+color = rgb{ 255  71  26  }
+color_ui = rgb{ 255  71  26  }
+}
+NAV_PUPPET = {
+color = rgb{ 252 233 58  }
+color_ui = rgb{ 252 233 58  }
+}
+GLC_PUPPET = {
+color = rgb{ 240 167 130  }
+color_ui = rgb{ 240 167 130  }
+}
+ADU_PUPPET = {
+color = rgb{ 240 230 155  }
+color_ui = rgb{ 240 230 155  }
+}
+ALA_PUPPET = {
+color = rgb{ 255  153  51  }
+color_ui = rgb{ 255  153  51  }
+}
+ALC_PUPPET = {
+color = rgb{ 51  153  255  }
+color_ui = rgb{ 51  153  255  }
+}
+ALS_PUPPET = {
+color = rgb{ 0  255  255  }
+color_ui = rgb{ 0  255  255  }
+}
+AMU_PUPPET = {
+color = rgb{ 44  84  42  }
+color_ui = rgb{ 44  84  42  }
+}
+ANJ_PUPPET = {
+color = rgb{ 0  0  153  }
+color_ui = rgb{ 0  0  153  }
+}
+ANK_PUPPET = {
+color = rgb{ 47  159  58  }
+color_ui = rgb{ 47  159  58  }
+}
+AQU_PUPPET = {
+color = rgb{ 204  153  255  }
+color_ui = rgb{ 204  153  255  }
+}
+ARI_PUPPET = {
+color = rgb{ 255  0  0  }
+color_ui = rgb{ 255  0  0  }
+}
+ARK_PUPPET = {
+color = rgb{ 153  153  255  }
+color_ui = rgb{ 153  153  255  }
+}
+AUV_PUPPET = {
+color = rgb{ 0  153  255  }
+color_ui = rgb{ 0  153  255  }
+}
+BAD_PUPPET = {
+color = rgb{ 255  102  102  }
+color_ui = rgb{ 255  102  102  }
+}
+BAV_PUPPET = {
+color = rgb{ 0  255  255  }
+color_ui = rgb{ 0  255  255  }
+}
+BER_PUPPET = {
+color = rgb{ 153  153  255  }
+color_ui = rgb{ 153  153  255  }
+}
+BRB_PUPPET = {
+color = rgb{ 255  204  153  }
+color_ui = rgb{ 255  204  153  }
+}
+BRN_PUPPET = {
+color = rgb{ 153  102  0  }
+color_ui = rgb{ 153  102  0  }
+}
+BRT_PUPPET = {
+color = rgb{ 148  148  184  }
+color_ui = rgb{ 148  148  184  }
+}
+BRG_PUPPET = {
+color = rgb{ 128  0  32  }
+color_ui = rgb{ 128  0  32  }
+}
+CAL_PUPPET = {
+color = rgb{ 255  71  26  }
+color_ui = rgb{ 255  71  26  }
+}
+CAS_PUPPET = {
+color = rgb{ 255  255  0  }
+color_ui = rgb{ 255  255  0  }
+}
+CHM_PUPPET = {
+color = rgb{ 0  153  255  }
+color_ui = rgb{ 0  153  255  }
+}
+CLR_PUPPET = {
+color = rgb{ 204  128  255  }
+color_ui = rgb{ 204  128  255  }
+}
+COR_PUPPET = {
+color = rgb{ 127 128 128  }
+color_ui = rgb{ 127 128 128  }
+}
+DNZ_PUPPET = {
+color = rgb{ 0  204  255  }
+color_ui = rgb{ 0  204  255  }
+}
+DPH_PUPPET = {
+color = rgb{ 0  204  255  }
+color_ui = rgb{ 0  204  255  }
+}
+FAR_PUPPET = {
+color = rgb{ 153  255  153  }
+color_ui = rgb{ 153  255  153  }
+}
+FCM_PUPPET = {
+color = rgb{ 102  153  255  }
+color_ui = rgb{ 102  153  255  }
+}
+FLA_PUPPET = {
+color = rgb{ 204  153  0  }
+color_ui = rgb{ 204  153  0  }
+}
+FLO_PUPPET = {
+color = rgb{ 255  102  0  }
+color_ui = rgb{ 255  102  0  }
+}
+FRI_PUPPET = {
+color = rgb{ 204  102  0  }
+color_ui = rgb{ 204  102  0  }
+}
+GAL_PUPPET = {
+color = rgb{ 255  0  0  }
+color_ui = rgb{ 255  0  0  }
+}
+GRA_PUPPET = {
+color = rgb{ 255  255  153  }
+color_ui = rgb{ 255  255  153  }
+}
+GRN_PUPPET = {
+color = rgb{ 255  255  255  }
+color_ui = rgb{ 255  255  255  }
+}
+GUS_PUPPET = {
+color = rgb{ 255  51  0  }
+color_ui = rgb{ 255  51  0  }
+}
+HAN_PUPPET = {
+color = rgb{ 255  219  77  }
+color_ui = rgb{ 255  219  77  }
+}
+HAW_PUPPET = {
+color = rgb{ 0  204  255  }
+color_ui = rgb{ 0  204  255  }
+}
+HES_PUPPET = {
+color = rgb{ 51  204  255  }
+color_ui = rgb{ 51  204  255  }
+}
+HLN_PUPPET = {
+color = rgb{ 204  68  0  }
+color_ui = rgb{ 204  68  0  }
+}
+HLS_PUPPET = {
+color = rgb{ 255  255  0  }
+color_ui = rgb{ 255  255  0  }
+}
+IDA_PUPPET = {
+color = rgb{ 204  102  255  }
+color_ui = rgb{ 204  102  255  }
+}
+ILE_PUPPET = {
+color = rgb{ 179  179  255  }
+color_ui = rgb{ 179  179  255  }
+}
+ILL_PUPPET = {
+color = rgb{ 153  255  204  }
+color_ui = rgb{ 153  255  204  }
+}
+INA_PUPPET = {
+color = rgb{ 204  0  153  }
+color_ui = rgb{ 204  0  153  }
+}
+IOW_PUPPET = {
+color = rgb{ 153  51  102  }
+color_ui = rgb{ 153  51  102  }
+}
+IST_PUPPET = {
+color = rgb{ 0  128  255  }
+color_ui = rgb{ 0  128  255  }
+}
+IZM_PUPPET = {
+color = rgb{ 252  169  169  }
+color_ui = rgb{ 252  169  169  }
+}
+KAM_PUPPET = {
+color = rgb{ 161  243  238  }
+color_ui = rgb{ 161  243  238  }
+}
+KAN_PUPPET = {
+color = rgb{ 153  255  255  }
+color_ui = rgb{ 153  255  255  }
+}
+KAR_PUPPET = {
+color = rgb{ 255  255  0  }
+color_ui = rgb{ 255  255  0  }
+}
+KNT_PUPPET = {
+color = rgb{ 51  204  51  }
+color_ui = rgb{ 51  204  51  }
+}
+LEO_PUPPET = {
+color = rgb{ 255  170  0  }
+color_ui = rgb{ 255  170  0  }
+}
+LOU_PUPPET = {
+color = rgb{ 51  153  255  }
+color_ui = rgb{ 51  153  255  }
+}
+MRY_PUPPET = {
+color = rgb{ 0  102  255  }
+color_ui = rgb{ 0  102  255  }
+}
+MCK_PUPPET = {
+color = rgb{ 102  0  255  }
+color_ui = rgb{ 102  0  255  }
+}
+MIC_PUPPET = {
+color = rgb{ 0  102  255  }
+color_ui = rgb{ 0  102  255  }
+}
+MIL_PUPPET = {
+color = rgb{ 158 151 54  }
+color_ui = rgb{ 158 151 54  }
+}
+MIN_PUPPET = {
+color = rgb{ 204  102  255  }
+color_ui = rgb{ 204  102  255  }
+}
+MIS_PUPPET = {
+color = rgb{ 0  102  204  }
+color_ui = rgb{ 0  102  204  }
+}
+MLA_PUPPET = {
+color = rgb{ 119  255  51  }
+color_ui = rgb{ 119  255  51  }
+}
+MNA_PUPPET = {
+color = rgb{ 51  153  255  }
+color_ui = rgb{ 51  153  255  }
+}
+MSS_PUPPET = {
+color = rgb{ 0  204  102  }
+color_ui = rgb{ 0  204  102  }
+}
+NAP_PUPPET = {
+color = rgb{ 103 48 109 }
+color_ui = rgb{ 103 48 109 }
+}
+NCA_PUPPET = {
+color = rgb{ 204  255  51  }
+color_ui = rgb{ 204  255  51  }
+}
+NDA_PUPPET = {
+color = rgb{ 0  153  51  }
+color_ui = rgb{ 0  153  51  }
+}
+NEB_PUPPET = {
+color = rgb{ 102  255  204  }
+color_ui = rgb{ 102  255  204  }
+}
+NEN_PUPPET = {
+color = rgb{ 102  204  255  }
+color_ui = rgb{ 102  204  255  }
+}
+NEV_PUPPET = {
+color = rgb{ 153  102  255  }
+color_ui = rgb{ 153  102  255  }
+}
+NEW_PUPPET = {
+color = rgb{ 102  102  255  }
+color_ui = rgb{ 102  102  255  }
+}
+NJE_PUPPET = {
+color = rgb{ 204  51  255  }
+color_ui = rgb{ 204  51  255  }
+}
+NMX_PUPPET = {
+color = rgb{ 255  204  0  }
+color_ui = rgb{ 255  204  0  }
+}
+NRM_PUPPET = {
+color = rgb{ 0  204  153  }
+color_ui = rgb{ 0  204  153  }
+}
+OCC_PUPPET = {
+color = rgb{ 153  255  102  }
+color_ui = rgb{ 153  255  102  }
+}
+OHI_PUPPET = {
+color = rgb{ 0  255  204  }
+color_ui = rgb{ 0  255  204  }
+}
+OKL_PUPPET = {
+color = rgb{ 153  102  0  }
+color_ui = rgb{ 153  102  0  }
+}
+OKH_PUPPET = {
+color = rgb{ 34  50  39  }
+color_ui = rgb{ 34  50  39  }
+}
+ORE_PUPPET = {
+color = rgb{ 0  255  0  }
+color_ui = rgb{ 0  255  0  }
+}
+ORL_PUPPET = {
+color = rgb{ 51  102  255  }
+color_ui = rgb{ 51  102  255  }
+}
+PEN_PUPPET = {
+color = rgb{ 0  102  204  }
+color_ui = rgb{ 0  102  204  }
+}
+PIC_PUPPET = {
+color = rgb{ 0  102  204  }
+color_ui = rgb{ 0  102  204  }
+}
+POI_PUPPET = {
+color = rgb{ 51  204  255  }
+color_ui = rgb{ 51  204  255  }
+}
+POM_PUPPET = {
+color = rgb{ 0  204  0  }
+color_ui = rgb{ 0  204  0  }
+}
+POZ_PUPPET = {
+color = rgb{ 102  0  102  }
+color_ui = rgb{ 102  0  102  }
+}
+PRI_PUPPET = {
+color = rgb{ 140  110  164  }
+color_ui = rgb{ 140  110  164  }
+}
+PRO_PUPPET = {
+color = rgb{ 102  153  255  }
+color_ui = rgb{ 102  153  255  }
+}
+PRS_PUPPET = {
+color = rgb{ 102  102  153  }
+color_ui = rgb{ 102  102  153  }
+}
+QUE_PUPPET = {
+color = rgb{ 102  153  255  }
+color_ui = rgb{ 102  153  255  }
+}
+RHE_PUPPET = {
+color = rgb{ 230  230  0  }
+color_ui = rgb{ 230  230  0  }
+}
+SAK_PUPPET = {
+color = rgb{ 213  45  45  }
+color_ui = rgb{ 213  45  45  }
+}
+SAR_PUPPET = {
+color = rgb{ 159 204 255  }
+color_ui = rgb{ 159 204 255  }
+}
+SAV_PUPPET = {
+color = rgb{ 255  223  223  }
+color_ui = rgb{ 255  223  223  }
+}
+SAX_PUPPET = {
+color = rgb{ 128  128  128  }
+color_ui = rgb{ 128  128  128  }
+}
+SCA_PUPPET = {
+color = rgb{ 255  153  102  }
+color_ui = rgb{ 255  153  102  }
+}
+SDA_PUPPET = {
+color = rgb{ 153  153  255  }
+color_ui = rgb{ 153  153  255  }
+}
+SEV_PUPPET = {
+color = rgb{ 255  204  0  }
+color_ui = rgb{ 255  204  0  }
+}
+SIC_PUPPET = {
+color = rgb{ 20 79 17  }
+color_ui = rgb{ 20 79 17  }
+}
+SIL_PUPPET = {
+color = rgb{ 0  230  0  }
+color_ui = rgb{ 0  230  0  }
+}
+TEN_PUPPET = {
+color = rgb{ 255  51  204  }
+color_ui = rgb{ 255  51  204  }
+}
+TEU_PUPPET = {
+color = rgb{ 102  102  153  }
+color_ui = rgb{ 102  102  153  }
+}
+TEX_PUPPET = {
+color = rgb{ 0  0  255  }
+color_ui = rgb{ 0  0  255  }
+}
+TIM_PUPPET = {
+color = rgb{ 51  51  204  }
+color_ui = rgb{ 51  51  204  }
+}
+TIR_PUPPET = {
+color = rgb{ 181 190 247  }
+color_ui = rgb{ 181 190 247  }
+}
+TOL_PUPPET = {
+color = rgb{ 255  204  102  }
+color_ui = rgb{ 255  204  102  }
+}
+TRA_PUPPET = {
+color = rgb{ 255  204  153  }
+color_ui = rgb{ 255  204  153  }
+}
+TUS_PUPPET = {
+color = rgb{ 148 73 173  }
+color_ui = rgb{ 148 73 173  }
+}
+UTA_PUPPET = {
+color = rgb{ 0  153  51  }
+color_ui = rgb{ 0  153  51  }
+}
+VAL_PUPPET = {
+color = rgb{ 255  92  51  }
+color_ui = rgb{ 255  92  51  }
+}
+VAT_PUPPET = {
+color = rgb{ 247 247 210  }
+color_ui = rgb{ 247 247 210  }
+}
+VIR_PUPPET = {
+color = rgb{ 255  119  51  }
+color_ui = rgb{ 255  119  51  }
+}
+VNC_PUPPET = {
+color = rgb{ 179  11 0  }
+color_ui = rgb{ 179  11 0  }
+}
+WAL_PUPPET = {
+color = rgb{ 153  77  0  }
+color_ui = rgb{ 153  77  0  }
+}
+WAR_PUPPET = {
+color = rgb{ 255  230  255  }
+color_ui = rgb{ 255  230  255  }
+}
+WAS_PUPPET = {
+color = rgb{ 153  204  255  }
+color_ui = rgb{ 153  204  255  }
+}
+WIS_PUPPET = {
+color = rgb{ 0  153  153  }
+color_ui = rgb{ 0  153  153  }
+}
+WLL_PUPPET = {
+color = rgb{ 0  0  255  }
+color_ui = rgb{ 0  0  255  }
+}
+WUR_PUPPET = {
+color = rgb{ 128  85  0  }
+color_ui = rgb{ 128  85  0  }
+}
+WYO_PUPPET = {
+color = rgb{ 153  51  51  }
+color_ui = rgb{ 153  51  51  }
+}
+YAK_PUPPET = {
+color = rgb{ 158  153  12  }
+color_ui = rgb{ 158  153  12  }
+}
+ZAR_PUPPET = {
+color = rgb{ 255  51  0  }
+color_ui = rgb{ 255  51  0  }
+}
+CON_PUPPET = {
+color = rgb{ 119  255  51  }
+color_ui = rgb{ 119  255  51  }
+}
+LEI_PUPPET = {
+color = rgb{ 0  230  0  }
+color_ui = rgb{ 0  230  0  }
+}
+MUN_PUPPET = {
+color = rgb{ 153  255  102  }
+color_ui = rgb{ 153  255  102  }
+}
+CRU_PUPPET = {
+color = rgb{ 0  102  204  }
+color_ui = rgb{ 0  102  204  }
+}
+LPI_PUPPET = {
+color = rgb{ 204  153  255  }
+color_ui = rgb{ 204  153  255  }
+}
+NRK_PUPPET = {
+color = rgb{ 255  0  0  }
+color_ui = rgb{ 255  0  0  }
+}
+CRW_PUPPET = {
+color = rgb{ 69 67 69  }
+color_ui = rgb{ 69 67 69  }
+}
+SUX_PUPPET = {
+color = rgb{ 153  76  0  }
+color_ui = rgb{ 153  76  0  }
+}
+NUT_PUPPET = {
+color = rgb{ 102 204 50  }
+color_ui = rgb{ 102 204 50  }
+}
+LON_PUPPET = {
+color = rgb{ 51 0 102  }
+color_ui = rgb{ 51 0 102  }
+}
+MRC_PUPPET = {
+color = rgb{ 210 232 255  }
+color_ui = rgb{ 210 232 255  }
+}
+THR_PUPPET = {
+color = rgb{50 110 59 }
+color_ui = rgb{50 110 59 }
+}
+ATH_PUPPET = {
+color = rgb{130 186 176 }
+color_ui = rgb{130 186 176 }
+}
+THE_PUPPET = {
+color = rgb{178 189 81 }
+color_ui = rgb{178 189 81 }
+}
+CRE_PUPPET = {
+color = rgb{66 106 150 }
+color_ui = rgb{66 106 150 }
+}
+EPR_PUPPET = {
+color = rgb{46 86 143 }
+color_ui = rgb{46 86 143 }
+}
+PEL_PUPPET = {
+color = rgb{235 149 117 }
+color_ui = rgb{235 149 117 }
+}
+LOM_PUPPET = {
+color = rgb{ 42 102 64  }
+color_ui = rgb{ 42 102 64  }
+}
+MOD_PUPPET = {
+color = rgb{ 191 130 71  }
+color_ui = rgb{ 191 130 71  }
+}
+PAM_PUPPET = {
+color = rgb{ 255  170  0  }
+color_ui = rgb{ 255  170  0  }
+}
+LUC_PUPPET = {
+color = rgb{ 94 168 173  }
+color_ui = rgb{ 94 168 173  }
+}
+GOT_PUPPET = {
+color = rgb{ 204 85 71  }
+color_ui = rgb{ 204 85 71  }
+}
+ALD_PUPPET = {
+color = rgb{ 164 222 237  }
+color_ui = rgb{ 164 222 237  }
+}
+CTA_PUPPET = {
+color = rgb{ 56  72  219  }
+color_ui = rgb{ 56  72  219  }
+}
+ULA_PUPPET = {
+color = rgb{ 73  73  73  }
+color_ui = rgb{ 73  73  73  }
+}
+IRK_PUPPET = {
+color = rgb{ 87  1  1  }
+color_ui = rgb{ 87  1  1  }
+}
+KRA_PUPPET = {
+color = rgb{ 116  222  123  }
+color_ui = rgb{ 116  222  123  }
+}
+KMO_PUPPET = {
+color = rgb{ 38  96  174  }
+color_ui = rgb{ 38  96  174  }
+}
+GNO_PUPPET = {
+color = rgb{ 235  10  10  }
+color_ui = rgb{ 235  10  10  }
+}
+MAI_PUPPET = {
+color = rgb{ 202 212 97  }
+color_ui = rgb{ 202 212 97  }
+}
+NHM_PUPPET = {
+color = rgb{ 64 156 116  }
+color_ui = rgb{ 64 156 116  }
+}
+VMT_PUPPET = {
+color = rgb{ 184 146 209  }
+color_ui = rgb{ 184 146 209  }
+}
+CNE_PUPPET = {
+color = rgb{ 159 170 189  }
+color_ui = rgb{ 159 170 189  }
+}
+MAS_PUPPET = {
+color = rgb{ 181 100 83  }
+color_ui = rgb{ 181 100 83  }
+}
+RHI_PUPPET = {
+color = rgb{ 90 110 209  }
+color_ui = rgb{ 90 110 209  }
+}
+NVO_PUPPET = {
+color = rgb{ 247 247 71  }
+color_ui = rgb{ 247 247 71  }
+}
+TOM_PUPPET = {
+color = rgb{ 115 72 8  }
+color_ui = rgb{ 115 72 8  }
+}
+AKD_PUPPET = {
+color = rgb{ 152  47  159  }
+color_ui = rgb{ 152  47  159  }
+}
+KUR_PUPPET = {
+color = rgb{ 201  144  31  }
+color_ui = rgb{ 201  144  31  }
+}
+OMK_PUPPET = {
+color = rgb{ 255  0  0  }
+color_ui = rgb{ 255  0  0  }
+}
+TYU_PUPPET = {
+color = rgb{ 5  193  12  }
+color_ui = rgb{ 5  193  12  }
+}
+TOB_PUPPET = {
+color = rgb{ 21  48  222  }
+color_ui = rgb{ 21  48  222  }
+}
+SVE_PUPPET = {
+color = rgb{ 234  250  229  }
+color_ui = rgb{ 234  250  229  }
+}
+CYA_PUPPET = {
+color = rgb{ 169  55  203  }
+color_ui = rgb{ 169  55  203  }
+}
+NOV_PUPPET = {
+color = rgb{ 72 104 44  }
+color_ui = rgb{ 72 104 44  }
+}
+WDC_PUPPET = {
+color = rgb{ 54 29 163  }
+color_ui = rgb{ 54 29 163  }
+}
+WVA_PUPPET = {
+color = rgb{ 181 100 113  }
+color_ui = rgb{ 181 100 113  }
+}
+DEL_PUPPET = {
+color = rgb{ 22 199 45  }
+color_ui = rgb{ 22 199 45  }
 }

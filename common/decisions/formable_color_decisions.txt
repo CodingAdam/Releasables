@@ -1,0 +1,131 @@
+form_colored_puppets = {
+	
+	form_colored_puppet = {
+		target_trigger = {
+			FROM = {
+				AND = {
+					NOT = { has_country_flag = form_color_changed }
+					is_subject_of = ROOT
+				}
+			}
+		}
+
+		available = {
+			AND = {
+				FROM = { 
+					is_subject_of = ROOT
+					NOT = { has_country_flag = form_color_changed }
+				}
+				ROOT = {
+					has_country_flag = formed_nation
+				}
+			}
+			
+		}
+		
+		visible = {
+			AND = {
+				FROM = {
+					has_civil_war = no
+					NOT = { has_country_flag = form_color_changed }
+				}
+				ROOT = {
+					has_country_flag = formed_nation
+				}
+			}
+		}
+
+		fire_only_once = no
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {	
+			if = {
+				limit = {
+					ROOT = {has_country_flag = lov_formed}
+				}
+				FROM = { 
+					set_cosmetic_tag = lov_puppet
+					set_country_flag = form_color_changed
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {has_country_flag = ita_formed}
+				}
+				FROM = { 
+					set_cosmetic_tag = ITA_PUPPET_2
+					set_country_flag = form_color_changed
+				}
+			}
+		}
+	}
+	form_remove_color = {
+		
+		target_trigger = {
+			FROM = {
+				AND = {
+					has_country_flag = form_color_changed
+					is_subject_of = ROOT
+				}
+			}
+		}
+			
+		available = {
+			FROM = { 
+				is_subject_of = ROOT
+				has_country_flag = form_color_changed
+			}
+		}
+		
+		visible = {
+			FROM = {
+				has_civil_war = no
+				has_country_flag = form_color_changed
+			}
+		}
+
+		fire_only_once = no
+		
+		#cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+			
+		complete_effect = {
+			FROM = { 
+				drop_cosmetic_tag = yes
+				clr_country_flag = form_color_changed
+			}
+		}
+	}
+	
+	form_no_color = {
+			
+		available = {
+			has_country_flag = form_color_changed
+			is_subject = no
+		}
+		
+		visible = {
+			has_country_flag = form_color_changed
+			is_subject = no
+		}
+		
+		fire_only_once = no
+			
+		ai_will_do = {
+			factor = 1000
+		}
+			
+		complete_effect = {
+			ROOT = {
+				drop_cosmetic_tag = yes
+				clr_country_flag = form_color_changed
+			}
+		}
+	}
+	
+}
