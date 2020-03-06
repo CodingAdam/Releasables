@@ -1006,5 +1006,9 @@
  form_tartary:0 "Create the Empire of Tartary!"
  form_eu_tartary_required_states_tt:0 "Controls all states in §YSiberia, Mongolia, Manchuria, and Mengukuo§! in Asia."
  form_tartary_coring_states_tt:0 "Gain cores on all of §YTartary§!.\n"
- 
- 
+ form_andalusia_category:0 "Reform Andalusia"
+ adu_restore_sultanate_of_africa:0 "Restore Sultanate of Africa" 
+ adu_mediterrenean_emirates:0 "Mediterrenean Emirates"
+ adu_restore_umayyad_caliphate:0 "Restore the Umayyad Caliphate" 
+ adu_recreate_rashid_expansion:0 "Recreate Rashid Expansion" 
+ adu_northern_expansion:0 "Northern Expansion"
