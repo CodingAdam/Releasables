@@ -844,6 +844,7 @@ on_actions = {
 					release = PRM
 					release = DON
 					release = KUB
+					release = MOT
 				}
 			}
 			if = {
