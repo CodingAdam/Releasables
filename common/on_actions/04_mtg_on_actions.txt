@@ -841,7 +841,6 @@ on_actions = {
 					release = TMS
 					release = KZN
 					release = CRI
-					release = STA
 					release = PRM
 					release = DON
 					release = KUB
