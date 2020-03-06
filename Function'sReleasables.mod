@@ -1,0 +1,9 @@
+version="1.9.0"
+path="mod/Fragmented_World/"
+tags={
+	"Gameplay"
+	"Map"
+	"Balance"
+}
+name="Fragmented_World"
+supported_version="1.9.0"
