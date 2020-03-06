@@ -16,7 +16,7 @@ state={
 			3682 3
 		}
 		add_core_of = SOV
-
+		add_core_of = DAG
 	}
 
 	provinces={
