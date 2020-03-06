@@ -14,6 +14,7 @@ state={
 			3672 5 
 		}
 		add_core_of = SOV
+		add_core_of = CHE
 	}
 	manpower=407690 
 	buildings_max_level_factor=1.000
