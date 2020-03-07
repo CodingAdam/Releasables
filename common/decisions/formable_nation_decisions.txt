@@ -890,8 +890,10 @@ form_germany_category = {
 				original_tag = BAY
 				original_tag = SIL
 				original_tag = TEU
+				has_country_flag = form_sgc
 			}
 			NOT = { has_global_flag = form_ger_flag }
+			
 		}
 
 		complete_effect = {
@@ -946,6 +948,15 @@ form_germany_category = {
 		allowed = {
 			OR = {
 				original_tag = PRE
+				original_tag = HES
+				original_tag = RHE
+				original_tag = HAN
+				original_tag = SHL
+				original_tag = MRK
+				original_tag = SAX
+				original_tag = BRN
+				original_tag = POM
+				original_tag = SIL
 			}
 		}
 
@@ -982,6 +993,16 @@ form_germany_category = {
 			RHE = { is_subject_of = PRE }
 			OR = {
 				original_tag = PRE
+				original_tag = PRE
+				original_tag = HES
+				original_tag = RHE
+				original_tag = HAN
+				original_tag = SHL
+				original_tag = MRK
+				original_tag = SAX
+				original_tag = BRN
+				original_tag = POM
+				original_tag = SIL
 			}
 			NOT = { has_global_flag = form_ngc_flag }
 		}
@@ -1052,7 +1073,72 @@ form_germany_category = {
 		}
 	}
 }
+form_germany_category = {
 
+	form_sgc = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = BAY
+				original_tag = WUR
+				original_tag = AUS
+			}
+		}
+
+		available = {
+			OR = {
+				BAY = { is_subject_of = ROOT }
+				AND = {
+					controls_state = 54
+					controls_state = 53
+					controls_state = 52
+				}
+			}
+			OR = {
+				WUR = { is_subject_of = ROOT }
+				AND = {
+					controls_state = 50
+				}
+			}
+			
+		}
+
+		visible = {
+			OR = {
+				original_tag = BAY
+				original_tag = WUR
+				original_tag = AUS
+			}
+			NOT = { has_global_flag = form_sgc_flag }
+		}
+
+		complete_effect = {
+			annex_country = { target = WUR }
+			annex_country = { target = BAY }
+			set_cosmetic_tag = sgc
+			hidden_effect = {
+				set_global_flag = form_sgc_flag
+				set_country_flag = form_sgc
+			}
+			hidden_effect = {
+				54 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_ire_category = {
 
 	form_ire = {
@@ -1205,7 +1291,7 @@ form_france_category = {
 				original_tag = ILE
 				original_tag = NRM
 				original_tag = ANJ
-				original_tag = BRT
+				original_tag = BRI
 				original_tag = POI
 				original_tag = BER
 				original_tag = AQU
@@ -1257,7 +1343,7 @@ form_france_category = {
 				original_tag = ILE
 				original_tag = NRM
 				original_tag = ANJ
-				original_tag = BRT
+				original_tag = BRI
 				original_tag = POI
 				original_tag = BER
 				original_tag = AQU
