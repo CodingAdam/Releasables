@@ -241,6 +241,10 @@ ngc = {
 	color = rgb { 41 82 163 }
 	color_ui = rgb { 41 82 165 }
 }
+sgc = {
+	color = rgb { 123 156 171 }
+	color_ui = rgb { 123 156 171 }
+}
 lov = {
 	color = rgb { 38 173 67 }
 	color_ui = rgb { 38 173 69 }
@@ -348,9 +352,10 @@ BEL_PUPPET = {
 color = rgb{ 193  171  8  }
 color_ui = rgb{ 193  171  8  }
 }
+### IGNORE 
 HOL_PUPPET = {
-color = rgb{ 204  68  0  }
-color_ui = rgb{ 204  68  0  }
+color = rgb{ 203 138 74  }
+color_ui = rgb{ 203 138 74  }
 }
 CZE_PUPPET = {
 color = rgb{ 54  167  156  }
@@ -768,9 +773,10 @@ BOT_PUPPET = {
 color = rgb{ 55  235  95  }
 color_ui = rgb{ 55  235  95  }
 }
+### IGNORE
 MAN_PUPPET = {
-color = rgb{ 215  172  52  }
-color_ui = rgb{ 215  172  52  }
+color = rgb{ 237 152 18  }
+color_ui = rgb{ 237 152 18  }
 }
 BAH_PUPPET = {
 color = rgb{ 204 255 204  }

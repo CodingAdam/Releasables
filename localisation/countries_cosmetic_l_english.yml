@@ -845,4 +845,17 @@
  tartary_democratic_ADJ:0 "Tartar"
  tartary_fascism_ADJ:0 "Tartar"
  tartary_neutrality_ADJ:0 "Tartar"
+ sgc_communism:0 "Southern German Union"
+ sgc_democratic:0 "Southern German Federal Republic"
+ sgc_fascism:0 "Southern German Empire"
+ sgc_neutrality:0 "Southern German Confederation"
+ sgc_communism_DEF:0 "the Union of Southern Germany"
+ sgc_democratic_DEF:0 "the Federal Republic of Southern Germany"
+ sgc_fascism_DEF:0 "the Southern German Empire"
+ sgc_neutrality_DEF:0 "the Southern German Confederation"
+ sgc_communism_ADJ:0 "German"
+ sgc_democratic_ADJ:0 "German"
+ sgc_fascism_ADJ:0 "German"
+ sgc_neutrality_ADJ:0 "German"
+ 
  
