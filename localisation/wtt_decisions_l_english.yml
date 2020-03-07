@@ -1012,3 +1012,27 @@
  adu_restore_umayyad_caliphate:0 "Restore the Umayyad Caliphate" 
  adu_recreate_rashid_expansion:0 "Recreate Rashid Expansion" 
  adu_northern_expansion:0 "Northern Expansion"
+ form_turkey_category:0 "Restore Turkey!"
+ form_turkey:0 "Restore Turkey!"
+ form_eu_tur_required_states_tt:0 "Controls all Turkish states in §YEurope and Anatolia, excluding Armenian and Kurdish states in Anatolia§!.\n"
+ form_eu_tur_coring_states_tt:0 "Gain cores on all Turkish states in §YEurope and Anatolia§!.\n"
+ integrate_armenia:0 "Reintegrate Armenian Lands!"
+ integrate_eu_arm_required_states_tt:0 "Controls all Armenian states in §YAnatolia§!.\n"
+ integrate_eu_arm_coring_states_tt:0 "Gain cores on all Armenian states in §YAnatolia§!.\n"
+ integrate_kurd:0 "Reintegrate Kurdish Lands!"
+ integrate_eu_kur_required_states_tt:0 "Controls all Kurdish states in §YAnatolia§!.\n"
+ integrate_eu_kur_coring_states_tt:0 "Gain cores on all Kurdish states in §YAnatolia§!.\n"
+ form_russia_category:0 "Restore Russia!"
+ form_russia:0 "Restore Russia!"
+ form_eu_rus_required_states_tt:0 "Controls all Russian states §Ywest of the Ural Mountains§!.\n"
+ form_eu_rus_coring_states_tt:0 "Gain cores on all Russian states §Ywest of the Ural Mountains§!.\n"
+ integrate_siberia:0 "Integrate Siberia!"
+ integrate_eu_sib_required_states_tt:0 "Controls all §YSiberian and Uralic states§!.\n"
+ integrate_eu_sib_coring_states_tt:0 "Gain cores on all §YSiberian and Uralic states§!.\n"
+ integrate_extra:0 "Integrate the Krais!"
+ integrate_eu_extra_required_states_tt:0 "Controls all states in §YUkraine, Belarus, Crimea, the Caucaus, and Central Asia§!.\n"
+ integrate_eu_extra_coring_states_tt:0 "Gain cores on all states in §YUkraine, Belarus, Crimea, the Caucaus, and Central Asia§!.\n"
+ 
+ 
+ 
+ 

@@ -359,3 +359,17 @@ form_tartary_category = {
 	allowed = {
 	}
 }
+form_turkey_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_russia_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}

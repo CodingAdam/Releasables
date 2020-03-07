@@ -1816,6 +1816,663 @@ form_england_category = {
 		}
 	}
 }
+form_russia_category = {
+
+	form_russia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = NOV
+				original_tag = PRM
+				original_tag = MUS
+				original_tag = KZN
+				original_tag = DON
+				original_tag = KUB
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_rus_required_states_tt
+				controls_state = 215
+				controls_state = 214
+				controls_state = 216
+				controls_state = 264
+				controls_state = 244
+				controls_state = 195
+				controls_state = 208
+				controls_state = 263
+				controls_state = 209
+				controls_state = 210
+				controls_state = 351
+				controls_state = 262
+				controls_state = 397
+				controls_state = 398
+				controls_state = 400
+				controls_state = 256
+				controls_state = 252
+				controls_state = 253
+				controls_state = 248
+				controls_state = 247
+				controls_state = 246
+				controls_state = 242
+				controls_state = 219
+				controls_state = 254
+				controls_state = 223
+				controls_state = 205
+				controls_state = 243
+				controls_state = 224
+				controls_state = 222
+				controls_state = 258
+				controls_state = 257
+				controls_state = 240
+				controls_state = 220
+				controls_state = 399
+				controls_state = 651
+				controls_state = 249
+				controls_state = 251
+				controls_state = 652
+				controls_state = 250
+				controls_state = 255
+				controls_state = 401
+				controls_state = 239
+				controls_state = 811
+				controls_state = 217
+				controls_state = 265
+				controls_state = 260
+				controls_state = 245
+				controls_state = 810
+				controls_state = 236
+				controls_state = 237
+				controls_state = 238
+				controls_state = 218
+				controls_state = 235
+				controls_state = 234
+				controls_state = 233
+				controls_state = 812
+				controls_state = 232
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = NOV
+				original_tag = PRM
+				original_tag = MUS
+				original_tag = KZN
+				original_tag = DON
+				original_tag = KUB
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+			NOT = { has_global_flag = form_rus_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SOV
+			custom_effect_tooltip = form_eu_rus_coring_states_tt
+			hidden_effect = {
+				 215 = { add_core_of = ROOT }
+				 214 = { add_core_of = ROOT }
+				 216 = { add_core_of = ROOT }
+				 264 = { add_core_of = ROOT }
+				 244 = { add_core_of = ROOT }
+				 195 = { add_core_of = ROOT }
+				 208 = { add_core_of = ROOT }
+				 263 = { add_core_of = ROOT }
+				 209 = { add_core_of = ROOT }
+				 210 = { add_core_of = ROOT }
+				 351 = { add_core_of = ROOT }
+				 262 = { add_core_of = ROOT }
+				 397 = { add_core_of = ROOT }
+				 398 = { add_core_of = ROOT }
+				 400 = { add_core_of = ROOT }
+				 256 = { add_core_of = ROOT }
+				 252 = { add_core_of = ROOT }
+				 253 = { add_core_of = ROOT }
+				 248 = { add_core_of = ROOT }
+				 247 = { add_core_of = ROOT }
+				 246 = { add_core_of = ROOT }
+				 242 = { add_core_of = ROOT }
+				 219 = { add_core_of = ROOT }
+				 254 = { add_core_of = ROOT }
+				 223 = { add_core_of = ROOT }
+				 205 = { add_core_of = ROOT }
+				 243 = { add_core_of = ROOT }
+				 224 = { add_core_of = ROOT }
+				 222 = { add_core_of = ROOT }
+				 258 = { add_core_of = ROOT }
+				 257 = { add_core_of = ROOT }
+				 240 = { add_core_of = ROOT }
+				 220 = { add_core_of = ROOT }
+				 399 = { add_core_of = ROOT }
+				 651 = { add_core_of = ROOT }
+				 249 = { add_core_of = ROOT }
+				 251 = { add_core_of = ROOT }
+				 652 = { add_core_of = ROOT }
+				 250 = { add_core_of = ROOT }
+				 255 = { add_core_of = ROOT }
+				 401 = { add_core_of = ROOT }
+				 239 = { add_core_of = ROOT }
+				 811 = { add_core_of = ROOT }
+				 217 = { add_core_of = ROOT }
+				 265 = { add_core_of = ROOT }
+				 260 = { add_core_of = ROOT }
+				 245 = { add_core_of = ROOT }
+				 810 = { add_core_of = ROOT }
+				 236 = { add_core_of = ROOT }
+				 237 = { add_core_of = ROOT }
+				 238 = { add_core_of = ROOT }
+				 218 = { add_core_of = ROOT }
+				 235 = { add_core_of = ROOT }
+				 234 = { add_core_of = ROOT }
+				 233 = { add_core_of = ROOT }
+				 812 = { add_core_of = ROOT }
+				 232 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_rus_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	integrate_siberia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = NOV
+				original_tag = PRM
+				original_tag = MUS
+				original_tag = KZN
+				original_tag = DON
+				original_tag = KUB
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = integrate_eu_sib_required_states_tt
+				controls_state = 581
+				controls_state = 573
+				controls_state = 582
+				controls_state = 579
+				controls_state = 580
+				controls_state = 653
+				controls_state = 572
+				controls_state = 403
+				controls_state = 571
+				controls_state = 570
+				controls_state = 578
+				controls_state = 577
+				controls_state = 40
+				controls_state = 654
+				controls_state = 569
+				controls_state = 568
+				controls_state = 567
+				controls_state = 566
+				controls_state = 564
+				controls_state = 565
+				controls_state = 563
+				controls_state = 561
+				controls_state = 657
+				controls_state = 560
+				controls_state = 409
+				controls_state = 408
+				controls_state = 562
+				controls_state = 637
+				controls_state = 644
+				controls_state = 574
+				controls_state = 575
+				controls_state = 576
+				controls_state = 516
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = NOV
+				original_tag = PRM
+				original_tag = MUS
+				original_tag = KZN
+				original_tag = DON
+				original_tag = KUB
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+			NOT = { has_global_flag = integrate_sib_flag }
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = integrate_eu_sib_coring_states_tt
+			hidden_effect = {
+				 581 = { add_core_of = ROOT }
+				 573 = { add_core_of = ROOT }
+				 582 = { add_core_of = ROOT }
+				 579 = { add_core_of = ROOT }
+				 580 = { add_core_of = ROOT }
+				 653 = { add_core_of = ROOT }
+				 572 = { add_core_of = ROOT }
+				 403 = { add_core_of = ROOT }
+				 571 = { add_core_of = ROOT }
+				 570 = { add_core_of = ROOT }
+				 578 = { add_core_of = ROOT }
+				 577 = { add_core_of = ROOT }
+				 40 = { add_core_of = ROOT }
+				 654 = { add_core_of = ROOT }
+				 569 = { add_core_of = ROOT }
+				 568 = { add_core_of = ROOT }
+				 567 = { add_core_of = ROOT }
+				 566 = { add_core_of = ROOT }
+				 564 = { add_core_of = ROOT }
+				 565 = { add_core_of = ROOT }
+				 563 = { add_core_of = ROOT }
+				 561 = { add_core_of = ROOT }
+				 657 = { add_core_of = ROOT }
+				 560 = { add_core_of = ROOT }
+				 409 = { add_core_of = ROOT }
+				 408 = { add_core_of = ROOT }
+				 562 = { add_core_of = ROOT }
+				 637 = { add_core_of = ROOT }
+				 644 = { add_core_of = ROOT }
+				 574 = { add_core_of = ROOT }
+				 575 = { add_core_of = ROOT }
+				 576 = { add_core_of = ROOT }
+				 516 = { add_core_of = ROOT }
+				 655 = { add_core_of = ROOT }
+				 537 = { add_core_of = ROOT }
+				 555 = { add_core_of = ROOT }
+				 329 = { add_core_of = ROOT }
+				 
+			}
+			hidden_effect = {
+				set_global_flag = integrate_sib_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	integrate_extra = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = NOV
+				original_tag = PRM
+				original_tag = MUS
+				original_tag = KZN
+				original_tag = DON
+				original_tag = KUB
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = integrate_eu_extra_required_states_tt
+				controls_state = 213
+				controls_state = 207
+				controls_state = 241
+				controls_state = 206
+				controls_state = 204
+				controls_state = 194
+				controls_state = 228
+				controls_state = 227
+				controls_state = 221
+				controls_state = 200
+				controls_state = 226
+				controls_state = 259
+				controls_state = 225
+				controls_state = 196
+				controls_state = 197
+				controls_state = 203
+				controls_state = 202
+				controls_state = 201
+				controls_state = 198
+				controls_state = 199
+				controls_state = 137
+				controls_state = 231
+				controls_state = 229
+				controls_state = 230
+				controls_state = 407
+				controls_state = 406
+				controls_state = 587
+				controls_state = 402
+				controls_state = 583
+				controls_state = 404
+				controls_state = 590
+				controls_state = 586
+				controls_state = 589
+				controls_state = 588
+				controls_state = 732
+				controls_state = 405
+				controls_state = 585
+				controls_state = 584
+				controls_state = 732
+				controls_state = 329
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = NOV
+				original_tag = PRM
+				original_tag = MUS
+				original_tag = KZN
+				original_tag = DON
+				original_tag = KUB
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+			NOT = { has_global_flag = integrate_extra_flag }
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = integrate_eu_extra_coring_states_tt
+			hidden_effect = {
+				 213 = { add_core_of = ROOT }
+				 207 = { add_core_of = ROOT }
+				 241 = { add_core_of = ROOT }
+				 206 = { add_core_of = ROOT }
+				 204 = { add_core_of = ROOT }
+				 194 = { add_core_of = ROOT }
+				 228 = { add_core_of = ROOT }
+				 227 = { add_core_of = ROOT }
+				 221 = { add_core_of = ROOT }
+				 200 = { add_core_of = ROOT }
+				 226 = { add_core_of = ROOT }
+				 259 = { add_core_of = ROOT }
+				 225 = { add_core_of = ROOT }
+				 196 = { add_core_of = ROOT }
+				 197 = { add_core_of = ROOT }
+				 203 = { add_core_of = ROOT }
+				 202 = { add_core_of = ROOT }
+				 201 = { add_core_of = ROOT }
+				 198 = { add_core_of = ROOT }
+				 199 = { add_core_of = ROOT }
+				 137 = { add_core_of = ROOT }
+				 231 = { add_core_of = ROOT }
+				 229 = { add_core_of = ROOT }
+				 230 = { add_core_of = ROOT }
+				 407 = { add_core_of = ROOT }
+				 406 = { add_core_of = ROOT }
+			     587 = { add_core_of = ROOT }
+				 402 = { add_core_of = ROOT }
+				 583 = { add_core_of = ROOT }
+				 404 = { add_core_of = ROOT }
+				 590 = { add_core_of = ROOT }
+				 586 = { add_core_of = ROOT }
+				 589 = { add_core_of = ROOT }
+				 588 = { add_core_of = ROOT }
+				 732 = { add_core_of = ROOT }
+				 405 = { add_core_of = ROOT }
+				 585 = { add_core_of = ROOT }
+				 584 = { add_core_of = ROOT }
+				 732 = { add_core_of = ROOT }
+				 329 = { add_core_of = ROOT }
+				 191 = { add_core_of = ROOT }
+				 13 = { add_core_of = ROOT }
+				 12 = { add_core_of = ROOT }
+				 190 = { add_core_of = ROOT }
+				 11 = { add_core_of = ROOT }
+				 189 = { add_core_of = ROOT }
+				 188 = { add_core_of = ROOT }
+				 763 = { add_core_of = ROOT }
+				 96 = { add_core_of = ROOT }
+				 784 = { add_core_of = ROOT }
+				 95 = { add_core_of = ROOT }
+				 329 = { add_core_of = ROOT }
+				 94 = { add_core_of = ROOT }
+				 93 = { add_core_of = ROOT }
+				 91 = { add_core_of = ROOT }
+				 89 = { add_core_of = ROOT }
+				 73 = { add_core_of = ROOT }
+				 80 = { add_core_of = ROOT }
+				 78 = { add_core_of = ROOT }
+				 766 = { add_core_of = ROOT }
+				 146 = { add_core_of = ROOT }
+				 147 = { add_core_of = ROOT }
+				 722 = { add_core_of = ROOT }
+				 97 = { add_claim_by = ROOT }
+				 
+				 
+			}
+			hidden_effect = {
+				set_global_flag = integrate_extra_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_turkey_category = {
+
+	form_turkey = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_tur_required_states_tt
+				controls_state = 340
+				controls_state = 341
+				controls_state = 339
+				controls_state = 342
+				controls_state = 343
+				controls_state = 347
+				controls_state = 49
+				controls_state = 346
+				controls_state = 345
+				controls_state = 344
+				controls_state = 348
+				controls_state = 356
+				controls_state = 355
+				controls_state = 349
+				controls_state = 350
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
+			NOT = { has_global_flag = form_tur_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = TUR
+			custom_effect_tooltip = form_eu_tur_coring_states_tt
+			hidden_effect = {
+				340 = { add_core_of = ROOT }
+				341 = { add_core_of = ROOT }
+				339 = { add_core_of = ROOT }
+				342 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				347 = { add_core_of = ROOT }
+				49 = { add_core_of = ROOT }
+				346 = { add_core_of = ROOT }
+				345 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				356 = { add_core_of = ROOT }
+				355 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				350 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_tur_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	integrate_armenia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = integrate_eu_arm_required_states_tt
+				controls_state = 354
+				controls_state = 353
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
+			NOT = { has_global_flag = integrate_armenia_flag }
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = integrate_eu_arm_coring_states_tt
+			hidden_effect = {
+				353 = { add_core_of = ROOT }
+				354 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrate_armenia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	integrate_kurd = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = integrate_eu_kur_required_states_tt
+				controls_state = 352
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
+			NOT = { has_global_flag = integrate_kurd_flag }
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = integrate_eu_kur_coring_states_tt
+			hidden_effect = {
+				352 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrate_kurd_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+
+	
+
 form_italy_category = {
 
 	form_lombardyVenetia = {
@@ -2922,7 +3579,14 @@ form_ottoman_empire_category = {
 		icon = generic_form_nation
 
 		allowed = {
-			original_tag = TUR
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
 			has_dlc = "Waking the Tiger"
 		}
 
@@ -2974,7 +3638,14 @@ form_ottoman_empire_category = {
 		}
 
 		visible = {
-			original_tag = TUR
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = AKD
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+			}
 			NOT = { has_global_flag = form_ottoman_empire_flag }
 		}
 
