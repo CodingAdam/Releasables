@@ -2769,7 +2769,7 @@ form_italy_category = {
 			is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = form_eu_integrateTre_required_states_tt
-				controls_state = 160
+				controls_state = 806
 			}
 		}
 
@@ -2823,9 +2823,8 @@ form_greaterAustria_category = {
 				controls_state = 153
 				controls_state = 152
 				controls_state = 4
-			}
-			AND{
 				controls_state = 69
+				controls_state = 813
 			}
 			OR {
 				controls_state = 39
