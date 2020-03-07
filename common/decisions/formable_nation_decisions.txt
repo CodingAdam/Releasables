@@ -2615,6 +2615,196 @@ form_italy_category = {
 			}
 		}
 	}
+	form_northItaly = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = SAV
+				original_tag = LOM
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = TUS
+				original_tag = VAT
+				original_tag = LUC
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_nIta_required_states_tt
+				controls_state = 158
+				controls_state = 798
+				controls_state = 799
+				controls_state = 797
+				controls_state = 162
+				OR = {
+					controls_state = 159
+					controls_state = 161
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SAV
+				original_tag = LOM
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = TUS
+				original_tag = LUC
+				original_tag = VAT
+			}
+			NOT = { has_global_flag = form_nIta_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = northIta
+			custom_effect_tooltip = form_eu_nIta_coring_states_tt
+			hidden_effect = {
+				158 = { add_core_of = ROOT }
+				798 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+				159 = { add_core_of = ROOT }
+				161 = { add_core_of = ROOT }
+				160 = { add_claim_by = ROOT }
+				806 = { add_claim_by = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_nIta_flag
+				set_country_flag = nIta_formed
+				set_country_flag = formed_nation
+				every_country = { 
+					limit = {is_subject_of = ROOT}
+					clr_country_flag = form_color_changed
+				}				 
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	nita_integrateVen = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = SAV
+				original_tag = LOM
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = TUS
+				original_tag = VAT
+				original_tag = LUC
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_integrateVen_required_states_tt
+				controls_state = 160
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SAV
+				original_tag = LOM
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = TUS
+				original_tag = LUC
+				original_tag = VAT
+			}
+			NOT = { has_global_flag = integrateVenice }
+			has_country_flag = nIta_formed
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = form_eu_integrateVen_coring_states_tt
+			hidden_effect = {
+				160 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrateVenice			 
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	nita_integrateTre = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = SAV
+				original_tag = LOM
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = TUS
+				original_tag = VAT
+				original_tag = LUC
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_integrateTre_required_states_tt
+				controls_state = 160
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SAV
+				original_tag = LOM
+				original_tag = PAM
+				original_tag = MOD
+				original_tag = TUS
+				original_tag = LUC
+				original_tag = VAT
+			}
+			NOT = { has_global_flag = integrateTrentino }
+			has_country_flag = nIta_formed
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = form_eu_integrateTre_coring_states_tt
+			hidden_effect = {
+				806 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrateTrentino			 
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
 form_greaterAustria_category = {
 

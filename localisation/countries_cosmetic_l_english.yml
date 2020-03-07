@@ -857,5 +857,17 @@
  sgc_democratic_ADJ:0 "German"
  sgc_fascism_ADJ:0 "German"
  sgc_neutrality_ADJ:0 "German"
+ northIta_communism:0 "Democratic Socialist Republic of Northern Italy"
+ northIta_democratic:0 "Northern Italian Federation"
+ northIta_fascism:0 "Padania"
+ northIta_neutrality:0 "Northern Italy"
+ northIta_communism_DEF:0 "the Socialist Republic of Northern Italy"
+ northIta_democratic_DEF:0 "the Northern Italian Federation"
+ northIta_fascism_DEF:0 "the Padanian Nationalist State"
+ northIta_neutrality_DEF:0 "Northern Italy"
+ northIta_communism_ADJ:0 "Tartar"
+ northIta_democratic_ADJ:0 "Tartar"
+ northIta_fascism_ADJ:0 "Padanian"
+ northIta_neutrality_ADJ:0 "Tartar"
  
  
