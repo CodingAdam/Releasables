@@ -873,6 +873,23 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
+						rule = kur_independence_status
+						option = KUR_INDEPENDENT
+					}
+				}
+				TUR = {
+					release = KUR
+				}
+				IRQ = {
+					release = KUR
+				}
+				PER = {
+					release = KUR
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
 						rule = czh_fragmentation_status
 						option = czh_FRAGMENTED
 					}

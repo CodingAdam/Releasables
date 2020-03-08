@@ -1904,6 +1904,71 @@ form_england_category = {
 }
 form_russia_category = {
 
+	
+	form_donkuban = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = DON
+				original_tag = KUB
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_dkn_required_states_tt
+				controls_state = 232
+				controls_state = 812
+				controls_state = 233
+				controls_state = 234
+				controls_state = 235
+				controls_state = 237
+				controls_state = 236
+				controls_state = 238
+				controls_state = 218
+				controls_state = 245
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = DON
+				original_tag = KUB
+			}
+			NOT = { has_global_flag = form_dkn_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = dkn
+			custom_effect_tooltip = form_eu_dkn_coring_states_tt
+			hidden_effect = {
+				 232 = { add_core_of = ROOT }
+				 812 = { add_core_of = ROOT }
+				 233 = { add_core_of = ROOT }
+				 234 = { add_core_of = ROOT }
+				 235 = { add_core_of = ROOT }
+				 236 = { add_core_of = ROOT }
+				 237 = { add_core_of = ROOT }
+				 238 = { add_core_of = ROOT }
+				 218 = { add_core_of = ROOT }
+				 256 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_dkn_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	form_russia = {
 
 		icon = generic_form_nation
@@ -2356,6 +2421,197 @@ form_russia_category = {
 			}
 			hidden_effect = {
 				set_global_flag = integrate_extra_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_caucasus_category = {
+	
+	form_caucasus = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = GEO
+				original_tag = ARM
+				original_tag = AZR
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_ccs_required_states_tt
+				controls_state = 231
+				controls_state = 230
+				controls_state = 229
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = GEO
+				original_tag = ARM
+				original_tag = AZR
+				original_tag = MOT
+				original_tag = CHE
+				original_tag = DAG
+			}
+			NOT = { has_global_flag = form_ccs_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ccs
+			custom_effect_tooltip = form_eu_ccs_coring_states_tt
+			hidden_effect = {
+				 233 = { add_core_of = ROOT }
+				 812 = { add_core_of = ROOT }
+				 232 = { add_core_of = ROOT }
+				 231 = { add_core_of = ROOT }
+				 230 = { add_core_of = ROOT }
+				 229 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_ccs_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_yugoslavia_category = {
+	
+	form_greatercroatia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CRO
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_gcr_required_states_tt
+				controls_state = 102
+				controls_state = 103
+				controls_state = 109
+				controls_state = 104
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = CRO
+			}
+			NOT = { has_global_flag = form_gcr_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = gcr
+			custom_effect_tooltip = form_eu_gcr_coring_states_tt
+			hidden_effect = {
+				 102 = { add_core_of = ROOT }
+				 103 = { add_core_of = ROOT }
+				 109 = { add_core_of = ROOT }
+				 104 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_gcr_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	form_yugoslavia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = SER
+				original_tag = MAC
+				original_tag = MNT
+				original_tag = BOS
+				original_tag = CRO
+				original_tag = SLV
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_yug_required_states_tt
+				controls_state = 102
+				controls_state = 103
+				controls_state = 109
+				controls_state = 104
+				controls_state = 105
+				controls_state = 45
+				controls_state = 764
+				controls_state = 107
+				controls_state = 108
+				controls_state = 106
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SER
+				original_tag = MAC
+				original_tag = MNT
+				original_tag = BOS
+				original_tag = CRO
+				original_tag = SLV
+			}
+			NOT = { has_global_flag = form_yug_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = YUG
+			custom_effect_tooltip = form_eu_yug_coring_states_tt
+			hidden_effect = {
+				 102 = { add_core_of = ROOT }
+				 103 = { add_core_of = ROOT }
+				 109 = { add_core_of = ROOT }
+				 104 = { add_core_of = ROOT }
+				 105 = { add_core_of = ROOT }
+				 45 = { add_core_of = ROOT }
+				 764 = { add_core_of = ROOT }
+				 107 = { add_core_of = ROOT }
+				 108 = { add_core_of = ROOT }
+				 106 = { add_core_of = ROOT }
+				 163 = { add_core_of = ROOT }
+				 736 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_yug_flag
 			}
 		}
 
@@ -2852,6 +3108,290 @@ form_siberia_category = {
 			}
 			hidden_effect = {
 				set_global_flag = form_sib_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_intermarium_category = {
+
+	form_intermarium = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = EST
+				original_tag = LAT
+				original_tag = LIT
+				original_tag = BLR
+				original_tag = WAR
+				original_tag = PRE
+				original_tag = DNZ
+				original_tag = POZ
+				original_tag = GAL
+				original_tag = UKR
+				original_tag = MLA
+				original_tag = CRU
+				original_tag = SLO
+				original_tag = HUN
+				original_tag = SLV
+				original_tag = CRO
+				original_tag = SER
+				original_tag = TRA
+				original_tag = WAL
+				original_tag = CRI
+				original_tag = BUL
+				original_tag = MAC
+				original_tag = MNT
+				original_tag = BOS
+				original_tag = ALB
+				original_tag = EPR
+				original_tag = THE
+				original_tag = THR
+				original_tag = ATH
+				original_tag = PEL
+				original_tag = POL
+				original_tag = ROM
+				original_tag = YUG
+				original_tag = GRE
+				original_tag = CZE
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_inter_required_states_tt
+				controls_state = 191
+				controls_state = 13
+				controls_state = 12
+				controls_state = 190
+				controls_state = 188
+				controls_state = 189
+				controls_state = 11
+				controls_state = 784
+				controls_state = 763
+				controls_state = 5
+				controls_state = 85
+				controls_state = 207
+				controls_state = 96
+				controls_state = 95
+				controls_state = 206
+				controls_state = 241
+				controls_state = 204
+				controls_state = 94
+				controls_state = 194
+				controls_state = 97
+				controls_state = 98
+				controls_state = 87
+				controls_state = 10
+				controls_state = 92
+				controls_state = 90
+				controls_state = 88
+				controls_state = 89
+				controls_state = 91
+				controls_state = 93
+				controls_state = 201
+				controls_state = 199
+				controls_state = 198
+				controls_state = 202
+				controls_state = 203
+				controls_state = 192
+				controls_state = 197
+				controls_state = 193
+				controls_state = 225
+				controls_state = 259
+				controls_state = 226
+				controls_state = 196
+				controls_state = 200
+				controls_state = 221
+				controls_state = 227
+				controls_state = 228
+				controls_state = 137
+				controls_state = 766
+				controls_state = 78
+				controls_state = 80
+				controls_state = 79
+				controls_state = 73
+				controls_state = 71
+				controls_state = 70
+				controls_state = 664
+				controls_state = 155
+				controls_state = 43
+				controls_state = 154
+				controls_state = 76
+				controls_state = 84
+				controls_state = 83
+				controls_state = 82
+				controls_state = 81
+				controls_state = 46
+				controls_state = 77
+				controls_state = 211
+				controls_state = 212
+				controls_state = 48
+				controls_state = 106
+				controls_state = 108
+				controls_state = 107
+				controls_state = 764
+				controls_state = 45
+				controls_state = 109
+				controls_state = 103
+				controls_state = 104
+				controls_state = 105
+				controls_state = 44
+				controls_state = 102
+				controls_state = 184
+				controls_state = 731
+				controls_state = 185
+				controls_state = 47
+				controls_state = 186
+				controls_state = 86
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = EST
+				original_tag = LAT
+				original_tag = LIT
+				original_tag = BLR
+				original_tag = WAR
+				original_tag = PRE
+				original_tag = DNZ
+				original_tag = POZ
+				original_tag = GAL
+				original_tag = UKR
+				original_tag = MLA
+				original_tag = CRU
+				original_tag = SLO
+				original_tag = HUN
+				original_tag = SLV
+				original_tag = CRO
+				original_tag = SER
+				original_tag = TRA
+				original_tag = WAL
+				original_tag = CRI
+				original_tag = BUL
+				original_tag = MAC
+				original_tag = MNT
+				original_tag = BOS
+				original_tag = ALB
+				original_tag = EPR
+				original_tag = THE
+				original_tag = THR
+				original_tag = ATH
+				original_tag = PEL
+				original_tag = POL
+				original_tag = ROM
+				original_tag = YUG
+				original_tag = GRE
+				original_tag = CZE
+			}
+			NOT = { has_global_flag = form_inter_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = inter
+			custom_effect_tooltip = form_eu_inter_coring_states_tt
+			hidden_effect = {
+				191 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				12 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				11 = { add_core_of = ROOT }
+				784 = { add_core_of = ROOT }
+				763 = { add_core_of = ROOT }
+				5 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				207 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+				95 = { add_core_of = ROOT }
+				206 = { add_core_of = ROOT }
+				241 = { add_core_of = ROOT }
+				204 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+				97 = { add_core_of = ROOT }
+				98 = { add_core_of = ROOT }
+				87 = { add_core_of = ROOT }
+				10 = { add_core_of = ROOT }
+				92 = { add_core_of = ROOT }
+				90 = { add_core_of = ROOT }
+				88 = { add_core_of = ROOT }
+				89 = { add_core_of = ROOT }
+				91 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				201 = { add_core_of = ROOT }
+				199 = { add_core_of = ROOT }
+				198 = { add_core_of = ROOT }
+				202 = { add_core_of = ROOT }
+				203 = { add_core_of = ROOT }
+				192 = { add_core_of = ROOT }
+				197 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+				225 = { add_core_of = ROOT }
+				259 = { add_core_of = ROOT }
+				226 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
+				200 = { add_core_of = ROOT }
+				221 = { add_core_of = ROOT }
+				227 = { add_core_of = ROOT }
+				228 = { add_core_of = ROOT }
+				137 = { add_core_of = ROOT }
+				766 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+				80 = { add_core_of = ROOT }
+				79 = { add_core_of = ROOT }
+				73 = { add_core_of = ROOT }
+				71 = { add_core_of = ROOT }
+				70 = { add_core_of = ROOT }
+				664 = { add_core_of = ROOT }
+				155 = { add_core_of = ROOT }
+				43 = { add_core_of = ROOT }
+				154 = { add_core_of = ROOT }
+				76 = { add_core_of = ROOT }
+				84 = { add_core_of = ROOT }
+				83 = { add_core_of = ROOT }
+				82 = { add_core_of = ROOT }
+				81 = { add_core_of = ROOT }
+				46 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				48 = { add_core_of = ROOT }
+				106 = { add_core_of = ROOT }
+				108 = { add_core_of = ROOT }
+				107 = { add_core_of = ROOT }
+				764 = { add_core_of = ROOT }
+				45 = { add_core_of = ROOT }
+				109 = { add_core_of = ROOT }
+				103 = { add_core_of = ROOT }
+				104 = { add_core_of = ROOT }
+				105 = { add_core_of = ROOT }
+				44 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				184 = { add_core_of = ROOT }
+				731 = { add_core_of = ROOT }
+				185 = { add_core_of = ROOT }
+				47 = { add_core_of = ROOT }
+				186 = { add_core_of = ROOT }
+				163 = { add_core_of = ROOT }
+				736 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				
+			}
+			hidden_effect = {
+				set_global_flag = form_inter_flag
 			}
 		}
 
