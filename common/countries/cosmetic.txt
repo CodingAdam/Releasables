@@ -223,13 +223,13 @@ HOL_benelux_unified = {
 }
 
 sarpie = {
-	color = rgb { 0 153 0 }
-	color_ui = rgb { 0 153 0 }
+	color = rgb { 39 208 217 }
+	color_ui = rgb { 39 208 217 }
 }
 
 twosic = {
-	color = rgb { 102 0 255 }
-	color_ui = rgb { 102 0 255 }
+	color = rgb { 205 214 75 }
+	color_ui = rgb { 205 214 75 }
 }
 
 ara = {
@@ -272,6 +272,10 @@ urals = {
 tartary = {
 	color = rgb { 214  202  177 }
 	color_ui = rgb { 214  202  177 }
+}
+northIta = {
+	color = rgb { 126 178 204 }
+	color_ui = rgb { 126 178 204 }
 }
 ### Formable Puppet Colors
 HOL_benelux_unified_puppet = {
@@ -469,7 +473,7 @@ BRA_PUPPET = {
 color = rgb{ 76  145  63  }
 color_ui = rgb{ 76  145  63  }
 }
-CAN_PUPPET = {
+CANADA_PUPPET = {
 color = rgb{ 119  48  39  }
 color_ui = rgb{ 119  48  39  }
 }
@@ -1757,4 +1761,44 @@ color_ui = rgb{ 181 100 113  }
 DEL_PUPPET = {
 color = rgb{ 22 199 45  }
 color_ui = rgb{ 22 199 45  }
+}
+MUS_PUPPET = {
+color = rgb{ 195 187 119  }
+color_ui = rgb{ 195 187 119  }
+}
+KZN_PUPPET = {
+color = rgb{ 113 113 144  }
+color_ui = rgb{ 113 113 144  }
+}
+CRI_PUPPET = {
+color = rgb{ 122 188 179  }
+color_ui = rgb{ 122 188 179  }
+}
+STA_PUPPET = {
+color = rgb{ 128 11 11  }
+color_ui = rgb{ 128 11 11  }
+}
+PRM_PUPPET = {
+color = rgb{ 245 183 136  }
+color_ui = rgb{ 245 183 136  }
+}
+DON_PUPPET = {
+color = rgb{ 255 253 121  }
+color_ui = rgb{ 255 253 121  }
+}
+KUB_PUPPET = {
+color = rgb{ 221  19  123  }
+color_ui = rgb{ 221  19  123  }
+}
+CHE_PUPPET = {
+color = rgb{ 21  81  17  }
+color_ui = rgb{ 21  81  17  }
+}
+MOT_PUPPET = {
+color = rgb{ 45 138 64  }
+color_ui = rgb{ 45 138 64  }
+}
+DAG_PUPPET = {
+color = rgb{ 163 52 78  }
+color_ui = rgb{ 163 52 78  }
 }

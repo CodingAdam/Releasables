@@ -1051,5 +1051,13 @@
  form_intermarium:0 "Unite §Gthe Intermarium§!"
  form_eu_inter_required_states_tt:0 "Controls all states in §YEstonia, Latvia, Lithuania, East Prussia, Poland, Belarus, Ukraine, Crimea, Slovakia, Romania, Hungary, Yugoslavia, Bulgaria, and Greece§!.\n"
  form_eu_inter_coring_states_tt:0 "Gain cores on all states in §YEstonia, Latvia, Lithuania, East Prussia, Poland, Belarus, Ukraine, Crimea, Slovakia, Romania, Hungary, Yugoslavia, Bulgaria, and Greece§!.\n"
-
- 
+ form_sgc:0 "Form the Southern German Confederation"
+ form_northItaly:0 "Form the North Italian Federation"
+ form_eu_nIta_required_states_tt:0 "Controls §YNorthern Italy§!"
+ form_eu_nIta_coring_states_tt:0 "Gain cores on §YNorthern Italy§! and claims on §YVenetia and Trentino§!"
+ nita_integrateVen:0 "Integrate §YVenetia§!"
+ form_eu_integrateVen_required_states_tt:0 "Controls §YVenetia§!"
+ form_eu_integrateVen_coring_states_tt:0 "Gain cores on §YVenetia§!"
+ nita_integrateTre:0 "Integrate §YTrentino§!"
+ form_eu_integrateTre_required_states_tt:0 "Controls §YTrentino§!"
+ form_eu_integrateTre_coring_states_tt:0 "Gain cores on §YTrentino§!"

@@ -897,8 +897,9 @@ on_actions = {
 				CZE = {
 					release = SLO
 					release = CRU
-					set_cosmetic_tag = CZE_czech
-					set_global_flag = CZE_became_czech
+					release = MOV
+					release = BOH
+					release = GAL
 				}
 			}
 			if = {

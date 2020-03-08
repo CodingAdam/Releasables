@@ -297,7 +297,7 @@ colored_puppets = {
 			if = {
 				limit = { tag = CAN }
 				FROM = { 
-					set_cosmetic_tag = CAN_PUPPET
+					set_cosmetic_tag = CANADA_PUPPET
 					set_country_flag = color_changed
 				}
 			}
@@ -2545,6 +2545,76 @@ colored_puppets = {
 				limit = { tag = DEL }
 				FROM = { 
 					set_cosmetic_tag = DEL_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = MUS }
+				FROM = { 
+					set_cosmetic_tag = MUS_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = KZN }
+				FROM = { 
+					set_cosmetic_tag = KZN_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = CRI }
+				FROM = { 
+					set_cosmetic_tag = CRI_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = STA }
+				FROM = { 
+					set_cosmetic_tag = STA_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = PRM }
+				FROM = { 
+					set_cosmetic_tag = PRM_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = DON }
+				FROM = { 
+					set_cosmetic_tag = DON_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = KUB }
+				FROM = { 
+					set_cosmetic_tag = KUB_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = CHE }
+				FROM = { 
+					set_cosmetic_tag = CHE_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = MOT }
+				FROM = { 
+					set_cosmetic_tag = MOT_PUPPET
+					set_country_flag = color_changed
+				}
+			}
+			if = {
+				limit = { tag = DAG }
+				FROM = { 
+					set_cosmetic_tag = DAG_PUPPET
 					set_country_flag = color_changed
 				}
 			}
