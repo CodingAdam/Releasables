@@ -342,6 +342,9 @@
  TUR_FRAGMENTATION_STATUS:0 "Turkey Fragmentation Status"
  RULE_OPTION_TUR_FRAGMENTED_DESC:0 "Turkey is fragmented into its constituent parts."
  RULE_OPTION_TUR_FRAGMENTED:0 "Turkey Fragmented"
- #Siberia Game Rules
+ KUR_INDEPENDENCE_STATUS:0 "Kurdistan Independence Status"
+ RULE_OPTION_KUR_INDEPENDENT_DESC:0 "All countries owning Kurdish core territory relinquish control over to Kurdistan."
+ RULE_OPTION_KUR_INDEPENDENT:0 "Kurdistan Independent"
+ 
  
  

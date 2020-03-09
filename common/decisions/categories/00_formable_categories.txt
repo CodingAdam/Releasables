@@ -373,3 +373,24 @@ form_russia_category = {
 	allowed = {
 	}
 }
+form_caucasus_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_yugoslavia_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_intermarium_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}

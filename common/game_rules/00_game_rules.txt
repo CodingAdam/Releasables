@@ -1421,6 +1421,21 @@ yug_fragmentation_status = {
 		desc = "RULE_OPTION_YUG_FRAGMENTED_DESC"
 	}
 }
+kur_independence_status = {
+	name = "KUR_INDEPENDENCE_STATUS"
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = KUR_INDEPENDENT
+		text = "RULE_OPTION_KUR_INDEPENDENT"
+		desc = "RULE_OPTION_KUR_INDEPENDENT_DESC"
+	}
+}
 sov_fragmentation_status = {
 	name = "SOV_FRAGMENTATION_STATUS"
 	required_dlc = "Man the Guns"
