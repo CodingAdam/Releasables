@@ -1978,6 +1978,7 @@ form_england_category = {
 				133 = { add_core_of = ROOT }
 				128 = { add_core_of = ROOT }
 				190 = { add_core_of = ROOT }
+				814 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_brit_flag

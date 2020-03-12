@@ -769,6 +769,7 @@ on_actions = {
 					release = NUT
 					release = CRW
 					release = MRC
+					release = MNN
 				}
 				MRC = {
 					annex_country = {
