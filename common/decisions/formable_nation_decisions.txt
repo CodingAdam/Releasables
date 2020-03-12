@@ -961,17 +961,19 @@ form_germany_category = {
 		}
 
 		available = {
-			OR = {
-				SAX = { is_subject_of = PRE}
-				AND = {
-					controls_state = 65
-					controls_state = 60
+			custom_trigger_tooltip = {
+				tooltip = form_ngc_required_states_tt
+				OR = {
+					SAX = { is_subject_of = PRE}
+					AND = {
+						controls_state = 65
+						controls_state = 60
+					}
 				}
-			}
-			HAN = { is_subject_of = PRE }
-			HES = { is_subject_of = PRE }
-			RHE = { is_subject_of = PRE }
-			is_subject = no
+				HAN = { is_subject_of = PRE }
+				HES = { is_subject_of = PRE }
+				RHE = { is_subject_of = PRE }
+				is_subject = no
 				controls_state = 5
 				controls_state = 85
 				controls_state = 86
@@ -985,12 +987,10 @@ form_germany_category = {
 				controls_state = 58
 				controls_state = 61
 				controls_state = 763
+			}
 		}
 
 		visible = {
-			HAN = { is_subject_of = PRE }
-			HES = { is_subject_of = PRE }
-			RHE = { is_subject_of = PRE }
 			OR = {
 				original_tag = PRE
 				original_tag = PRE
@@ -1007,13 +1007,14 @@ form_germany_category = {
 			NOT = { has_global_flag = form_ngc_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {					
 			annex_country = { target = HAN }
 			annex_country = { target = HES }
 			annex_country = { target = RHE }
 			annex_country = { target = SAX }
 			set_capital = 64
 			set_cosmetic_tag = ngc
+			custom_effect_tooltip = form_ngc_coring_states_tt
 			hidden_effect = {
 				762 = { add_core_of = ROOT }
 				64 = { add_core_of = ROOT }
@@ -1088,21 +1089,23 @@ form_germany_category = {
 		}
 
 		available = {
-			OR = {
-				BAY = { is_subject_of = ROOT }
-				AND = {
-					controls_state = 54
-					controls_state = 53
-					controls_state = 52
+			custom_trigger_tooltip = {
+				tooltip = form_sgc_required_states_tt
+				OR = {
+					BAY = { is_subject_of = ROOT }
+					AND = {
+						controls_state = 54
+						controls_state = 53
+						controls_state = 52
+					}
+				}
+				OR = {
+					WUR = { is_subject_of = ROOT }
+					AND = {
+						controls_state = 50
+					}
 				}
 			}
-			OR = {
-				WUR = { is_subject_of = ROOT }
-				AND = {
-					controls_state = 50
-				}
-			}
-			
 		}
 
 		visible = {
@@ -1118,6 +1121,7 @@ form_germany_category = {
 			annex_country = { target = WUR }
 			annex_country = { target = BAY }
 			set_cosmetic_tag = sgc
+			custom_effect_tooltip = form_sgc_coring_states_tt
 			hidden_effect = {
 				set_global_flag = form_sgc_flag
 				set_country_flag = form_sgc
@@ -1874,7 +1878,7 @@ form_england_category = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = ENG
+			set_cosmetic_tag = ENG_england
 			custom_effect_tooltip = form_eu_eng_coring_states_tt
 			hidden_effect = {
 				123 = { add_core_of = ROOT }
@@ -1890,6 +1894,88 @@ form_england_category = {
 			}
 			hidden_effect = {
 				set_global_flag = form_eng_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	form_greatBritain = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CRW
+				original_tag = SUX
+				original_tag = LON
+				original_tag = MRC
+				original_tag = NUT
+				original_tag = WAL
+				original_tag = SCO
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_brit_required_states_tt
+				controls_state = 123
+				controls_state = 127
+				controls_state = 125
+				controls_state = 126
+				controls_state = 338
+				controls_state = 128
+				controls_state = 129
+				controls_state = 132
+				controls_state = 130
+				controls_state = 131
+				controls_state = 121
+				controls_state = 133
+				controls_state = 128
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = CRW
+				original_tag = SUX
+				original_tag = LON
+				original_tag = MRC
+				original_tag = NUT
+				original_tag = WLS
+				original_tag = SCO
+				original_tag = WAL
+			}
+			NOT = { has_global_flag = form_brit_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ENG
+			custom_effect_tooltip = form_eu_brit_coring_states_tt
+			hidden_effect = {
+				123 = { add_core_of = ROOT }
+				127 = { add_core_of = ROOT }
+				125 = { add_core_of = ROOT }
+				126 = { add_core_of = ROOT }
+				338 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+				129 = { add_core_of = ROOT }
+				130 = { add_core_of = ROOT }
+				132 = { add_core_of = ROOT }
+				131 = { add_core_of = ROOT }
+				121 = { add_core_of = ROOT }
+				133 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_brit_flag
 			}
 		}
 
