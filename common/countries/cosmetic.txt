@@ -277,6 +277,15 @@ northIta = {
 	color = rgb { 126 178 204 }
 	color_ui = rgb { 126 178 204 }
 }
+inter = {
+	color = rgb { 58 90 164 }
+	color_ui = rgb { 58 90 164 }
+}
+
+GER = {
+	color = rgb { 102  96  96 }
+	color_ui = rgb { 102  96  96 }
+}
 ### Formable Puppet Colors
 HOL_benelux_unified_puppet = {
 	color = rgb { 255 128 0 }
@@ -337,6 +346,10 @@ color = rgb{ 201  56  93  }
 color_ui = rgb{ 201  56  93  }
 }
 SOV_PUPPET = {
+color = rgb{ 125  13  24  }
+color_ui = rgb{ 125  13  24  }
+}
+SOV_IST_subject = {
 color = rgb{ 125  13  24  }
 color_ui = rgb{ 125  13  24  }
 }

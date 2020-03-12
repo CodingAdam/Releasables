@@ -841,6 +841,7 @@ form_germany_category = {
 				original_tag = BAY
 				original_tag = SIL
 				original_tag = TEU
+				original_tag = AUS
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -890,6 +891,7 @@ form_germany_category = {
 				original_tag = BAY
 				original_tag = SIL
 				original_tag = TEU
+				original_tag = AUS
 				has_country_flag = form_sgc
 			}
 			NOT = { has_global_flag = form_ger_flag }
@@ -898,7 +900,6 @@ form_germany_category = {
 
 		complete_effect = {
 			set_cosmetic_tag = GER
-			# francois
 			custom_effect_tooltip = form_country_germany_coring_states_tt
 			hidden_effect = {
 				5 = { add_core_of = ROOT }
