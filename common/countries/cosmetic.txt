@@ -277,12 +277,13 @@ northIta = {
 	color = rgb { 126 178 204 }
 	color_ui = rgb { 126 178 204 }
 }
-ENG = {
-	color = rgb { 201 54 24 }
-	color_ui = rgb { 201 54 24 }
+inter = {
+	color = rgb { 58 90 164 }
+	color_ui = rgb { 58 90 164 }
 }
-ENG_england = {
-	color = rgb { 230 91 78 }
-	color_ui = rgb { 230 91 78 }
+
+GER = {
+	color = rgb { 102  96  96 }
+	color_ui = rgb { 102  96  96 }
 }
 
