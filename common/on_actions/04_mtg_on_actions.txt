@@ -917,6 +917,8 @@ on_actions = {
 					release = SER
 					release = CRO
 					release = MNT
+					release = BNT
+					release = KOS
 				}
 				SER = {
 					annex_country = {
