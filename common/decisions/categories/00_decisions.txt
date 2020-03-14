@@ -1,6 +1,0 @@
-colored_puppets = {
-
-}
-form_colored_puppets = {
-
-}

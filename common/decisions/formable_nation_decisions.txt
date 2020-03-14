@@ -1979,6 +1979,7 @@ form_england_category = {
 				133 = { add_core_of = ROOT }
 				128 = { add_core_of = ROOT }
 				190 = { add_core_of = ROOT }
+				814 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_brit_flag
@@ -2608,6 +2609,7 @@ form_yugoslavia_category = {
 				controls_state = 103
 				controls_state = 109
 				controls_state = 104
+				controls_state = 817
 			}
 		}
 
@@ -2652,6 +2654,8 @@ form_yugoslavia_category = {
 				original_tag = BOS
 				original_tag = CRO
 				original_tag = SLV
+				original_tag = BNT
+				original_tag = KOS
 			}
 		}
 
@@ -2669,6 +2673,8 @@ form_yugoslavia_category = {
 				controls_state = 107
 				controls_state = 108
 				controls_state = 106
+				controls_state = 817
+				controls_state = 818
 			}
 		}
 
@@ -2700,6 +2706,7 @@ form_yugoslavia_category = {
 				 106 = { add_core_of = ROOT }
 				 163 = { add_core_of = ROOT }
 				 736 = { add_core_of = ROOT }
+				 817 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_yug_flag
@@ -4289,6 +4296,7 @@ form_romania_category = {
 				controls_state = 77
 				controls_state = 81
 				controls_state = 46
+				controls_state = 815
 			}
 		}
 
@@ -4317,6 +4325,7 @@ form_romania_category = {
 				77 = { add_core_of = ROOT }
 				46 = { add_core_of = ROOT }
 				81 = { add_core_of = ROOT }
+				815 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_rom_flag

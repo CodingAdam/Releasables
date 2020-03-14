@@ -769,6 +769,7 @@ on_actions = {
 					release = NUT
 					release = CRW
 					release = MRC
+					release = MNN
 				}
 				MRC = {
 					annex_country = {
@@ -916,6 +917,8 @@ on_actions = {
 					release = SER
 					release = CRO
 					release = MNT
+					release = BNT
+					release = KOS
 				}
 				SER = {
 					annex_country = {
