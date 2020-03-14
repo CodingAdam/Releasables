@@ -61,10 +61,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
 }
 create_country_leader = {
 	name = "Shigeru Fukudome"

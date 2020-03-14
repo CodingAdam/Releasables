@@ -1,0 +1,173 @@
+add_namespace = warringstates
+
+# Warring States Trigger
+country_event = {
+	id = warringstates.1
+	title = warringstates.1.t
+	desc = warringstates.1.d
+	picture = GFX_report_event_chinese_soldiers_march
+	
+	is_triggered_only = no
+
+ 	trigger = 
+	{
+		OR = {
+			tag = KYU
+			tag = HIR
+			tag = KYO
+			tag = NAG
+			tag = TOK
+			tag = AOM
+		}
+		AND = 
+		{
+			date = 1936.6.1
+			has_game_rule = {
+					rule = jap_fragmentation_status
+					option = JAP_SENGOKU_JIDAI
+			}
+		}
+	}
+
+	option = {
+		name = warringstates.1.a
+		ai_chance = { factor = 100 }
+		set_autonomy = { target = KYU autonomy_state = autonomy_free }
+		set_autonomy = { target = HIR autonomy_state = autonomy_free }
+		set_autonomy = { target = KYO autonomy_state = autonomy_free }
+		set_autonomy = { target = NAG autonomy_state = autonomy_free }
+		set_autonomy = { target = AOM autonomy_state = autonomy_free }
+		KYU = { 
+			declare_war_on = {
+   	 			target = HIR
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYO
+    			type = annex_everything
+			}
+		}
+		HIR = { 
+			declare_war_on = {
+   	 			target = KYU
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYO
+    			type = annex_everything
+			}
+		}
+		KYO = { 
+			declare_war_on = {
+   	 			target = HIR
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYU
+    			type = annex_everything
+			}
+		}
+		NAG = { 
+			declare_war_on = {
+   	 			target = HIR
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYU
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYO
+    			type = annex_everything
+			}
+		}
+		TOK = { 
+			declare_war_on = {
+   	 			target = HIR
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYU
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYO
+    			type = annex_everything
+			}
+		}
+		AOM = { 
+			declare_war_on = {
+   	 			target = HIR
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYU
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYO
+    			type = annex_everything
+			}
+		}
+	}
+}

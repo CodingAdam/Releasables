@@ -61,10 +61,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 0
+	fascism = 60
+	communism = 0
+	neutrality = 40
 }
 create_country_leader = {
 	name = "Sadao Araki"
@@ -79,7 +79,7 @@ create_country_leader = {
 	name = "Hirohito"
 	picture = "Portrait_Japan_Hirohito.dds"
 	desc = ""
-	ideology = neutrality
+	ideology = despotism
 	traits = {
 		#
 	}
