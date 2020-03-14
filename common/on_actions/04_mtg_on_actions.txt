@@ -1225,6 +1225,29 @@ on_actions = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = trader_south_america
+						option = TRADER_SA
+					}
+				}
+				BOL = {
+					set_cosmetic_tag = trader
+					annex_country {target = BRA transfer_troops = no}
+					annex_country {target = PAR transfer_troops = no}
+					annex_country {target = URG transfer_troops = no}
+					annex_country {target = ARG transfer_troops = no}
+					annex_country {target = PRU transfer_troops = no}
+					annex_country {target = CHL transfer_troops = no}
+					annex_country {target = ECU transfer_troops = no}
+					annex_country {target = COL transfer_troops = no}
+					annex_country {target = VEN transfer_troops = no}
+					set_state_owner = 310
+					set_state_owner = 309
+					set_state_owner = 687
+				}
+			}
 		}
 	}
 

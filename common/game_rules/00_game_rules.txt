@@ -1651,3 +1651,18 @@ tur_fragmentation_status = {
 		desc = "RULE_OPTION_TUR_FRAGMENTED_DESC"
 	}
 }
+trader_south_america = {
+	name = "TRADERS_IN_BOLIVIA" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_SA
+		text = "RULE_OPTION_SA_TRADER"
+		desc = "RULE_OPTION_SA_TRADER_DESC"
+	}
+}

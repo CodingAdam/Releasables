@@ -1,0 +1,270 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		COU_pot = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		COU_coi = {
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		COU_stc = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		COU_aco2 = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = COU
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		COU_acd2 = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		COU_acr = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		COU_acgs = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		COU_nccr = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = COU
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		COU_ncm = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = COU
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		COU_ar = {
+			ledger = army
+
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		COU_ai2 = {
+			ledger = army
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		COU_aa2 = {
+			ledger = army
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		COU_acas = {
+			ledger = air
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		COU_ncs = {
+			ledger = navy
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		COU_mt = {
+			ledger = army
+			picture = generic_army_europe_6
+
+			allowed = {
+				original_tag = COU
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		COU_nt = {
+			ledger = navy
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		COU_awt = {
+			ledger = air
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = COU
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

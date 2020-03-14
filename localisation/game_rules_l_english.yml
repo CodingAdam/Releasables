@@ -345,6 +345,8 @@
  KUR_INDEPENDENCE_STATUS:0 "Kurdistan Independence Status"
  RULE_OPTION_KUR_INDEPENDENT_DESC:0 "All countries owning Kurdish core territory relinquish control over to Kurdistan."
  RULE_OPTION_KUR_INDEPENDENT:0 "Kurdistan Independent"
- 
- 
+ TRADERS_IN_BOLIVIA:0 "Trader Nations In South America Status"
+ RULE_OPTION_DEFAULT_TRADER_DESC:0 "Nobody's Trading in South America."
+ RULE_OPTION_SA_TRADER:0 "Traders in South America"
+ RULE_OPTION_SA_TRADER_DESC:0 "A new neutral nation comprising all of South America"
  
