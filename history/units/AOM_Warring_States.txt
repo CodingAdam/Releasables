@@ -1,0 +1,36 @@
+division_template = {
+	name = "Peasant Militia"
+	is_locked = no
+
+	division_names_group = AOM_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Sendai Militia"
+		location = 7169
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Aomori Militia"
+		location = 6994
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Sapporo Militia"
+		location = 10444
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Asahigawa Militia"
+		location = 12421
+		division_template = "Peasant Militia"
+	}
+}
