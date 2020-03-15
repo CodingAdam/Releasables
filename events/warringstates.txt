@@ -1,0 +1,198 @@
+add_namespace = warringstates
+
+# Warring States Trigger
+country_event = {
+	id = warringstates.1
+	title = warringstates.1.t
+	desc = warringstates.1.d
+	picture = GFX_report_event_chinese_soldiers_march
+	
+	is_triggered_only = no
+
+ 	trigger = 
+	{
+		tag = TOK
+		AND = 
+		{
+			date = 1936.6.1
+			has_game_rule = {
+					rule = jap_fragmentation_status
+					option = JAP_SENGOKU_JIDAI
+			}
+			NOT = { has_global_flag = sengoku_jidai_flag }
+			has_global_flag = warlords_free_flag
+		}
+	}
+
+	immediate = {
+ 		hidden_effect = {
+ 			set_global_flag = sengoku_jidai_flag
+ 		} 		
+ 	}
+	
+	option = {
+		name = warringstates.1.a
+		ai_chance = { factor = 100 }
+		KYU = { 
+			declare_war_on = {
+   	 			target = HIR
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYO
+    			type = annex_everything
+			}
+			load_oob = "KYU_Warring_States"
+		}
+		HIR = { 
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = KYO
+    			type = annex_everything
+			}
+			load_oob = "HIR_Warring_States"
+		}
+		KYO = { 
+			declare_war_on = {
+   	 			target = NAG
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			load_oob = "KYO_Warring_States"
+		}
+		NAG = { 
+			declare_war_on = {
+   	 			target = TOK
+    			type = annex_everything
+			}
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			load_oob = "NAG_Warring_States"
+		}
+		TOK = { 
+			declare_war_on = {
+   	 			target = AOM
+    			type = annex_everything
+			}
+			load_oob = "TOK_Warring_States"
+		}
+		AOM = { 
+			load_oob = "AOM_Warring_States"
+		}
+		
+	}
+}
+# Puppets break away
+country_event = {
+	id = warringstates.2
+	title = warringstates.2.t
+	desc = warringstates.2.d
+	picture = GFX_report_event_chinese_soldiers_march
+	
+	is_triggered_only = no
+
+ 	trigger = 
+	{
+		tag = TOK
+		AND = 
+		{
+			date = 1936.3.1
+			has_game_rule = {
+					rule = jap_fragmentation_status
+					option = JAP_SENGOKU_JIDAI
+			}
+			NOT = { has_global_flag = warlords_free_flag }
+			
+		}
+	}
+
+	immediate = {
+ 		hidden_effect = {
+ 			set_global_flag = warlords_free_flag
+ 		} 		
+ 	}
+
+	option = {
+		name = warringstates.2.a
+		ai_chance = { factor = 100 }
+		set_autonomy = { target = KYU autonomy_state = autonomy_free }
+		set_autonomy = { target = HIR autonomy_state = autonomy_free }
+		set_autonomy = { target = KYO autonomy_state = autonomy_free }
+		set_autonomy = { target = NAG autonomy_state = autonomy_free }
+		set_autonomy = { target = AOM autonomy_state = autonomy_free }
+	}
+}
+# Tokyo cracks down
+country_event = {
+	id = warringstates.3
+	title = warringstates.3.t
+	desc = warringstates.3.d
+	picture = GFX_report_event_chinese_soldiers_march
+	
+	is_triggered_only = no
+
+ 	trigger = 
+	{
+		OR = {
+			tag = KYU
+			tag = HIR
+			tag = KYO
+			tag = NAG
+			tag = AOM
+			}
+		AND = 
+		{
+			date = 1936.1.2
+			has_game_rule = {
+					rule = jap_fragmentation_status
+					option = JAP_SENGOKU_JIDAI
+			}
+			NOT = { has_global_flag = tokyo_cracks_down_flag }
+			has_global_flag = sengoku_jidai_flag
+			
+		}
+	}
+
+	immediate = {
+ 		hidden_effect = {
+ 			set_global_flag = tokyo_cracks_down_flag
+ 		} 		
+ 	}
+
+	option = {
+		name = warringstates.3.a
+		ai_chance = { factor = 100 }
+	}
+}

@@ -1077,3 +1077,8 @@
  form_newEng:0 "Unify §GNew England§!"
  form_newEng_required_states_tt:0 "Controls all of §YNew England§! in America."
  form_newEng_coring_states_tt:0 "Gain cores on all of §YNew England§! in America.\n"
+ ### Japan
+ form_japan_category:0 "Restore Japan!"
+ form_japan:0 "Restore §GJapan§!"
+ form_eu_jap_required_states_tt:0 "Controls all of §Ymainland Japan§!."
+ form_eu_jap_coring_states_tt:0 "Gain cores on all states in §YJapan§!.\n"

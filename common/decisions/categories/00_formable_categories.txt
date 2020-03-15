@@ -394,3 +394,10 @@ form_intermarium_category = {
 	allowed = {
 	}
 }
+form_japan_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}

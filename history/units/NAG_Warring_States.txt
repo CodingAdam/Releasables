@@ -1,0 +1,56 @@
+division_template = {
+	name = "Peasant Militia"
+	is_locked = no
+
+	division_names_group = NAG_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "Nagoya Militia"
+		location = 10125
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Shizuoka Militia"
+		location = 7087
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Kanazawa Militia"
+		location = 10032
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Niigata Militia"
+		location = 1117
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 7157
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 10015
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 11989
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 7187
+		division_template = "Peasant Militia"
+	}
+}

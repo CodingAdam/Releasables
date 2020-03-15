@@ -1131,6 +1131,97 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
+						rule = jap_fragmentation_status
+						option = JAP_FRAGMENTED
+					}
+				}
+				JAP = {
+					release = RYU
+					release = KYU
+					release = HIR
+					release = NAG
+					release = TOK
+					release = AOM
+					release = MAN
+					release = CHI
+					release = SAK
+					release = GUM
+					release = FSM
+					release = KOR
+					release = KYO
+				}
+				TOK = {
+					annex_country = {
+						target = JAP
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = jap_fragmentation_status
+						option = JAP_AND_TAI_FRAGMENTED
+					}
+				}
+				JAP = {
+					release = RYU
+					release = KYU
+					release = HIR
+					release = NAG
+					release = TOK
+					release = AOM
+					release = TAI
+					release = MAN
+					release = SAK
+					release = GUM
+					release = FSM
+					release = KOR
+					release = KYO
+					release = CHI
+				}
+				TOK = {
+					annex_country = {
+						target = JAP
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = jap_fragmentation_status
+						option = JAP_SENGOKU_JIDAI
+					}
+				}
+				JAP = {
+					release = RYU
+					release = KYU
+					release = HIR
+					release = NAG
+					release = TOK
+					release = AOM
+					release = TAI
+					release = MAN
+					release = SAK
+					release = GUM
+					release = FSM
+					release = KOR
+					release = KYO
+					release = CHI
+				}
+				TOK = {
+					annex_country = {
+						target = JAP
+					}
+					puppet = KYU
+					puppet = HIR
+					puppet = KYO
+					puppet = NAG
+					puppet = AOM
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
 						rule = ger_fragmentation_status
 						option = GER_FRAGMENTED
 					}
