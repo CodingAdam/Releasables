@@ -38,4 +38,29 @@ units = {
 		location = 4027
 		division_template = "Peasant Militia"
 	}
+	division = {
+		name = "Nagasaki Militia"
+		location = 9950
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Kokura Militia"
+		location = 1025
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Kagoshima Militia"
+		location = 4102
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 11925
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 4027
+		division_template = "Peasant Militia"
+	}
 }

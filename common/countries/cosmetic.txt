@@ -290,4 +290,12 @@ JAP = {
 	color = rgb{ 255 191 191 }
 	color_ui = rgb{ 255 191 191 }
 }
+northjapan = {
+	color = rgb{ 102 110 165 }
+	color_ui = rgb{ 102 110 165 }
+}
+southjapan = {
+	color = rgb{ 144 77 77 }
+	color_ui = rgb{ 144 77 77 }
+}
 

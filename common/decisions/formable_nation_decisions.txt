@@ -3409,6 +3409,118 @@ form_siberia_category = {
 }
 form_japan_category = {
 
+	form_southjapan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = KYU
+				original_tag = HIR
+				original_tag = KYO
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_southjapan_required_states_tt
+				controls_state = 528
+				controls_state = 529
+				controls_state = 530
+				controls_state = 531
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KYU
+				original_tag = HIR
+				original_tag = KYO
+			}
+			NOT = { has_global_flag = form_southjapan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = southjapan
+			custom_effect_tooltip = form_eu_southjapan_coring_states_tt
+			hidden_effect = {
+				528 = { add_core_of = ROOT }
+				529 = { add_core_of = ROOT }
+				530 = { add_core_of = ROOT }
+				531 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_southjapan_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	form_northjapan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = TOK
+				original_tag = NAG
+				original_tag = AOM
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_northjapan_required_states_tt
+				controls_state = 532
+				controls_state = 533
+				controls_state = 534
+				controls_state = 535
+				controls_state = 536
+				controls_state = 282
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = TOK
+				original_tag = NAG
+				original_tag = AOM
+			}
+			NOT = { has_global_flag = form_northjapan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = northjapan
+			custom_effect_tooltip = form_eu_northjapan_coring_states_tt
+			hidden_effect = {
+				532 = { add_core_of = ROOT }
+				533 = { add_core_of = ROOT }
+				534 = { add_core_of = ROOT }
+				535 = { add_core_of = ROOT }
+				536 = { add_core_of = ROOT }
+				282 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_northjapan_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	form_japan = {
 
 		icon = generic_form_nation

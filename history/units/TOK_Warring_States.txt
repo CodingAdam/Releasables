@@ -14,13 +14,38 @@ division_template = {
 
 units = {
 	division = {
-		name = "Tokyo 1st Militia"
+		name = "Tokyo Militia"
 		location = 1182
 		division_template = "Peasant Militia"
 	}
 	division = {
-		name = "Tokyo 2nd Militia"
+		name = "Tokyo Militia"
 		location = 9998
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 11908
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 4000
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 1113
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 7016
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Local Militia"
+		location = 7016
 		division_template = "Peasant Militia"
 	}
 	division = {

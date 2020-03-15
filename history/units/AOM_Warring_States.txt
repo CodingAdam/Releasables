@@ -33,4 +33,24 @@ units = {
 		location = 12421
 		division_template = "Peasant Militia"
 	}
+	division = {
+		name = "Sendai Militia"
+		location = 7169
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Aomori Militia"
+		location = 6994
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Sapporo Militia"
+		location = 10444
+		division_template = "Peasant Militia"
+	}
+	division = {
+		name = "Asahigawa Militia"
+		location = 12421
+		division_template = "Peasant Militia"
+	}
 }
