@@ -388,5 +388,7 @@ AOM = "countries/Aomori.txt"
 MNN = "countries/Mann.txt"
 KOS = "countries/Kosovo.txt"
 BNT = "countries/Banat.txt"
+COU = "countries/Courland.txt"
 RYU = "countries/Okinawa.txt"
 TAI = "countries/Taiwan.txt"
+

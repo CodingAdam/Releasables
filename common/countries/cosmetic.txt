@@ -286,6 +286,12 @@ GER = {
 	color = rgb { 102  96  96 }
 	color_ui = rgb { 102  96  96 }
 }
+
+trader = {
+	color = rgb { 128  85  61 }
+	color_ui = rgb { 128  85  61 }
+}
+
 JAP = {
 	color = rgb{ 255 191 191 }
 	color_ui = rgb{ 255 191 191 }
@@ -298,4 +304,5 @@ southjapan = {
 	color = rgb{ 144 77 77 }
 	color_ui = rgb{ 144 77 77 }
 }
+
 
