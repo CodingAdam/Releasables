@@ -4,34 +4,34 @@ ideas = {
 
 	political_advisor = {
 
-		MOT_pot = {
+		MTN_pot = {
 
 			picture = generic_political_advisor_europe_2
 
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { prince_of_terror }
 		}
 
-		MOT_coi = {
+		MTN_coi = {
 
 			picture = generic_political_advisor_europe_1
 				
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { captain_of_industry }
 		}
 
-		MOT_stc = {
+		MTN_stc = {
 
 			picture = generic_political_advisor_europe_3
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { smooth_talking_charmer }
@@ -40,12 +40,12 @@ ideas = {
 
 	army_chief = {
 
-		MOT_aco2 = {
+		MTN_aco2 = {
 
 			picture = generic_army_europe_4
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}		
 			
 			traits = { army_chief_organizational_2 }
@@ -55,12 +55,12 @@ ideas = {
 			}
 		}
 
-		MOT_acd2 = {
+		MTN_acd2 = {
 
 			picture = generic_army_europe_1
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { army_chief_defensive_2 }
@@ -73,12 +73,12 @@ ideas = {
 
 	air_chief = {
 
-		MOT_acr = {
+		MTN_acr = {
 
 			picture = generic_air_europe_3
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { air_chief_reform_2 }
@@ -88,12 +88,12 @@ ideas = {
 			}
 		}
 
-		MOT_acgs = {
+		MTN_acgs = {
 
 			picture = generic_air_europe_3
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { air_chief_ground_support_2 }
@@ -107,12 +107,12 @@ ideas = {
 
 	navy_chief = {
 
-		MOT_nccr = {
+		MTN_nccr = {
 
 			picture = generic_navy_europe_2
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 					
 			traits = { navy_chief_commerce_raiding_2 }
@@ -122,12 +122,12 @@ ideas = {
 			}
 		}
 
-		MOT_ncm = {
+		MTN_ncm = {
 
 			picture = generic_navy_europe_3
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 					
 			traits = { navy_chief_maneuver_2 }
@@ -140,13 +140,13 @@ ideas = {
 
 	high_command = {
 
-		MOT_ar = {
+		MTN_ar = {
 			ledger = army
 
 			picture = generic_army_europe_5
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { army_regrouping_2 }
@@ -156,13 +156,13 @@ ideas = {
 			}
 		}
 		
-		MOT_ai2 = {
+		MTN_ai2 = {
 			ledger = army
 
 			picture = generic_army_europe_3
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { army_infantry_2 }
@@ -172,13 +172,13 @@ ideas = {
 			}
 		}
 
-		MOT_aa2 = {
+		MTN_aa2 = {
 			ledger = army
 
 			picture = generic_army_europe_2
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { army_armored_2 }
@@ -188,13 +188,13 @@ ideas = {
 			}
 		}
 
-		MOT_acas = {
+		MTN_acas = {
 			ledger = air
 
 			picture = generic_air_europe_2
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -204,12 +204,12 @@ ideas = {
 			}
 		}
 
-		MOT_ncs = {
+		MTN_ncs = {
 			ledger = navy
 			picture = generic_navy_europe_2
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			traits = { navy_capital_ship_2 }
@@ -221,12 +221,12 @@ ideas = {
 	}	
 
 	theorist = {
-		MOT_mt = {
+		MTN_mt = {
 			ledger = army
 			picture = generic_army_europe_6
 
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			research_bonus = {
@@ -236,12 +236,12 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		MOT_nt = {
+		MTN_nt = {
 			ledger = navy
 			picture = generic_navy_europe_3
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			research_bonus = {
@@ -251,12 +251,12 @@ ideas = {
 			traits = { naval_theorist }
 		}	
 
-		MOT_awt = {
+		MTN_awt = {
 			ledger = air
 			picture = generic_air_europe_2
 			
 			allowed = {
-				original_tag = MOT
+				original_tag = MTN
 			}
 			
 			research_bonus = {
