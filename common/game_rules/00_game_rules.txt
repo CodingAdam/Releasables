@@ -1652,25 +1652,10 @@ tur_fragmentation_status = {
 	}
 }
 
-trader_south_america = {
-	name = "TRADERS_IN_BOLIVIA" 
-	required_dlc = "Man the Guns"
-	group = "RULE_GROUP_GAME_SETUP"
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
-	}
-	option = {
-		name = TRADER_SA
-		text = "RULE_OPTION_SA_TRADER"
-		desc = "RULE_OPTION_SA_TRADER_DESC"
 
-		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
-	}
-}
+
+
 jap_fragmentation_status = {
-	jap_fragmentation_status = {
 	name = "JAP_FRAGMENTATION_STATUS"
 	required_dlc = "Man the Guns"
 	group = "RULE_GROUP_GAME_SETUP"
@@ -1693,5 +1678,23 @@ jap_fragmentation_status = {
 		name = JAP_SENGOKU_JIDAI
 		text = "RULE_OPTION_JAP_SENGOKU_JIDAI"
 		desc = "RULE_OPTION_JAP_SENGOKU_JIDAI_DESC"
+	}
+}
+### Trade Nations
+trader_south_america = {
+	name = "TRADERS_IN_BOLIVIA" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_SA
+		text = "RULE_OPTION_SA_TRADER"
+		desc = "RULE_OPTION_SA_TRADER_DESC"
+
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
 	}
 }
