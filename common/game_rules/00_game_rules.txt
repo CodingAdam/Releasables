@@ -1694,7 +1694,70 @@ trader_south_america = {
 		name = TRADER_SA
 		text = "RULE_OPTION_SA_TRADER"
 		desc = "RULE_OPTION_SA_TRADER_DESC"
-
-		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+}
+trader_central_america = {
+	name = "TRADERS_IN_MEXICO" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_CA_1
+		text = "RULE_OPTION_CA_TRADER_1"
+		desc = "RULE_OPTION_CA_TRADER_DESC_1"
+	}
+	option = {
+		name = TRADER_CA_2
+		text = "RULE_OPTION_CA_TRADER_2"
+		desc = "RULE_OPTION_CA_TRADER_DESC_2"
+	}
+}
+trader_north_america = {
+	name = "TRADERS_IN_AMERICA" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_NA
+		text = "RULE_OPTION_NA_TRADER"
+		desc = "RULE_OPTION_NA_TRADER_DESC"
+	}
+}
+trader_africa = {
+	name = "TRADERS_IN_AFRICA" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_AF
+		text = "RULE_OPTION_AF_TRADER"
+		desc = "RULE_OPTION_AF_TRADER_DESC"
+	}
+}
+trader_middle_east = {
+	name = "TRADERS_IN_MIDDEAST" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_ME
+		text = "RULE_OPTION_ME_TRADER"
+		desc = "RULE_OPTION_ME_TRADER_DESC"
 	}
 }

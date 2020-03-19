@@ -359,12 +359,22 @@
  KUR_INDEPENDENCE_STATUS:0 "Kurdistan Independence Status"
  RULE_OPTION_KUR_INDEPENDENT_DESC:0 "All countries owning Kurdish core territory relinquish control over to Kurdistan."
  RULE_OPTION_KUR_INDEPENDENT:0 "Kurdistan Independent"
-
+ ### Traders
  TRADERS_IN_BOLIVIA:0 "Trader Nations In South America Status"
- RULE_OPTION_DEFAULT_TRADER_DESC:0 "Nobody's Trading in South America."
+ RULE_OPTION_DEFAULT_TRADER_DESC:0 "Nobody's Trading"
  RULE_OPTION_SA_TRADER:0 "Traders in South America"
  RULE_OPTION_SA_TRADER_DESC:0 "A new neutral nation comprising all of South America"
-
+ TRADERS_IN_MEXICO:0 "Trader Nations In Central America and the Caribbean Status"   
+ RULE_OPTION_CA_TRADER_1:0 "Traders in Central America and the Caribbean"
+ RULE_OPTION_CA_TRADER_DESC_1:0 "A new neutral nation comprising all of Central America and Caribbean"
+ RULE_OPTION_CA_TRADER_2:0 "Traders in just Central America"
+ RULE_OPTION_CA_TRADER_DESC_2:0 "A new neutral nation comprising all of Central America"
+ TRADERS_IN_AMERICA:0 "Trader Nations In North America Status"
+ RULE_OPTION_NA_TRADER:0 "Traders in North America"
+ RULE_OPTION_NA_TRADER_DESC:0 "A new neutral nation comprising all of North America"
+ TRADERS_IN_AFRICA:0 "Trader Nations In Africa"
+ RULE_OPTION_AF_TRADER:0 "Traders in Africa"
+ RULE_OPTION_AF_TRADER_DESC:0 "A new neutral nation comprising all of Africa"
  ### Japan
  JAP_FRAGMENTATION_STATUS:0 "Japan Fragmentation Status"
  RULE_OPTION_JAP_FRAGMENTED_DESC:0 "Japan is fragmented into its constituent parts."
@@ -373,7 +383,7 @@
  RULE_OPTION_JAP_AND_TAI_FRAGMENTED:0 "Japan Fragmented and Taiwan Independent"
  RULE_OPTION_JAP_SENGOKU_JIDAI_DESC:0 "Are you prepared to fight for your honor, your life, and the Shogun?"
  RULE_OPTION_JAP_SENGOKU_JIDAI:0 "Sengoku Jidai"
-
+    
 
  
  

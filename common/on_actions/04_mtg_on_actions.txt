@@ -1335,9 +1335,185 @@ on_actions = {
 					annex_country {target = ECU transfer_troops = no}
 					annex_country {target = COL transfer_troops = no}
 					annex_country {target = VEN transfer_troops = no}
-					set_state_owner = 310
-					set_state_owner = 309
-					set_state_owner = 687
+					transfer_state = 310
+					transfer_state = 309
+					transfer_state = 687
+					transfer_state = 270
+					transfer_state = 299
+					transfer_state = 720
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = trader_central_america
+						option = TRADER_CA_1
+					}
+				}
+				HON = {
+					set_cosmetic_tag = trader
+					annex_country {target = ELS transfer_troops = no}
+					annex_country {target = NIC transfer_troops = no}
+					annex_country {target = COS transfer_troops = no}
+					annex_country {target = GUA transfer_troops = no}
+					annex_country {target = PAN transfer_troops = no}
+					annex_country {target = CUB transfer_troops = no}
+					annex_country {target = HAI transfer_troops = no}
+					annex_country {target = DOM transfer_troops = no}
+					transfer_state = 311
+					transfer_state = 689
+					transfer_state = 690
+					transfer_state = 685
+					transfer_state = 686
+					transfer_state = 693
+					transfer_state = 695
+					transfer_state = 691
+					transfer_state = 692
+					transfer_state = 694
+					transfer_state = 308
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = trader_central_america
+						option = TRADER_CA_2
+					}
+				}
+				HON = {
+					set_cosmetic_tag = trader
+					annex_country {target = ELS transfer_troops = no}
+					annex_country {target = NIC transfer_troops = no}
+					annex_country {target = COS transfer_troops = no}
+					annex_country {target = GUA transfer_troops = no}
+					annex_country {target = PAN transfer_troops = no}
+					transfer_state = 311
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = trader_north_america
+						option = TRADER_NA
+					}
+				}
+				MEX = {
+					set_cosmetic_tag = trader
+					annex_country {target = USA transfer_troops = no}
+					annex_country {target = MEX transfer_troops = no}
+					transfer_state = 331
+					transfer_state = 332
+					transfer_state = 730
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = trader_africa
+						option = TRADER_AF
+					}
+				}
+				BEL = {
+					release = RWA
+				}
+				RWA = {
+					set_cosmetic_tag = trader
+					annex_country = {target = ETH transfer_troops = no}
+					annex_country = {target = LIB transfer_troops = no}
+					transfer_state = 541
+					transfer_state = 681
+					transfer_state = 275
+					transfer_state = 542
+					transfer_state = 545
+					transfer_state = 544
+					transfer_state = 540
+					transfer_state = 771
+					transfer_state = 295
+					transfer_state = 770
+					transfer_state = 546
+					transfer_state = 796
+					transfer_state = 538
+					transfer_state = 718
+					transfer_state = 769
+					transfer_state = 548
+					transfer_state = 559
+					transfer_state = 269
+					transfer_state = 268
+					transfer_state = 550
+					transfer_state = 549
+					transfer_state = 539
+					transfer_state = 719
+					transfer_state = 543
+					transfer_state = 708
+					transfer_state = 713
+					transfer_state = 709
+					transfer_state = 706 
+					transfer_state = 707
+					transfer_state = 547
+					transfer_state = 297
+					transfer_state = 773
+					transfer_state = 660
+					transfer_state = 767 
+					transfer_state = 558
+					transfer_state = 776
+					transfer_state = 777
+					transfer_state = 274
+					transfer_state = 779
+					transfer_state = 780
+					transfer_state = 700
+					transfer_state = 296
+					transfer_state = 272
+					transfer_state = 701
+					transfer_state = 557
+					transfer_state = 774
+					transfer_state = 775
+					transfer_state = 273
+					transfer_state = 663
+					transfer_state = 662
+					transfer_state = 661
+					transfer_state = 451
+					transfer_state = 450
+					transfer_state = 449 
+					transfer_state = 448
+					transfer_state = 665 
+					transfer_state = 458
+					transfer_state = 462
+					transfer_state = 461
+					transfer_state = 704
+					transfer_state = 703
+					transfer_state = 702
+					transfer_state = 178
+					transfer_state = 699 
+					transfer_state = 772
+					transfer_state = 551
+					transfer_state = 782
+					transfer_state = 786
+					transfer_state = 778
+					transfer_state = 781
+					transfer_state = 556
+					transfer_state = 515
+					transfer_state = 514
+					transfer_state = 513
+					transfer_state = 459
+					transfer_state = 513
+					transfer_state = 460
+					transfer_state = 290
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = trader_north_america
+						option = TRADER_NA
+					}
+				}
+				MEX = {
+					set_cosmetic_tag = trader
+					annex_country {target = USA transfer_troops = no}
+					annex_country {target = MEX transfer_troops = no}
+					transfer_state = 331
+					transfer_state = 332
+					transfer_state = 730
 				}
 			}
 		}

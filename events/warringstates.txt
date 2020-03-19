@@ -8,13 +8,11 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_march
 	
 	is_triggered_only = no
-
- 	trigger = 
-	{
+	fire_only_once = yes
+ 	trigger = {
 		tag = TOK
-		AND = 
-		{
-			date = 1936.6.1
+		AND = {
+			date > 1936.6.1
 			has_game_rule = {
 					rule = jap_fragmentation_status
 					option = JAP_SENGOKU_JIDAI
@@ -120,15 +118,13 @@ country_event = {
 	title = warringstates.2.t
 	desc = warringstates.2.d
 	picture = GFX_report_event_chinese_soldiers_march
-	
+	fire_only_once = yes
 	is_triggered_only = no
 
- 	trigger = 
-	{
+ 	trigger = {
 		tag = TOK
-		AND = 
-		{
-			date = 1936.3.1
+		AND = {
+			date > 1936.3.1
 			has_game_rule = {
 					rule = jap_fragmentation_status
 					option = JAP_SENGOKU_JIDAI
@@ -162,9 +158,8 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_march
 	
 	is_triggered_only = no
-
- 	trigger = 
-	{
+	fire_only_once = yes
+ 	trigger = {
 		OR = {
 			tag = KYU
 			tag = HIR
@@ -172,9 +167,8 @@ country_event = {
 			tag = NAG
 			tag = AOM
 			}
-		AND = 
-		{
-			date = 1936.1.2
+		AND = {
+			date > 1936.1.2
 			has_game_rule = {
 					rule = jap_fragmentation_status
 					option = JAP_SENGOKU_JIDAI
