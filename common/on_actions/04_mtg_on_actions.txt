@@ -846,7 +846,7 @@ on_actions = {
 					release = DON
 					release = KUB
 					release = CHE
-					release = MOT
+					release = MTN
 					release = DAG
 				}
 			}
