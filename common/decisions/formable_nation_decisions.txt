@@ -2074,7 +2074,7 @@ form_russia_category = {
 				original_tag = KZN
 				original_tag = DON
 				original_tag = KUB
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
@@ -2152,7 +2152,7 @@ form_russia_category = {
 				original_tag = KZN
 				original_tag = DON
 				original_tag = KUB
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
@@ -2246,7 +2246,7 @@ form_russia_category = {
 				original_tag = KZN
 				original_tag = DON
 				original_tag = KUB
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
@@ -2300,7 +2300,7 @@ form_russia_category = {
 				original_tag = KZN
 				original_tag = DON
 				original_tag = KUB
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
@@ -2374,7 +2374,7 @@ form_russia_category = {
 				original_tag = KZN
 				original_tag = DON
 				original_tag = KUB
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
@@ -2435,7 +2435,7 @@ form_russia_category = {
 				original_tag = KZN
 				original_tag = DON
 				original_tag = KUB
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
@@ -2537,7 +2537,7 @@ form_caucasus_category = {
 				original_tag = GEO
 				original_tag = ARM
 				original_tag = AZR
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
@@ -2558,7 +2558,7 @@ form_caucasus_category = {
 				original_tag = GEO
 				original_tag = ARM
 				original_tag = AZR
-				original_tag = MTN
+				original_tag = MOT
 				original_tag = CHE
 				original_tag = DAG
 			}
