@@ -1537,10 +1537,10 @@ eng_fragmentation_status = {
 		text = "RULE_OPTION_DEFAULT"
 		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
 	}
-	default = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	option = {
+		name = ENG_FRAGMENTED
+		text = "RULE_OPTION_ENG_FRAGMENTED"
+		desc = "RULE_OPTION_ENG_FRAGMENTED_DESC"
 	}
 	option = {
 		name = ENG_FRAGMENTED_2
@@ -1892,6 +1892,11 @@ trader_africa = {
 		text = "RULE_OPTION_AF_TRADER"
 		desc = "RULE_OPTION_AF_TRADER_DESC"
 	}
+	option = {
+		name = TRADER_AF_2
+		text = "RULE_OPTION_AF_2_TRADER"
+		desc = "RULE_OPTION_AF_2_TRADER_DESC"
+	}
 }
 trader_middle_east = {
 	name = "TRADERS_IN_MIDDEAST" 
@@ -1906,5 +1911,75 @@ trader_middle_east = {
 		name = TRADER_ME
 		text = "RULE_OPTION_ME_TRADER"
 		desc = "RULE_OPTION_ME_TRADER_DESC"
+	}
+}
+trader_europe = {
+	name = "TRADERS_IN_EUROPE" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_EU
+		text = "RULE_OPTION_EU_TRADER"
+		desc = "RULE_OPTION_EU_TRADER_DESC"
+	}
+}
+trader_russia = {
+	name = "TRADERS_IN_RUSSIA" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_RS
+		text = "RULE_OPTION_RS_TRADER"
+		desc = "RULE_OPTION_RS_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_RS_2
+		text = "RULE_OPTION_RS_2_TRADER"
+		desc = "RULE_OPTION_RS_2_TRADER_DESC"
+	}
+}
+trader_east_asia = {
+	name = "TRADERS_IN_ASIA" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_EA
+		text = "RULE_OPTION_EA_TRADER"
+		desc = "RULE_OPTION_EA_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_EA_2
+		text = "RULE_OPTION_EA_2_TRADER"
+		desc = "RULE_OPTION_EA_2_TRADER_DESC"
+	}
+}
+trader_oceania = {
+	name = "TRADERS_IN_OCEANIA" 
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_TRADER_DESC"
+	}
+	option = {
+		name = TRADER_OC
+		text = "RULE_OPTION_OC_TRADER"
+		desc = "RULE_OPTION_OC_TRADER_DESC"
 	}
 }
