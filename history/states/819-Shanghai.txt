@@ -1,0 +1,35 @@
+state={
+	id=819
+	name="STATE_819"
+	provinces={
+		7014 10034 12052 12076 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SHN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			7014 5 
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+	manpower=3333000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}
