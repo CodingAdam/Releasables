@@ -1,0 +1,84 @@
+﻿l_english:
+ ### Germany
+ GER_FRAGMENTATION_STATUS:0 "Germany Fragmentation Status"
+ RULE_OPTION_GER_FRAGMENTED:0 "Germany Fragmented"
+ RULE_OPTION_GER_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the German Reich are released as free and independent nations upon game-start."
+ ### Italy
+ ITA_FRAGMENTATION_STATUS:0 "Italy Fragmentation Status"
+ RULE_OPTION_ITA_FRAGMENTED:0 "Italy Fragmented"
+ RULE_OPTION_ITA_FRAGMENTED_DESC:0 "All releasable constituent nations comprising Italy are released as free and independent nations upon game-start."
+ ### USA
+ USA_FRAGMENTATION_STATUS:0 "United States Fragmentation Status"
+ RULE_OPTION_USA_FRAGMENTED:0 "United States Fragmented"
+ RULE_OPTION_USA_FRAGMENTED_DESC:0 "All releasable constituent states comprising the United States are released as free and independent nations upon game-start."
+ ### France
+ FRA_FRAGMENTATION_STATUS:0 "France Fragmentation Status"
+ RULE_OPTION_FRA_FRAGMENTED:0 "France Fragmented"
+ RULE_OPTION_FRA_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the French Republic are released as free and independent nations upon game-start."
+ ### Romania
+ ROM_FRAGMENTATION_STATUS:0 "Romania Fragmentation Status"
+ RULE_OPTION_ROM_FRAGMENTED:0 "Romania Fragmented"
+ RULE_OPTION_ROM_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the Kingdom of Romania are released as free and independent nations upon game-start."
+ ### Spain
+ SPR_FRAGMENTATION_STATUS:0 "Spain Fragmentation Status"
+ RULE_OPTION_SPR_FRAGMENTED:0 "Spain Fragmentated"
+ RULE_OPTION_SPR_FRAGMENTED_DESC:0 "All releasable constituent nations comprising Spain are released as free and independent nations upon game-start."
+ ### Poland
+ POL_FRAGMENTATION_STATUS:0 "Poland Fragmentation Status"
+ RULE_OPTION_POL_FRAGMENTED:0 "Poland Fragmented"
+ RULE_OPTION_POL_FRAGMENTED_DESC:0 "All releasable constituent nations comprising Poland are released as free and independent nations upon game-start."
+ ### Netherlands
+ HOL_FRAGMENTATION_STATUS:0 "Netherlands Fragmentation Status"
+ RULE_OPTION_HOL_FRAGMENTED:0 "Netherlands Fragmented"
+ RULE_OPTION_HOL_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the Netherlands are released as free and independent nations upon game-start."
+ ### Belgium
+ BEL_FRAGMENTATION_STATUS:0 "Belgium Fragmentation Status"
+ RULE_OPTION_BEL_FRAGMENTED:0 "Belgium Fragmented"
+ RULE_OPTION_BEL_FRAGMENTED_DESC:0 "All releasable constituent nations comprising Belgium are released as free and independent nations upon game-start."
+ ### England
+ RULE_OPTION_ENG_FRAGMENTED_2:0 "United Kingdom and England Fragmented"
+ RULE_OPTION_ENG_FRAGMENTED_DESC_2:0 "All releasable constituent nations comprising the United Kingdom and England are released as free and independent nations upon game-start."
+ ### Greece
+ GRE_FRAGMENTATION_STATUS:0 "Greece Fragmentation Status"
+ RULE_OPTION_GRE_FRAGMENTED_DESC:0 "Greece is fragmented into their constituent parts."
+ RULE_OPTION_GRE_FRAGMENTED:0 "Greece Fragmented"
+ ### Czechoslovakia
+ CZH_FRAGMENTATION_STATUS:0 "Czechoslovakia Fragmentation Status"
+ RULE_OPTION_CZH_FRAGMENTED_DESC:0 "Czechoslovakia is fragmented into their constituent parts."
+ RULE_OPTION_CZH_FRAGMENTED:0 "Czechoslovakia Fragmented"
+ ### Turkey
+ TUR_FRAGMENTATION_STATUS:0 "Turkey Fragmentation Status"
+ RULE_OPTION_TUR_FRAGMENTED_DESC:0 "Turkey is fragmented into its constituent parts."
+ RULE_OPTION_TUR_FRAGMENTED:0 "Turkey Fragmented"
+ ### Kurdistan
+ KUR_INDEPENDENCE_STATUS:0 "Kurdistan Independence Status"
+ RULE_OPTION_KUR_INDEPENDENT_DESC:0 "All countries owning Kurdish core territory relinquish control over to Kurdistan."
+ RULE_OPTION_KUR_INDEPENDENT:0 "Kurdistan Independent"
+ ### Traders
+ TRADERS_IN_BOLIVIA:0 "Trader Nations In South America Status"
+ RULE_OPTION_DEFAULT_TRADER_DESC:0 "Nobody's Trading"
+ RULE_OPTION_SA_TRADER:0 "Traders in South America"
+ RULE_OPTION_SA_TRADER_DESC:0 "A new neutral nation comprising all of South America"
+ TRADERS_IN_MEXICO:0 "Trader Nations In Central America and the Caribbean Status"   
+ RULE_OPTION_CA_TRADER_1:0 "Traders in Central America and the Caribbean"
+ RULE_OPTION_CA_TRADER_DESC_1:0 "A new neutral nation comprising all of Central America and Caribbean"
+ RULE_OPTION_CA_TRADER_2:0 "Traders in just Central America"
+ RULE_OPTION_CA_TRADER_DESC_2:0 "A new neutral nation comprising all of Central America"
+ TRADERS_IN_AMERICA:0 "Trader Nations In North America Status"
+ RULE_OPTION_NA_TRADER:0 "Traders in North America"
+ RULE_OPTION_NA_TRADER_DESC:0 "A new neutral nation comprising all of North America"
+ TRADERS_IN_AFRICA:0 "Trader Nations In Africa"
+ RULE_OPTION_AF_TRADER:0 "Traders in Africa"
+ RULE_OPTION_AF_TRADER_DESC:0 "A new neutral nation comprising all of Africa"
+ ### Japan
+ JAP_FRAGMENTATION_STATUS:0 "Japan Fragmentation Status"
+ RULE_OPTION_JAP_FRAGMENTED_DESC:0 "Japan is fragmented into its constituent parts."
+ RULE_OPTION_JAP_FRAGMENTED:0 "Japan Fragmented"
+ RULE_OPTION_JAP_AND_TAI_FRAGMENTED_DESC:0 "Japan is fragmented into its constituent parts, and Taiwan is made independent."
+ RULE_OPTION_JAP_AND_TAI_FRAGMENTED:0 "Japan Fragmented and Taiwan Independent"
+ RULE_OPTION_JAP_SENGOKU_JIDAI_DESC:0 "Are you prepared to fight for your honor, your life, and the Shogun?"
+ RULE_OPTION_JAP_SENGOKU_JIDAI:0 "Sengoku Jidai"
+    
+
+ 
+ 
