@@ -1531,8 +1531,8 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
-						rule = trader_north_america
-						option = TRADER_NA
+						rule = trader_africa
+						option = TRADER_AF_2
 					}
 				}
 				BEL = {
@@ -1607,7 +1607,6 @@ on_actions = {
 					transfer_state = 781
 					transfer_state = 556
 					transfer_state = 515
-					transfer_state = 513
 				}
 			}
 			if = {
