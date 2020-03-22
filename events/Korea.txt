@@ -66,7 +66,6 @@ country_event = {
 				525 = { add_core_of = NRK }
 				525 = { remove_core_of = KOR }
 				527 = { remove_core_of = KOR }
-				NRK = { add_core_of = 525 }
 			}
 		}
 }
