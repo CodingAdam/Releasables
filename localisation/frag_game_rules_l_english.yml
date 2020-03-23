@@ -99,6 +99,12 @@
  RULE_OPTION_JAP_AND_TAI_FRAGMENTED:0 "Japan Fragmented and Taiwan Independent"
  RULE_OPTION_JAP_SENGOKU_JIDAI_DESC:0 "Are you prepared to fight for your honor, your life, and the Shogun?"
  RULE_OPTION_JAP_SENGOKU_JIDAI:0 "Sengoku Jidai"
+ ### Russia
+ SOV_FRAGMENTATION_STATUS:0 "Soviet Union Fragmentation Status"
+ RULE_OPTION_SOV_FRAGMENTED:0 "Soviet Union Fragmented"
+ RULE_OPTION_SOV_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the Soviet Union are released as free and independent nations upon game-start."
+ RULE_OPTION_RUS_FRAGMENTED:0 "Russia and Soviet Union Fragmented"
+ RULE_OPTION_RUS_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the Soviet Union and Russia are released as free and independent nations upon game-start."
     
 
  

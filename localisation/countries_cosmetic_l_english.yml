@@ -857,16 +857,6 @@
  sgc_democratic_ADJ:0 "German"
  sgc_fascism_ADJ:0 "German"
  sgc_neutrality_ADJ:0 "German"
- #####
- SOV_IST_subject_democratic:0 "Tsargrad Krai"
- SOV_IST_subject_neutrality:0 "Tsargrad"
- SOV_IST_subject_communism:0 "SSR of Tsargrad"
- SOV_IST_subject_fascism:0 "Protectorate of Tsargrad"
- SOV_IST_subject_democratic_DEF:0 "the Tsargrad Krai"
- SOV_IST_subject_neutrality_DEF:0 "Tsargrad"
- SOV_IST_subject_communism_DEF:0 "the SSR of Tsargrad"
- SOV_IST_subject_fascism_DEF:0 "the Protectorate of Tsargrad"
- #####
  dkn_communism:0 "Don-Kuban People's Republic"
  dkn_democratic:0 "Don-Kuban Union"
  dkn_fascism:0 "Greater Kossak Empire"
@@ -963,4 +953,14 @@
  trader_democratic_ADJ:0 "Villager"
  trader_fascism_ADJ:0 "Villager"
  trader_neutrality_ADJ:0 "Villager"
+######
+ IST_SOV_autonomy_dominion:0 "Tsargrad"
+ IST_SOV_autonomy_colony:0 "Tsargrad"
+ IST_SOV_autonomy_puppet:0 "Tsargrad"
+ IST_SOV_autonomy_integrated_puppet:0 "Tsargrad"
+ IST_SOV_autonomy_dominion_DEF:0 "Tsargrad"
+ IST_SOV_autonomy_colony_DEF:0 "Tsargrad"
+ IST_SOV_autonomy_puppet_DEF:0 "Tsargrad"
+ IST_SOV_autonomy_integrated_puppet_DEF:0 "Tsargrad"
+#####
  
