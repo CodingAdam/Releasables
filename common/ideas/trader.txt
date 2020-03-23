@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		disarmed_nation = {
+		super_disarmed_nation = {
 			picture = idea_generic_army_problems
 			allowed = {
 				always = no
@@ -32,7 +32,7 @@ ideas = {
 				war_support_factor = -1
 				generate_wargoal_tension = 1000
 				political_power_gain = -10
-				foreign_subversive_activites = -100000
+				foreign_subversive_activites = 1000
 			}
 		
 		}
