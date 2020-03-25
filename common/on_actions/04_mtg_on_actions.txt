@@ -1241,6 +1241,8 @@ on_actions = {
 					release = MEK
 					release = SIL
 				}
+				42 = { is_demilitarized_zone = no }
+				51 = { is_demilitarized_zone = no }
 				PRE = {
 					annex_country = {
 						target = GER
@@ -1390,7 +1392,7 @@ on_actions = {
 						option = TRADER_CA_2
 					}
 				}
-				HON = {
+				PAN = {
 					add_ideas = super_disarmed_nation
 					add_ideas = disorganized_government
 					add_ideas = neutrality_idea
@@ -1401,7 +1403,7 @@ on_actions = {
 					annex_country {target = NIC transfer_troops = no}
 					annex_country {target = COS transfer_troops = no}
 					annex_country {target = GUA transfer_troops = no}
-					annex_country {target = PAN transfer_troops = no}
+					annex_country {target = HON transfer_troops = no}
 					transfer_state = 311
 				}
 			}
@@ -1412,7 +1414,10 @@ on_actions = {
 						option = TRADER_NA
 					}
 				}
-				MEX = {
+				USA = {
+					release = CAL
+				}
+				CAL = {
 					add_ideas = super_disarmed_nation
 					add_ideas = disorganized_government
 					add_ideas = neutrality_idea

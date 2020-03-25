@@ -8,7 +8,7 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_march
 	
 	is_triggered_only = no
-	fire_only_once = yes
+	fire_only_once = no
  	trigger = {
 		tag = TOK
 		AND = {
@@ -118,7 +118,7 @@ country_event = {
 	title = warringstates.2.t
 	desc = warringstates.2.d
 	picture = GFX_report_event_chinese_soldiers_march
-	fire_only_once = yes
+	fire_only_once = no
 	is_triggered_only = no
 
  	trigger = {
@@ -158,7 +158,7 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_march
 	
 	is_triggered_only = no
-	fire_only_once = yes
+	fire_only_once = no
  	trigger = {
 		OR = {
 			tag = KYU
