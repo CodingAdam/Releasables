@@ -1,4 +1,4 @@
-
+﻿
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
@@ -422,5 +422,11 @@ southjapan = {
 	color = rgb{ 144 77 77 }
 	color_ui = rgb{ 144 77 77 }
 }
-
-
+gAlb = {
+	color = rgb{ 154 12 111 }
+	color_ui = rgb{ 154 12 111 }
+}
+gBul = {
+	color = rgb{ 33 144 77 }
+	color_ui = rgb{ 33 144 77 }
+}

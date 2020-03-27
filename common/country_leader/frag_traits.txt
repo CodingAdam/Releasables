@@ -1,0 +1,11 @@
+leader_traits = {
+	king_of_prussia = {
+		random = no
+		justify_war_goal_time = -0.10
+		generate_wargoal_tension = -0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

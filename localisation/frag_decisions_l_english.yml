@@ -133,6 +133,14 @@
  form_intermarium:0 "Unite the §GIntermarium§!"
  form_eu_inter_required_states_tt:0 "Controls all states in §YEstonia, Latvia, Lithuania, East Prussia, Poland, Belarus, Ukraine, Crimea, Slovakia, Romania, Hungary, Yugoslavia, Bulgaria, and Greece§!.\n"
  form_eu_inter_coring_states_tt:0 "Gain cores on all states in §YEstonia, Latvia, Lithuania, East Prussia, Poland, Belarus, Ukraine, Crimea, Slovakia, Romania, Hungary, Yugoslavia, Bulgaria, and Greece§!.\n"
+ form_gBul_category:0 "Greater Bulgaria!"
+ form_gBul:0 "Form §GGreater Bulgaria§!."
+ form_eu_gBul_required_states_tt:0 "Controls §YMacedonia, Thrace, and Dobrudja§!.\n"
+ form_eu_gBul_coring_states_tt:0 "Gains cores on all states in §YMacedonia, Thrace, and Dobrudja§!. \nGain claims on §YIstanbul, and Central Macedonia§!.
+ form_gAlb_category:0 "Greater Albania!"
+ form_gAlb:0 "Form §GGreater Albania§!."
+ form_eu_alb_required_states_tt:0 "Controls §YKosovo, Western Macedonia, and Montenegro§!.\n"
+ form_eu_gAlb_coring_states_tt:0 "Gains cores on §YKosovo, Western Macedonia, and Montenegro§!. \n"
  ### USA
  form_newEngland_category:0 "Recreate New England!"
  form_newEng:0 "Unify §GNew England§!"

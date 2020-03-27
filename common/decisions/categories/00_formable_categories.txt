@@ -401,3 +401,15 @@ form_japan_category = {
 	allowed = {
 	}
 }
+form_gAlb_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_gBul_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
