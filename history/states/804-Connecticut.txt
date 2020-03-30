@@ -7,12 +7,16 @@ state={
 		buildings = {
 			infrastructure = 9
 			industrial_complex = 2
+			9832 = {
+				naval_base = 7
+			}
 		}
 		add_core_of = USA
 		add_core_of = CNE
 		victory_points = {
 			6909 3 
 		}
+		
 	}	
 	
 	provinces={
