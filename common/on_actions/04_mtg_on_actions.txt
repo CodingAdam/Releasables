@@ -928,9 +928,58 @@ on_actions = {
 					release = GUI
 					release = SCH
 					release = TIA
+					release = NGO
+					release = XIA
+					release = TAI
 				}
 				PRC = {
 					transfer_state = 744
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = chi_fragmentation_status
+						option = free_HGK
+					}
+				}
+				CHI = {
+					release = HEI
+					release = SHA
+					release = QIN
+					release = HEN
+					release = JIA
+					release = ANH
+					release = NAN
+					release = SHN
+					release = ZHE
+					release = FUJ
+					release = JNG
+					release = TIB
+					release = HUB
+					release = HNN
+					release = GUI
+					release = SCH
+					release = TIA
+					release = NGO
+					release = XIA
+					release = TAI
+				}
+				PRC = {
+					transfer_state = 744
+				}
+				ENG = {
+					release = HGK
+				}
+				POR = {
+					release = MCU
+				}
+				FRA = {
+					release = GXC
+				}
+				GXC = {
+					release = HGK
+					release = MCU
 				}
 			}
 			if = {

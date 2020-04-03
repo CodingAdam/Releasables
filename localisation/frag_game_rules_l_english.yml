@@ -109,5 +109,7 @@
  CHI_FRAGMENTATION_STATUS:0 "China Fragmentation Status"
  RULE_OPTION_CHI_FRAGMENTED_DESC:0 "China is fragmented into its constituent parts."
  RULE_OPTION_CHI_FRAGMENTED:0 "China Fragmented"
+ RULE_OPTION_FREE_HGK_DESC:0 "China is fragmented into its constituent parts, and Hong Kong and Macau are granted independence."
+ RULE_OPTION_FREE_HGK:0 "China Fragmented and Hong Kong and Macau Independent"
  
  

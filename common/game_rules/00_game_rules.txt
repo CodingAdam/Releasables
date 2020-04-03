@@ -1837,6 +1837,11 @@ chi_fragmentation_status = {
 		text = "RULE_OPTION_CHI_FRAGMENTED"
 		desc = "RULE_OPTION_CHI_FRAGMENTED_DESC"
 	}
+	option = {
+		name = FREE_HGK
+		text = "RULE_OPTION_FREE_HGK"
+		desc = "RULE_OPTION_FREE_HGK_DESC"
+	}
 }
 ### Trade Nations
 trader_south_america = {
