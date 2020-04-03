@@ -105,7 +105,9 @@
  RULE_OPTION_SOV_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the Soviet Union are released as free and independent nations upon game-start."
  RULE_OPTION_RUS_FRAGMENTED:0 "Russia and Soviet Union Fragmented"
  RULE_OPTION_RUS_FRAGMENTED_DESC:0 "All releasable constituent nations comprising the Soviet Union and Russia are released as free and independent nations upon game-start."
-    
-
+ ### China
+ CHI_FRAGMENTATION_STATUS:0 "China Fragmentation Status"
+ RULE_OPTION_CHI_FRAGMENTED_DESC:0 "China is fragmented into its constituent parts."
+ RULE_OPTION_CHI_FRAGMENTED:0 "China Fragmented"
  
  

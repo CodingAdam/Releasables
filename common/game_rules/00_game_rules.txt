@@ -1798,10 +1798,6 @@ tur_fragmentation_status = {
 		desc = "RULE_OPTION_TUR_FRAGMENTED_DESC"
 	}
 }
-
-
-
-
 jap_fragmentation_status = {
 	name = "JAP_FRAGMENTATION_STATUS"
 	required_dlc = "Man the Guns"
@@ -1825,6 +1821,21 @@ jap_fragmentation_status = {
 		name = JAP_SENGOKU_JIDAI
 		text = "RULE_OPTION_JAP_SENGOKU_JIDAI"
 		desc = "RULE_OPTION_JAP_SENGOKU_JIDAI_DESC"
+	}
+}
+chi_fragmentation_status = {
+	name = "CHI_FRAGMENTATION_STATUS"
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = CHI_FRAGMENTED
+		text = "RULE_OPTION_CHI_FRAGMENTED"
+		desc = "RULE_OPTION_CHI_FRAGMENTED_DESC"
 	}
 }
 ### Trade Nations

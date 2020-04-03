@@ -1,0 +1,270 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		FUJ_pot = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		FUJ_coi = {
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		FUJ_stc = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		FUJ_aco2 = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = FUJ
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FUJ_acd2 = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		FUJ_acr = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FUJ_acgs = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		FUJ_nccr = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = FUJ
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FUJ_ncm = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = FUJ
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		FUJ_ar = {
+			ledger = army
+
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		FUJ_ai2 = {
+			ledger = army
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FUJ_aa2 = {
+			ledger = army
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FUJ_acas = {
+			ledger = air
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FUJ_ncs = {
+			ledger = navy
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		FUJ_mt = {
+			ledger = army
+			picture = generic_army_europe_6
+
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		FUJ_nt = {
+			ledger = navy
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		FUJ_awt = {
+			ledger = air
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = FUJ
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

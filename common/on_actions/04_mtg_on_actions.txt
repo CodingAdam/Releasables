@@ -906,6 +906,36 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
+						rule = chi_fragmentation_status
+						option = chi_FRAGMENTED
+					}
+				}
+				CHI = {
+					release = HEI
+					release = SHA
+					release = QIN
+					release = HEN
+					release = JIA
+					release = ANH
+					release = NAN
+					release = SHN
+					release = ZHE
+					release = FUJ
+					release = JNG
+					release = TIB
+					release = HUB
+					release = HNN
+					release = GUI
+					release = SCH
+					release = TIA
+				}
+				PRC = {
+					transfer_state = 744
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
 						rule = yug_fragmentation_status
 						option = YUG_FRAGMENTED
 					}
