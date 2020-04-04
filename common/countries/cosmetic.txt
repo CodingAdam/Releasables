@@ -430,3 +430,19 @@ gBul = {
 	color = rgb{ 33 144 77 }
 	color_ui = rgb{ 33 144 77 }
 }
+CHI = {
+	color = rgb { 255  244  190 }
+	color_ui = rgb { 255  244  190 }
+}
+heaven = {
+	color = rgb { 102  173  255 }
+	color_ui = rgb { 102  173  255 }
+}
+grTibet = {
+	color = rgb { 255  215  0 }
+	color_ui = rgb { 255  215  0 }
+}
+legation = {
+	color = rgb { 150  184  243 }
+	color_ui = rgb { 150  184  243 }
+}

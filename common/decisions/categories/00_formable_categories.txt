@@ -413,3 +413,21 @@ form_gBul_category = {
 	allowed = {
 	}
 }
+form_china_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_heaven_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
+form_grTibet_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}

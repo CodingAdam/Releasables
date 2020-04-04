@@ -974,8 +974,8 @@ on_actions = {
 				POR = {
 					release = MCU
 				}
-				FRA = {
-					release = GXC
+				GXC = {
+					transfer_state = 728
 				}
 				GXC = {
 					release = HGK
