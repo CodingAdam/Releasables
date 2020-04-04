@@ -2628,6 +2628,9 @@ form_yugoslavia_category = {
 				 103 = { add_core_of = ROOT }
 				 109 = { add_core_of = ROOT }
 				 104 = { add_core_of = ROOT }
+				 736 = { add_core_of = ROOT }
+				 817 = { add_core_of = ROOT }
+				 827 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_gcr_flag
@@ -2678,6 +2681,8 @@ form_yugoslavia_category = {
 				controls_state = 819
 				controls_state = 820
 				controls_state = 821
+				controls_state = 827
+				controls_state = 828
 			}
 		}
 
@@ -2689,6 +2694,7 @@ form_yugoslavia_category = {
 				original_tag = BOS
 				original_tag = CRO
 				original_tag = SLV
+				original_tag = KOS
 			}
 			NOT = { has_global_flag = form_yug_flag }
 		}
@@ -2714,6 +2720,9 @@ form_yugoslavia_category = {
 				 819 = { add_core_of = ROOT }
 				 820 = { add_core_of = ROOT }
 				 821 = { add_core_of = ROOT }
+				 827 = { add_core_of = ROOT }
+				 828 = { add_core_of = ROOT }
+				 830 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_yug_flag
@@ -3989,6 +3998,7 @@ form_intermarium_category = {
 				163 = { add_core_of = ROOT }
 				736 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
+				830 = { add_core_of = ROOT } 
 				
 			}
 			hidden_effect = {

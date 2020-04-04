@@ -1001,6 +1001,9 @@ on_actions = {
 					release = MNT
 					
 				}
+				CRO = {
+					transfer_state = 827
+				}
 				SER = {
 					annex_country = {
 						target = YUG
@@ -1134,6 +1137,16 @@ on_actions = {
 				178 = { remove_core_of = SPR }
 				118 = { remove_claim_by = SPR }
 				SPR = {
+					every_owned_state = {
+						limit = {
+							OR = {
+								state = 165
+								state = 171
+								state = 792
+							}
+						}
+						remove_dynamic_modifier = { modifier = autonomous_state }
+					}
 					release = VAL
 					release = NAV
 					release = CAS
@@ -1324,6 +1337,8 @@ on_actions = {
 				}
 				42 = { set_demilitarized_zone = no }
 				51 = { set_demilitarized_zone = no }
+				822 = { set_demilitarized_zone = no }
+				823 = { set_demilitarized_zone = no }
 				PRE = {
 					annex_country = {
 						target = GER
@@ -1981,6 +1996,8 @@ on_actions = {
 					transfer_state = 525
 					transfer_state = 527
 					transfer_state = 537
+					transfer_state = 710
+					transfer_state = 320
 					transfer_state = 710
 				}
 			}
