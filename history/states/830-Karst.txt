@@ -1,0 +1,22 @@
+state={
+	id=830
+	name="STATE_830"
+	provinces={
+		599 11595 
+	}
+	history={
+		victory_points = {
+			599 1 
+		}
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = SLV
+		buildings = {
+			infrastructure = 5
+		}
+
+	}
+	manpower=570903
+	buildings_max_level_factor=1.000
+	state_category=town
+}
