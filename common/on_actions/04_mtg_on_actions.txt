@@ -981,6 +981,11 @@ on_actions = {
 					release = HGK
 					release = MCU
 				}
+				NAN = {
+					annex_country = {
+						target = CHI
+					}
+				}
 			}
 			if = {
 				limit = {
