@@ -431,3 +431,9 @@ form_grTibet_category = {
 	allowed = {
 	}
 }
+form_turan_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}
