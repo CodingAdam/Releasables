@@ -437,3 +437,9 @@ form_turan_category = {
 	allowed = {
 	}
 }
+form_grsyria_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}

@@ -188,3 +188,8 @@
  integrate_coldturks:0 "Integrate the §YSiberian Turks§!"
  integrate_eu_coldturks_required_states_tt:0 "Controls §YKamchatka, Okhotsk, Northeast Siberia, Yakutsk, Kirensk, Yeniseisk, Northwest Siberia, Chita, Bodaybo, Ulan Ude, Irkutsk, Tannu Tuva, Bratsk, and Krasnoyarsk§!."
  integrate_eu_coldturks_coring_states_tt:0 "Gain cores on §YKamchatka, Okhotsk, Northeast Siberia, Yakutsk, Kirensk, Yeniseisk, Northwest Siberia, Chita, Bodaybo, Ulan Ude, Irkutsk, Tannu Tuva, Bratsk, and Krasnoyarsk§!.\n"
+ ### Greater Syria
+ form_grsyria_category:0 "Unite the Levant!"
+ form_grsyria:0 "Form §GGreater Syria§!"
+ form_eu_grsyria_required_states_tt:0 "Controls all states in §YSyria, Palestine, Jordan, Lebanon, and Sinai§!."
+ form_eu_grsyria_coring_states_tt:0 "Gain cores on all states in §YPalestine, Jordan, Lebanon, and Sinai§!.\n"

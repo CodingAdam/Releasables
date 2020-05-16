@@ -2925,8 +2925,6 @@ form_turkey_category = {
 		}
 	}
 }
-
-
 form_china_category = {
 
 	form_china = {
@@ -3159,10 +3157,9 @@ form_china_category = {
 				set_global_flag = form_legation_flag
 				set_country_flag = legation_formed
 				set_country_flag = formed_nation
-				}				 
-			}
+			}				 
 		}
-
+	
 		ai_will_do = {
 			factor = 200
 			modifier = {
@@ -3171,6 +3168,7 @@ form_china_category = {
 			}
 		}
 	}	
+}	
 form_heaven_category = {
 
 	form_heaven = {
@@ -3310,8 +3308,6 @@ form_heaven_category = {
 				set_country_flag = formed_nation
 				}				 
 			}
-		}
-
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -3320,6 +3316,66 @@ form_heaven_category = {
 			}
 		}
 	}	
+}	
+form_grsyria_category = {
+
+	form_grsyria = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = SYR
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_grsyria_required_states_tt
+				controls_state = 680
+				controls_state = 677
+				controls_state = 554
+				controls_state = 553
+				controls_state = 454
+				controls_state = 455
+				controls_state = 453
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SYR
+			}
+			NOT = { has_global_flag = form_grsyria_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = grsyria
+			custom_effect_tooltip = form_eu_grsyria_coring_states_tt
+			hidden_effect = {
+				553 = { add_core_of = ROOT }
+				454 = { add_core_of = ROOT }
+				455 = { add_core_of = ROOT }
+				453 = { add_core_of = ROOT }
+				816 = { add_core_of = ROOT }
+				
+			}
+			hidden_effect = {
+				set_global_flag = form_grsyria_flag
+				set_country_flag = grsyria_formed
+				set_country_flag = formed_nation
+				}				 
+			}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+}
 form_turan_category = {
 
 	form_turan = {

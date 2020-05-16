@@ -344,6 +344,18 @@
  turan_democratic_ADJ:0 "Turani"
  turan_fascism_ADJ:0 "Turani"
  turan_neutrality_ADJ:0 "Turani"
+ grsyria_communism:0 "Levantine Democratic Republic"
+ grsyria_democratic:0 "Levantine Republic"
+ grsyria_fascism:0 "Greater Syria"
+ grsyria_neutrality:0 "Greater Syria"
+ grsyria_communism_DEF:0 "the Levantine Democratic Republic"
+ grsyria_democratic_DEF:0 "the Levantine Republic"
+ grsyria_fascism_DEF:0 "Greater Syria"
+ grsyria_neutrality_DEF:0 "Greater Syria"
+ grsyria_communism_ADJ:0 "Levantine"
+ grsyria_democratic_ADJ:0 "Levantine"
+ grsyria_fascism_ADJ:0 "Syrian"
+ grsyria_neutrality_ADJ:0 "Syrian"
 
 
 

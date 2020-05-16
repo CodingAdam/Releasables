@@ -450,3 +450,7 @@ turan = {
 	color = rgb { 97  174  216 }
 	color_ui = rgb { 97  174  216 }
 }
+grsyria = {
+	color = rgb { 78  132  68 }
+	color_ui = rgb { 78  132  68 }
+}
