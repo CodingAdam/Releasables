@@ -1,7 +1,7 @@
-﻿intregating_state = {
+integrating_state = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_compliance_icon
 	compliance_gain = 0.50
-	
+
 }

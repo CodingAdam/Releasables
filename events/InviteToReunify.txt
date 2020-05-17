@@ -61,7 +61,7 @@ country_event = {
 	}
 
 	option = { # unacceptable
-		name = asktojoin.3.a
+		name = asktojoin.3.b
 		ai_chance = { factor = 5 }
 		ROOT = {
 			every_state = {
