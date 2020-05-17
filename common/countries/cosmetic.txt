@@ -446,3 +446,11 @@ legation = {
 	color = rgb { 150  184  243 }
 	color_ui = rgb { 150  184  243 }
 }
+turan = {
+	color = rgb { 97  174  216 }
+	color_ui = rgb { 97  174  216 }
+}
+grsyria = {
+	color = rgb { 78  132  68 }
+	color_ui = rgb { 78  132  68 }
+}

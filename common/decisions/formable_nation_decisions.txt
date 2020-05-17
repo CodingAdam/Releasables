@@ -2925,8 +2925,6 @@ form_turkey_category = {
 		}
 	}
 }
-
-
 form_china_category = {
 
 	form_china = {
@@ -3159,10 +3157,9 @@ form_china_category = {
 				set_global_flag = form_legation_flag
 				set_country_flag = legation_formed
 				set_country_flag = formed_nation
-				}				 
-			}
+			}				 
 		}
-
+	
 		ai_will_do = {
 			factor = 200
 			modifier = {
@@ -3171,6 +3168,7 @@ form_china_category = {
 			}
 		}
 	}	
+}	
 form_heaven_category = {
 
 	form_heaven = {
@@ -3310,8 +3308,6 @@ form_heaven_category = {
 				set_country_flag = formed_nation
 				}				 
 			}
-		}
-
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -3320,6 +3316,495 @@ form_heaven_category = {
 			}
 		}
 	}	
+}	
+form_grsyria_category = {
+
+	form_grsyria = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = SYR
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_grsyria_required_states_tt
+				controls_state = 680
+				controls_state = 677
+				controls_state = 554
+				controls_state = 553
+				controls_state = 454
+				controls_state = 455
+				controls_state = 453
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SYR
+			}
+			NOT = { has_global_flag = form_grsyria_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = grsyria
+			custom_effect_tooltip = form_eu_grsyria_coring_states_tt
+			hidden_effect = {
+				553 = { add_core_of = ROOT }
+				454 = { add_core_of = ROOT }
+				455 = { add_core_of = ROOT }
+				453 = { add_core_of = ROOT }
+				816 = { add_core_of = ROOT }
+				
+			}
+			hidden_effect = {
+				set_global_flag = form_grsyria_flag
+				set_country_flag = grsyria_formed
+				set_country_flag = formed_nation
+				}				 
+			}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+}
+form_turan_category = {
+
+	form_turan = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = SIK
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_turan_required_states_tt
+				controls_state = 407
+				controls_state = 406
+				controls_state = 587
+				controls_state = 402
+				controls_state = 583
+				controls_state = 404
+				controls_state = 590
+				controls_state = 586
+				controls_state = 589
+				controls_state = 588
+				controls_state = 585
+				controls_state = 405
+				controls_state = 732
+				controls_state = 742
+				controls_state = 584
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = SIK
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+			NOT = { has_global_flag = form_turan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = turan
+			custom_effect_tooltip = form_eu_turan_coring_states_tt
+			hidden_effect = {
+				407 = { add_core_of = ROOT }
+				406 = { add_core_of = ROOT }
+				587 = { add_core_of = ROOT }
+				402 = { add_core_of = ROOT }
+				583 = { add_core_of = ROOT }
+				404 = { add_core_of = ROOT }
+				590 = { add_core_of = ROOT }
+				586 = { add_core_of = ROOT }
+				589 = { add_core_of = ROOT }
+				588 = { add_core_of = ROOT }
+				585 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
+				584 = { add_core_of = ROOT }
+				732 = { add_core_of = ROOT }
+				742 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_turan_flag
+				set_country_flag = turan_formed
+				set_country_flag = formed_nation
+				}				 
+			}
+		
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	integrate_turkey = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = SIK
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = integrate_eu_turkey_required_states_tt
+				controls_state = 341
+				controls_state = 340
+				controls_state = 347
+				controls_state = 339
+				controls_state = 343
+				controls_state = 342
+				controls_state = 345
+				controls_state = 344
+				controls_state = 350
+				controls_state = 49
+				controls_state = 348
+				controls_state = 346
+				controls_state = 349
+				controls_state = 356
+				controls_state = 355
+				controls_state = 354
+				controls_state = 353
+				controls_state = 352
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = SIK
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+			NOT = { has_global_flag = integrate_turkey_flag }
+			has_country_flag = turan_formed
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = integrate_eu_turkey_coring_states_tt
+			hidden_effect = {
+				341 = { add_core_of = ROOT }
+				340 = { add_core_of = ROOT }
+				347 = { add_core_of = ROOT }
+				339 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				342 = { add_core_of = ROOT }
+				345 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				350 = { add_core_of = ROOT }
+				49 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				346 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				356 = { add_core_of = ROOT }
+				355 = { add_core_of = ROOT }
+				354 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				229 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrate_turkey_flag
+				}				 
+			}
+		
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	integrate_sinkiang = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = integrate_eu_sinkiang_required_states_tt
+				controls_state = 619
+				controls_state = 287
+				controls_state = 759
+				controls_state = 617
+				controls_state = 618
+				controls_state = 760
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = SIK
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+			NOT = { has_global_flag = integrate_sinkiang_flag }
+			has_country_flag = turan_formed
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = integrate_eu_sinkiang_coring_states_tt
+			hidden_effect = {
+				619 = { add_core_of = ROOT }
+				287 = { add_core_of = ROOT }
+				759 = { add_core_of = ROOT }
+				617 = { add_core_of = ROOT }
+				618 = { add_core_of = ROOT }
+				760 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrate_sinkiang_flag
+			}
+		}				 
+	}
+	integrate_coldturks = {
+
+		icon = generic_form_nation
+		
+		allowed = {
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = integrate_eu_coldturks_required_states_tt
+				controls_state = 562
+				controls_state = 637
+				controls_state = 644
+				controls_state = 574
+				controls_state = 575
+				controls_state = 576
+				controls_state = 516
+				controls_state = 563
+				controls_state = 565
+				controls_state = 564
+				controls_state = 566
+				controls_state = 329
+				controls_state = 567
+				controls_state = 568
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = TUR
+				original_tag = IST
+				original_tag = KAR
+				original_tag = ANK
+				original_tag = IZM
+				original_tag = AKD
+				original_tag = KAZ
+				original_tag = UZB
+				original_tag = TMS
+				original_tag = TAJ
+				original_tag = KYR
+				original_tag = SIK
+				original_tag = AZR
+				original_tag = OKH
+				original_tag = KAM
+				original_tag = YAK
+				original_tag = CTA
+				original_tag = ULA
+				original_tag = KRA
+				original_tag = TAN
+				original_tag = IRK
+			}
+			NOT = { has_global_flag = integrate_coldturks_flag }
+			has_country_flag = turan_formed
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = integrate_eu_coldturks_coring_states_tt
+			hidden_effect = {
+				562 = { add_core_of = ROOT }
+				637 = { add_core_of = ROOT }
+				644 = { add_core_of = ROOT }
+				574 = { add_core_of = ROOT }
+				575 = { add_core_of = ROOT }
+				576 = { add_core_of = ROOT }
+				516 = { add_core_of = ROOT }
+				563 = { add_core_of = ROOT }
+				565 = { add_core_of = ROOT }
+				564 = { add_core_of = ROOT }
+				566 = { add_core_of = ROOT }
+				329 = { add_core_of = ROOT }
+				567 = { add_core_of = ROOT }
+				568 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = integrate_coldturks_flag
+				}				 
+			}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}	
 form_grTibet_category = {
 
 	form_grTibet = {
