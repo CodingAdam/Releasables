@@ -443,3 +443,9 @@ form_grsyria_category = {
 	allowed = {
 	}
 }
+glakes_integrate_category = {
+	icon = generic_formable_nations
+
+	allowed = {
+	}
+}

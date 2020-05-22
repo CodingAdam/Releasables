@@ -1408,6 +1408,68 @@ form_france_category = {
 			}
 		}
 	}
+	form_greaterburg = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = BRG
+			}
+		}
+
+		available = {
+			is_subject = no
+			# viva la frankrig
+			custom_trigger_tooltip = {
+				tooltip = form_eu_greaterburg_required_states_tt
+				controls_state = 18
+				controls_state = 17	
+				controls_state = 28
+				controls_state = 8
+				controls_state = 34
+				controls_state = 6
+				controls_state = 7
+				controls_state = 35
+				controls_state = 29
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = BRG
+			}
+			NOT = { has_global_flag = form_greaterburg_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GreatBurg
+			# francois
+			custom_effect_tooltip = form_eu_greaterburg_coring_states_tt
+			hidden_effect = {
+				18 = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				8 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				6 = { add_core_of = ROOT }
+				7 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				29 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_greaterburg_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
 
 form_poland_category = {
@@ -2236,7 +2298,7 @@ form_russia_category = {
 	}
 	integrate_siberia = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -2364,7 +2426,7 @@ form_russia_category = {
 	}
 	integrate_extra = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -2822,7 +2884,7 @@ form_turkey_category = {
 	}
 	integrate_armenia = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -2875,7 +2937,7 @@ form_turkey_category = {
 	}
 	integrate_kurd = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -3085,15 +3147,16 @@ form_china_category = {
 				set_country_flag = formed_nation
 				}				 
 			}
-		}
-
-		ai_will_do = {
+			ai_will_do = {
 			factor = 200
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
+			}
 		}
+
+		
 		form_legation = {
 
 		icon = generic_form_nation
@@ -3495,7 +3558,7 @@ form_turan_category = {
 	}
 	integrate_turkey = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 		
 		allowed = {
 			OR = {
@@ -3613,7 +3676,7 @@ form_turan_category = {
 	}
 	integrate_sinkiang = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 		
 		allowed = {
 			OR = {
@@ -3698,7 +3761,7 @@ form_turan_category = {
 	}
 	integrate_coldturks = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 		
 		allowed = {
 			OR = {
@@ -4000,7 +4063,7 @@ form_italy_category = {
 	}
 	nita_integrateVen = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 		
 		allowed = {
 			OR = {
@@ -4056,7 +4119,7 @@ form_italy_category = {
 	}
 	nita_integrateTre = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 		
 		allowed = {
 			OR = {
@@ -5425,8 +5488,167 @@ form_usa_category = {
 			}
 		}
 	}
-}
+	form_caro = {
 
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = NCA
+				original_tag = SCA
+			}
+		}
+
+		available = {
+			is_subject = no
+			# viva la frankrig
+			custom_trigger_tooltip = {
+				tooltip = form_caro_required_states_tt
+				controls_state = 363
+				controls_state = 364
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = NCA
+				original_tag = SCA
+			}
+			NOT = { has_global_flag = form_caro_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = caro
+			# francois
+			custom_effect_tooltip = form_caro_coring_states_tt
+			hidden_effect = {
+				364 = { add_core_of = ROOT }
+				363 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_caro_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	form_glakes = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = OHI
+				original_tag = INA
+				original_tag = ILL
+				original_tag = WIS
+				original_tag = MIC
+			}
+		}
+
+		available = {
+			is_subject = no
+			# viva la frankrig
+			controls_state = 261
+			controls_state = 396
+			controls_state = 395
+			controls_state = 393
+			controls_state = 394
+			
+		}
+
+		visible = {
+			OR = {
+				original_tag = OHI
+				original_tag = INA
+				original_tag = ILL
+				original_tag = WIS
+				original_tag = MIC
+			}
+			NOT = { has_global_flag = form_glakes_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = glakes
+			# francois
+			custom_effect_tooltip = form_glakes_coring_states_tt
+			hidden_effect = {
+				261 = { add_core_of = ROOT }
+				396 = { add_core_of = ROOT }
+				395 = { add_core_of = ROOT }
+				393 = { add_core_of = ROOT }
+				394 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_glakes_flag
+				set_country_flag = glakes_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+glakes_integrate_category = {
+
+	glakes_integrate_southernOnt = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				original_tag = OHI
+				original_tag = INA
+				original_tag = ILL
+				original_tag = WIS
+				original_tag = MIC
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 276
+		}
+
+		visible = {
+			has_country_flag = glakes_flag
+			OR = {
+				original_tag = OHI
+				original_tag = INA
+				original_tag = ILL
+				original_tag = WIS
+				original_tag = MIC
+			}
+			NOT = { has_global_flag = glakes_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			276 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = glakes_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_italy_category = {
 
 	form_sarpie = {
@@ -6099,7 +6321,7 @@ prs_integrate_category = {
 
 	prs_integrate_dnz = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -6142,7 +6364,7 @@ prs_integrate_category = {
 
 	prs_integrate_brn = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -6185,7 +6407,7 @@ prs_integrate_category = {
 
 	prs_integrate_pom = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -6228,7 +6450,7 @@ prs_integrate_category = {
 
 	prs_integrate_poz = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -6269,7 +6491,7 @@ prs_integrate_category = {
 
 	prs_integrate_sil = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
@@ -6314,7 +6536,7 @@ prs_integrate_category = {
 
 	prs_integrate_alc = {
 
-		icon = generic_form_nation
+		icon = hol_draw_up_staff_plans
 
 		allowed = {
 			OR = {
