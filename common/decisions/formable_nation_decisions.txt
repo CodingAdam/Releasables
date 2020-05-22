@@ -5822,6 +5822,73 @@ form_romania_category = {
 		}
 	}
 }
+form_pakistan_category = {
+
+	form_pakistan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = BAL
+				original_tag = SIN
+				original_tag = PUN
+				original_tag = KSH
+				original_tag = BAN
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_pakistan_required_states_tt
+				controls_state = 444
+				controls_state = 443
+				controls_state = 445
+				controls_state = 442
+				controls_state = 440
+				controls_state = 787
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = BAL
+				original_tag = SIN
+				original_tag = PUN
+				original_tag = KSH
+				original_tag = BAN
+			}
+			NOT = { has_global_flag = form_pak_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = PAK
+			# francois
+			custom_effect_tooltip = form_eu_pakistan_coring_states_tt
+			hidden_effect = {
+				444 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
+				445 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				440 = { add_core_of = ROOT }
+				787 = { add_core_of = ROOT }
+				430 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_pak_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 
 form_united_central_america_category = {
 

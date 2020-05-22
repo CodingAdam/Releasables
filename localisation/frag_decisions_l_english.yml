@@ -205,3 +205,8 @@
  form_grsyria:0 "Form §GGreater Syria§!"
  form_eu_grsyria_required_states_tt:0 "Controls all states in §YSyria, Palestine, Jordan, Lebanon, and Sinai§!."
  form_eu_grsyria_coring_states_tt:0 "Gain cores on all states in §YPalestine, Jordan, Lebanon, and Sinai§!.\n"
+ ### Pakistan
+ form_pakistan_category:0 "A State for Indian Muslims!"
+ form_pakistan:0 "Form §GPakistan§!"
+ form_eu_pakistan_required_states_tt:0 "Controls §YBaluchistan, Sind, Punjab, Northern Kashmir, Quetta, and Peshawar§!."
+ form_eu_pakistan_coring_states_tt:0 "Gain cores on §YBaluchistan, Sind, Punjab, Northern Kashmir, Quetta, Bangladesh, and Peshawar§!.\n"

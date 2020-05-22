@@ -111,5 +111,7 @@
  RULE_OPTION_CHI_FRAGMENTED:0 "China Fragmented"
  RULE_OPTION_FREE_HGK_DESC:0 "China is fragmented into its constituent parts, and Hong Kong and Macau are granted independence."
  RULE_OPTION_FREE_HGK:0 "China Fragmented and Hong Kong and Macau Independent"
- 
+ ### India
+ RULE_OPTION_IND_FRAGMENTED_DESC:0 "India and Pakistan are fragmented into their constituent parts."
+ RULE_OPTION_IND_FRAGMENTED:0 "India and Pakistan Fragmented"
  

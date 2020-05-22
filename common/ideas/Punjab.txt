@@ -1,0 +1,270 @@
+ideas = {
+	# MILITARY
+
+
+	political_advisor = {
+
+		PUN_pot = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		PUN_coi = {
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		PUN_stc = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		PUN_aco2 = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = PUN
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PUN_acd2 = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		PUN_acr = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PUN_acgs = {
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		PUN_nccr = {
+
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = PUN
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PUN_ncm = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = PUN
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		PUN_ar = {
+			ledger = army
+
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		PUN_ai2 = {
+			ledger = army
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PUN_aa2 = {
+			ledger = army
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PUN_acas = {
+			ledger = air
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PUN_ncs = {
+			ledger = navy
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	theorist = {
+		PUN_mt = {
+			ledger = army
+			picture = generic_army_europe_6
+
+			allowed = {
+				original_tag = PUN
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		PUN_nt = {
+			ledger = navy
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		PUN_awt = {
+			ledger = air
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = PUN
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}
