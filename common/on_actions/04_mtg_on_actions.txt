@@ -1197,6 +1197,28 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
+						rule = raj_fragmentation_status
+						option = IND_FRAGMENTED
+					}
+				}
+				RAJ = {
+					release = BRM
+					release = BAN
+					release = BAL
+					release = SIN
+					release = PUN
+					release = KSH
+				}
+				AFG = {
+					transfer_state = 445
+					transfer_state = 442
+				}
+				445 = { add_core_of = AFG }
+				442 = { add_core_of = AFG }
+			}
+			if = {
+				limit = {
+					has_game_rule = {
 						rule = fra_fragmentation_status
 						option = FRA_FRAGMENTED
 					}

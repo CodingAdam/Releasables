@@ -1612,6 +1612,11 @@ raj_fragmentation_status = {
 		text = "RULE_OPTION_RAJ_FRAGMENTED"
 		desc = "RULE_OPTION_RAJ_FRAGMENTED_DESC"
 	}
+	option = {
+		name = IND_FRAGMENTED
+		text = "RULE_OPTION_IND_FRAGMENTED"
+		desc = "RULE_OPTION_IND_FRAGMENTED_DESC"
+	}
 }
 ger_fragmentation_status = {
 	name = "GER_FRAGMENTATION_STATUS"

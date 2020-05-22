@@ -454,3 +454,7 @@ grsyria = {
 	color = rgb { 78  132  68 }
 	color_ui = rgb { 78  132  68 }
 }
+PAK = {
+	color = rgb { 170  50  150 }
+	color_ui = rgb { 170  50  150 }
+}
