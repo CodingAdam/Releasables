@@ -471,3 +471,16 @@ PAK = {
 	color = rgb { 170  50  150 }
 	color_ui = rgb { 170  50  150 }
 }
+fed = {
+	color = rgb { 45 38 150 }
+	color_ui = rgb { 45 38 150 }
+}
+pac = {
+	color = rgb { 252 221 83 }
+	color_ui = rgb { 252 221 83 }
+}
+
+CSA = {
+	color = rgb { 207 205 196 }
+	color_ui = rgb { 207 205 196 }
+}

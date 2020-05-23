@@ -1272,6 +1272,7 @@ form_usa_category = {
 			375 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = form_csa_flag
+				set_country_flag_flag = csa_flag
 			}
 		}
 
@@ -5488,6 +5489,58 @@ form_usa_category = {
 			}
 		}
 	}
+	form_pac = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
+		}
+
+		available = {
+			is_subject = no
+			# PACIFICA
+			controls_state = 385
+			controls_state = 386
+			controls_state = 378
+		}
+
+		visible = {
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
+			NOT = { has_global_flag = form_pac_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = Pacif
+			# francois
+			custom_effect_tooltip = form_pac_coring_states_tt
+			hidden_effect = {
+				385 = { add_core_of = ROOT }
+				386 = { add_core_of = ROOT }
+				378 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_pac_flag
+				set_country_flag = pac_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	form_caro = {
 
 		icon = generic_form_nation
@@ -5599,6 +5652,68 @@ form_usa_category = {
 			}
 		}
 	}
+	form_fed = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
+		}
+
+		available = {
+			is_subject = no
+			# viva la frankrig
+			controls_state = 360
+			controls_state = 361
+			controls_state = 359
+			controls_state = 808
+			controls_state = 807
+			
+		}
+
+		visible = {
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
+			NOT = { has_global_flag = form_fed_flag }
+		}
+
+		complete_effect = {
+			set_capital = 808
+			set_cosmetic_tag = fed
+			# francois
+			custom_effect_tooltip = form_fed_coring_states_tt
+			hidden_effect = {
+				360 = { add_core_of = ROOT }
+				361 = { add_core_of = ROOT }
+				359 = { add_core_of = ROOT }
+				808 = { add_core_of = ROOT }
+				807 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_fed_flag
+				set_country_flag = fed_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
 glakes_integrate_category = {
 
@@ -5640,6 +5755,832 @@ glakes_integrate_category = {
 			}
 		}
 
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+pac_integrate_category = {
+
+	pac_integrate_baja = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = pac_flag
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 484
+		}
+
+		visible = {
+			has_country_flag = pac_flag
+			NOT = { has_global_flag = baja_integ_flag }
+		}
+		days_remove = 60
+		remove_effect = {
+			484 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = baja_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	pac_integrate_hawaii = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = pac_flag
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 629
+		}
+
+		visible = {
+			has_country_flag = pac_flag
+			NOT = { has_global_flag = haw_integ_flag }
+		}
+		days_remove = 60
+		remove_effect = {
+			629 = { add_core_of = ROOT }
+			632 = { add_core_of = ROOT }
+			727 = { add_core_of = ROOT }
+			642 = { add_core_of = ROOT }
+			638 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = haw_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	pac_integrate_alaska = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = pac_flag
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 463
+		}
+
+		visible = {
+			has_country_flag = pac_flag
+			NOT = { has_global_flag = ala_integ_flag }
+		}
+		days_remove = 15
+		remove_effect = {
+			463 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ala_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	pac_integrate_nevada = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = pac_flag
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 379
+		}
+
+		visible = {
+			has_country_flag = pac_flag
+			NOT = { has_global_flag = nev_integ_flag }
+		}
+		days_remove = 15
+		remove_effect = {
+			379 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = nev_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	pac_integrate_northwest = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = pac_flag
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 237
+			controls_state = 256
+			controls_state = 308
+		}
+
+		visible = {
+			has_country_flag = pac_flag
+			NOT = { has_global_flag = nw_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			237 = { add_core_of = ROOT }
+			256 = { add_core_of = ROOT }
+			308 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = nw_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	pac_integrate_southwest = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = pac_flag
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 298
+			controls_state = 223
+			controls_state = 266
+			controls_state = 212
+		}
+
+		visible = {
+			has_country_flag = pac_flag
+			NOT = { has_global_flag = psw_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			298 = { add_core_of = ROOT }
+			223 = { add_core_of = ROOT }
+			266 = { add_core_of = ROOT }
+			212 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = psw_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	pac_integrate_cascadia = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = pac_flag
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 473
+			controls_state = 471
+		}
+
+		visible = {
+			has_country_flag = pac_flag
+			NOT = { has_global_flag = cas_integ_flag }
+		}
+		days_remove = 45
+		remove_effect = {
+			473 = { add_core_of = ROOT }
+			471 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = cas_integ_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+csa_integrate_category = {
+
+	csa_integrate_northmex = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = csa_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 483
+			controls_state = 482
+		}
+
+		visible = {
+			has_country_flag = csa_flag
+			NOT = { has_global_flag = nmex_integ_flag }
+		}
+		days_remove = 50
+		remove_effect = {
+			483 = { add_core_of = ROOT }
+			482 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = nmex_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	csa_integrate_cuba = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = csa_flag 
+		}
+
+		available = {
+			is_subject = no
+			OR = {
+				controls_state = 315
+				CUB = { is_subject_of = ROOT }
+			}
+		}
+
+		visible = {
+			has_country_flag = csa_flag
+			NOT = { has_global_flag = cub_integ_flag }
+		}
+		days_remove = 50
+		remove_effect = {
+			annex_country = { target = CUB }
+			315 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = cub_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	csa_integrate_border = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = csa_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 369
+			controls_state = 809
+			controls_state = 361
+			controls_state = 808
+			controls_state = 373
+		}
+
+		visible = {
+			has_country_flag = csa_flag
+			NOT = { has_global_flag = bor_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			369 = { add_core_of = ROOT }
+			809 = { add_core_of = ROOT }
+			361 = { add_core_of = ROOT }
+			808 = { add_core_of = ROOT }
+			373 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = bor_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	csa_integrate_okl = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = csa_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 374
+		}
+
+		visible = {
+			has_country_flag = csa_flag
+			NOT = { has_global_flag = okl_integ_flag }
+		}
+		days_remove = 15
+		remove_effect = {
+			374 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = okl_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	csa_integrate_ter = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = csa_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 376
+			controls_state = 377
+		}
+
+		visible = {
+			has_country_flag = csa_flag
+			NOT = { has_global_flag = ter_integ_flag }
+		}
+		days_remove = 15
+		remove_effect = {
+			376 = { add_core_of = ROOT }
+			377 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ter_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+fed_integrate_category = {
+
+	fed_integrate_newYork = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 358
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = ny_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			264 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ny_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_newEng = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 802
+			controls_state = 801
+			controls_state = 803
+			controls_state = 357
+			controls_state = 805
+			controls_state = 804
+			
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = ne_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			802 = { add_core_of = ROOT }
+			801 = { add_core_of = ROOT }
+			803 = { add_core_of = ROOT }
+			357 = { add_core_of = ROOT }
+			805 = { add_core_of = ROOT }
+			804 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ne_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_virginia = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 362
+			controls_state = 809
+			
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = vi_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			362 = { add_core_of = ROOT }
+			809 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = vi_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_oldSouth = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 363
+			controls_state = 364
+			controls_state = 365
+			controls_state = 366
+			controls_state = 367
+			controls_state = 368
+			controls_state = 370
+			controls_state = 371
+			controls_state = 372
+			
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = os_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			363 = { add_core_of = ROOT }
+			364 = { add_core_of = ROOT }
+			365 = { add_core_of = ROOT }
+			366 = { add_core_of = ROOT }
+			367 = { add_core_of = ROOT }
+			368 = { add_core_of = ROOT }
+			370 = { add_core_of = ROOT }
+			371 = { add_core_of = ROOT }
+			372 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = os_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_texas = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 375
+			
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = tx_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			375 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = tx_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_midwest = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 261
+			controls_state = 369
+			controls_state = 396
+			controls_state = 393
+			controls_state = 394
+			controls_state = 391
+			controls_state = 392
+			controls_state = 373
+			controls_state = 395
+			
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = mw_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			261 = { add_core_of = ROOT }
+			369 = { add_core_of = ROOT }
+			396 = { add_core_of = ROOT }
+			393 = { add_core_of = ROOT }
+			394 = { add_core_of = ROOT }
+			391 = { add_core_of = ROOT }
+			392 = { add_core_of = ROOT }
+			373 = { add_core_of = ROOT }
+			395 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = mw_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_southwest = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 377
+			controls_state = 376
+			controls_state = 374
+			
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = sw_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			377 = { add_core_of = ROOT }
+			376 = { add_core_of = ROOT }
+			374 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = sw_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_plains = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 389
+			controls_state = 390
+			controls_state = 384
+			controls_state = 383
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = pl_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			389 = { add_core_of = ROOT }
+			390 = { add_core_of = ROOT }
+			384 = { add_core_of = ROOT }
+			383 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = pl_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_rocky = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 388
+			controls_state = 381
+			controls_state = 382
+			controls_state = 380
+			controls_state = 379
+			controls_state = 387
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = rm_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			388 = { add_core_of = ROOT }
+			381 = { add_core_of = ROOT }
+			382 = { add_core_of = ROOT }
+			380 = { add_core_of = ROOT }
+			379 = { add_core_of = ROOT }
+			387 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = rm_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	fed_integrate_pacific = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			has_country_flag = fed_flag 
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 386
+			controls_state = 385
+			controls_state = 378
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = pa_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			386 = { add_core_of = ROOT }
+			385 = { add_core_of = ROOT }
+			378 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = pa_integ_flag
+			}
+		}
 		ai_will_do = {
 			factor = 200
 			modifier = {
