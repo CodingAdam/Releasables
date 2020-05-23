@@ -151,12 +151,16 @@
  form_caro_coring_states_tt:0 "Gain cores on all of §YCarolinas§!.\n"
  form_glakes:0 "The §GGreat Lakes§!"
  form_glakes_coring_states_tt:0 "Gains cores on the States near the §YGreat Lakes§!."
+ 
+ glakes_integrate_category:0 "State Integrate." 
+ glakes_integrate_southernOnt:0 "Integrate §YSouthern Ontario§!."
+ ### New England
  form_newEngland_category:0 "Recreate New England!"
  form_newEng:0 "Unify §GNew England§!"
  form_newEng_required_states_tt:0 "Controls all of §YNew England§! in America."
  form_newEng_coring_states_tt:0 "Gain cores on all of §YNew England§! in America.\n"
- glakes_integrate_category:0 "State Integrate." 
- glakes_integrate_southernOnt:0 "Integrate §YSouthern Ontario§!."
+ newEng_integrate_newYork:0 "Integrate §YNew York§!." 
+ newEng_integrate_newBrun:0 "Integrate §YNew Brunswick and Nova Scotia§!." 
  ### CSA
  form_csa:0 "To Arms in §GDixie§!"
  csa_integrate_category:0 "Reintegrate the States." 
@@ -182,7 +186,7 @@
  ### The Pacific States
  form_pac:0 "Together in the §GPacific§!"
  form_pac_coring_states_tt:0 "Gain cores on the §YPacific Coast of America§!."
- csa_integrate_category:0 "Reintegrate the States." 
+ pac_integrate_category:0 "Reintegrate the States." 
  pac_integrate_baja:0 "Integrate §YBaja California§!."  
  pac_integrate_alaska:0 "Reintegrate the §YAlaska§!."
  pac_integrate_nevada:0 "Reintegrate the §YNevada§!."

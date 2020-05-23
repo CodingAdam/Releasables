@@ -1272,7 +1272,7 @@ form_usa_category = {
 			375 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = form_csa_flag
-				set_country_flag_flag = csa_flag
+				set_country_flag = csa_flag
 			}
 		}
 
@@ -5241,6 +5241,86 @@ form_newEngland_category = {
 			}
 		}
 	}
+	newEng_integrate_newYork = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				original_tag = MAI
+				original_tag = NHM
+				original_tag = MAS
+				original_tag = RHI
+				original_tag = CNE
+				original_tag = VMT
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 358
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = nny_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			358 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = nny_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	newEng_integrate_newBrun = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				original_tag = MAI
+				original_tag = NHM
+				original_tag = MAS
+				original_tag = RHI
+				original_tag = CNE
+				original_tag = VMT
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 465
+			controls_state = 464
+		}
+
+		visible = {
+			has_country_flag = fed_flag
+			NOT = { has_global_flag = nb_integ_flag }
+		}
+		days_remove = 30
+		remove_effect = {
+			465 = { add_core_of = ROOT }
+			464 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = nb_integ_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
 form_usa_category = {
 
@@ -5519,7 +5599,7 @@ form_usa_category = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = Pacif
+			set_cosmetic_tag = pacif
 			# francois
 			custom_effect_tooltip = form_pac_coring_states_tt
 			hidden_effect = {
@@ -5771,7 +5851,11 @@ pac_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = pac_flag
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
 		}
 
 		available = {
@@ -5804,7 +5888,11 @@ pac_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = pac_flag
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
 		}
 
 		available = {
@@ -5841,7 +5929,11 @@ pac_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = pac_flag
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
 		}
 
 		available = {
@@ -5874,7 +5966,11 @@ pac_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = pac_flag
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
 		}
 
 		available = {
@@ -5907,7 +6003,11 @@ pac_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = pac_flag
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
 		}
 
 		available = {
@@ -5944,7 +6044,11 @@ pac_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = pac_flag
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
 		}
 
 		available = {
@@ -5983,7 +6087,11 @@ pac_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = pac_flag
+			OR = {
+				original_tag = ORE
+				original_tag = WAS
+				original_tag = CAL
+			}
 		}
 
 		available = {
@@ -6021,7 +6129,19 @@ csa_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = csa_flag 
+			OR = {
+				original_tag = SCA
+				original_tag = MIS
+				original_tag = FLO
+				original_tag = ALA
+				original_tag = GUS
+				original_tag = LOU
+				original_tag = TEX
+				original_tag = VIR
+				original_tag = ARK
+				original_tag = TEN
+				original_tag = NCA
+			}
 		}
 
 		available = {
@@ -6055,7 +6175,19 @@ csa_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = csa_flag 
+			OR = {
+				original_tag = SCA
+				original_tag = MIS
+				original_tag = FLO
+				original_tag = ALA
+				original_tag = GUS
+				original_tag = LOU
+				original_tag = TEX
+				original_tag = VIR
+				original_tag = ARK
+				original_tag = TEN
+				original_tag = NCA
+			}
 		}
 
 		available = {
@@ -6091,7 +6223,19 @@ csa_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = csa_flag 
+			OR = {
+				original_tag = SCA
+				original_tag = MIS
+				original_tag = FLO
+				original_tag = ALA
+				original_tag = GUS
+				original_tag = LOU
+				original_tag = TEX
+				original_tag = VIR
+				original_tag = ARK
+				original_tag = TEN
+				original_tag = NCA
+			} 
 		}
 
 		available = {
@@ -6131,7 +6275,19 @@ csa_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = csa_flag 
+			OR = {
+				original_tag = SCA
+				original_tag = MIS
+				original_tag = FLO
+				original_tag = ALA
+				original_tag = GUS
+				original_tag = LOU
+				original_tag = TEX
+				original_tag = VIR
+				original_tag = ARK
+				original_tag = TEN
+				original_tag = NCA
+			}
 		}
 
 		available = {
@@ -6163,7 +6319,19 @@ csa_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = csa_flag 
+			OR = {
+				original_tag = SCA
+				original_tag = MIS
+				original_tag = FLO
+				original_tag = ALA
+				original_tag = GUS
+				original_tag = LOU
+				original_tag = TEX
+				original_tag = VIR
+				original_tag = ARK
+				original_tag = TEN
+				original_tag = NCA
+			}
 		}
 
 		available = {
@@ -6200,7 +6368,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6214,7 +6388,7 @@ fed_integrate_category = {
 		}
 		days_remove = 30
 		remove_effect = {
-			264 = { add_core_of = ROOT }
+			358 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = ny_integ_flag
 			}
@@ -6232,7 +6406,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6275,7 +6455,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6310,7 +6496,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			} 
 		}
 
 		available = {
@@ -6359,7 +6551,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6392,7 +6590,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6441,7 +6645,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6478,7 +6688,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6516,7 +6732,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
@@ -6558,7 +6780,13 @@ fed_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			has_country_flag = fed_flag 
+			OR = {
+				original_tag = PEN
+				original_tag = MRY
+				original_tag = WDC
+				original_tag = DEL
+				original_tag = NJE
+			}
 		}
 
 		available = {
