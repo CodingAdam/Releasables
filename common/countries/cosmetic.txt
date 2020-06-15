@@ -484,3 +484,7 @@ CSA = {
 	color = rgb { 207 205 196 }
 	color_ui = rgb { 207 205 196 }
 }
+untpri = {
+	color = rgb { 232 219 74 }
+	color_ui = rgb { 232 219 74 }
+}

@@ -1,0 +1,24 @@
+state={
+	id=831
+	name="STATE_831"
+	state_category = rural
+	
+	history=
+	{
+		victory_points = {
+			6761 1 
+		}
+		owner = ROM
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ROM
+		add_core_of = MLA
+		add_core_of = BUC
+	}
+	provinces={
+		6761 11689 13248 13249
+	}
+	manpower=379691
+	buildings_max_level_factor=1.000
+}

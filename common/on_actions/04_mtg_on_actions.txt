@@ -1121,10 +1121,12 @@ on_actions = {
 					}
 				}
 				ROM = {
+					release = BUC
 					release = WAL
 					release = MLA
 					release = TRA
 					release = BNT
+					
 				}
 				WAL = {
 					annex_country = {
@@ -1366,6 +1368,8 @@ on_actions = {
 				51 = { set_demilitarized_zone = no }
 				822 = { set_demilitarized_zone = no }
 				823 = { set_demilitarized_zone = no }
+				837 = { set_demilitarized_zone = no }
+				838 = { set_demilitarized_zone = no }
 				PRE = {
 					annex_country = {
 						target = GER
