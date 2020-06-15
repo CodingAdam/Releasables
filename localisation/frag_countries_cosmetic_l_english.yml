@@ -312,7 +312,7 @@
  pacif_democratic_ADJ:0 "American"
  pacif_fascism_ADJ:0 "Pacifican"
  pacif_neutrality_ADJ:0 "Pacifican"
-######
+###### Traders
  trader_communism:0 "Free Trade Nations"
  trader_democratic:0 "Free Trade Nations"
  trader_fascism:0 "Free Trade Nations"
@@ -325,7 +325,7 @@
  trader_democratic_ADJ:0 "Villager"
  trader_fascism_ADJ:0 "Villager"
  trader_neutrality_ADJ:0 "Villager"
-######
+###### Tsargrad
  IST_SOV_autonomy_dominion:0 "Tsargrad"
  IST_SOV_autonomy_colony:0 "Tsargrad"
  IST_SOV_autonomy_puppet:0 "Tsargrad"
@@ -340,7 +340,7 @@
  IST_SOV_autonomy_satellite_DEF:0 "Tsargrad"
  IST_SOV_autonomy_reichsprotectorate_DEF:0 "Tsargrad"
  IST_SOV_autonomy_reichskommissariat_DEF:0 "Tsargrad"
-#####
+##### Port Arthur
  DAL_SOV_autonomy_dominion:0 "Port Arthur"
  DAL_SOV_autonomy_colony:0 "Port Arthur"
  DAL_SOV_autonomy_puppet:0 "Port Arthur"
@@ -355,7 +355,20 @@
  DAL_SOV_autonomy_satellite_DEF:0 "Port Arthur"
  DAL_SOV_autonomy_reichsprotectorate_DEF:0 "Port Arthur"
  DAL_SOV_autonomy_reichskommissariat_DEF:0 "Port Arthur"
- #####
+##### Crusader States
+ IST_MLT_autonomy_satellite:0 "Latin Empire"
+ IST_MLT_autonomy_reichsprotectorate:0 "Latin Empire"
+ IST_MLT_autonomy_reichskommissariat:0 "Latin Empire"
+ IZM_MLT_autonomy_satellite:0 "Empire of Nicaea"
+ IZM_MLT_autonomy_reichsprotectorate:0 "Empire of Nicaea"
+ IZM_MLT_autonomy_reichskommissariat:0 "Empire of Nicaea"
+ KAR_MLT_autonomy_satellite:0 "Trebizond"
+ KAR_MLT_autonomy_reichsprotectorate:0 "Trebizond"
+ KAR_MLT_autonomy_reichskommissariat:0 "Trebizond"
+ ISR_MLT_autonomy_satellite:0 "Jerusalem"
+ ISR_MLT_autonomy_reichsprotectorate:0 "Jerusalem"
+ ISR_MLT_autonomy_reichskommissariat:0 "Jerusalem"
+#####
  heaven_communism:0 "Holy Commune"
  heaven_democratic:0 "Holy Republic"
  heaven_fascism:0 "Heavenly Empire"
