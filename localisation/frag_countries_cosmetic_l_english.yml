@@ -429,6 +429,20 @@
  grsyria_democratic_ADJ:0 "Levantine"
  grsyria_fascism_ADJ:0 "Syrian"
  grsyria_neutrality_ADJ:0 "Syrian"
+ eaf_communism:0 "Union of East African Republics"
+ eaf_democratic:0 "East African Federation"
+ eaf_fascism:0 "East African Empire"
+ eaf_neutrality:0 "Great Victoria"
+ eaf_communism_DEF:0 "the Union of East African Republics"
+ eaf_democratic_DEF:0 "the East African Federation"
+ eaf_fascism_DEF:0 "the East African Empire"
+ eaf_neutrality_DEF:0 "Great Victoria"
+ eaf_communism_ADJ:0 "East African"
+ eaf_democratic_ADJ:0 "East African"
+ eaf_fascism_ADJ:0 "East African"
+ eaf_neutrality_ADJ:0 "East African"
+
+
 
 
 

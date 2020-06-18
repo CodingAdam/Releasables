@@ -480,3 +480,11 @@ csa_integrate_category = {
 	
 	}
 }
+form_eaf_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}

@@ -484,3 +484,7 @@ CSA = {
 	color = rgb { 207 205 196 }
 	color_ui = rgb { 207 205 196 }
 }
+eaf = {
+	color = rgb { 0 135 255 } 
+	color_ui = rgb { 0 135 255 }
+}
