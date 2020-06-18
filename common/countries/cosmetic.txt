@@ -487,4 +487,8 @@ CSA = {
 eaf = {
 	color = rgb { 0 135 255 } 
 	color_ui = rgb { 0 135 255 }
+
+untpri = {
+	color = rgb { 232 219 74 }
+	color_ui = rgb { 232 219 74 }
 }

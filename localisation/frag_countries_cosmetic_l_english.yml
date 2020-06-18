@@ -312,7 +312,7 @@
  pacif_democratic_ADJ:0 "American"
  pacif_fascism_ADJ:0 "Pacifican"
  pacif_neutrality_ADJ:0 "Pacifican"
-###### Traders
+ ##### Villagers
  trader_communism:0 "Free Trade Nations"
  trader_democratic:0 "Free Trade Nations"
  trader_fascism:0 "Free Trade Nations"
@@ -325,6 +325,9 @@
  trader_democratic_ADJ:0 "Villager"
  trader_fascism_ADJ:0 "Villager"
  trader_neutrality_ADJ:0 "Villager"
+ ##### 
+ BOE_subject:0 "$OVERLORDADJ$ Borneo"
+ #####
 ###### Tsargrad
  IST_SOV_autonomy_dominion:0 "Tsargrad"
  IST_SOV_autonomy_colony:0 "Tsargrad"
@@ -441,8 +444,18 @@
  eaf_democratic_ADJ:0 "East African"
  eaf_fascism_ADJ:0 "East African"
  eaf_neutrality_ADJ:0 "East African"
-
-
+ untpri_communism:0 "United Romanian Communes"
+ untpri_democratic:0 "United Principalities"
+ untpri_fascism:0 "United Romanian States"
+ untpri_neutrality:0 "Romanian United Principalities"
+ untpri_communism_DEF:0 "the United Romanian Communes"
+ untpri_democratic_DEF:0 "United Principalities"
+ untpri_fascism_DEF:0 "the United Romanian States"
+ untpri_neutrality_DEF:0 "the Romanian United Principalities"
+ untpri_communism_ADJ:0 "Romanian"
+ untpri_democratic_ADJ:0 "Romanian"
+ untpri_fascism_ADJ:0 "Romanian"
+ untpri_neutrality_ADJ:0 "Romanian"
 
 
 

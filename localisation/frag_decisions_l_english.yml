@@ -3,14 +3,19 @@
  ### Reform Nations (Lame Nations)
  form_poland_category:0 "The Continued Fight for Polish Independence!"
  form_poland:0 "Restore §GPoland§!"
- form_romania_category:0 "Restore Romania!"
- form_romania:0 "Restore §GRomania§!"
- form_romania_required_states_tt:0 "Controls all §YRomanian§! states in Europe."
- form_romania_coring_states_tt:0 "Gain cores on all §YRomanian§! states.\n"
+ 
  form_belgium:0 "Restore §GBelgium§!"
  form_netherlands:0 "Restore the §GNetherlands§!"
  form_ire_category:0 "Restore Ireland!"
  form_ire:0 "Restore §GIreland§!"
+ ### Romania
+ form_romania_category:0 "Restore Romania!"
+ form_romania:0 "Restore §GRomania§!"
+ form_romania_required_states_tt:0 "Controls all §YRomanian§! states in Europe."
+ form_romania_coring_states_tt:0 "Gain cores on all §YRomanian§! states.\n"
+ form_untpri:0 "Unite the §GPrincipalities§!"
+ form_untpri_required_states_tt:0 "Controls both §YMoldavia§! and §YWallachia§!."
+ form_untpri_coring_states_tt:0 "Gain cores on the §YUnited Principalities§!.\n"
  ### Spain
  form_spain:0 "Restore §GSpain§!"
  form_spain_category:0 "For Spanish Glory!"
@@ -134,11 +139,11 @@
  form_eu_inter_required_states_tt:0 "Controls all states in §YEstonia, Latvia, Lithuania, East Prussia, Poland, Belarus, Ukraine, Crimea, Slovakia, Romania, Hungary, Yugoslavia, Bulgaria, and Greece§!.\n"
  form_eu_inter_coring_states_tt:0 "Gain cores on all states in §YEstonia, Latvia, Lithuania, East Prussia, Poland, Belarus, Ukraine, Crimea, Slovakia, Romania, Hungary, Yugoslavia, Bulgaria, and Greece§!.\n"
  form_gBul_category:0 "Greater Bulgaria!"
- form_gBul:0 "Form §GGreater Bulgaria§!."
+ form_gBul:0 "Form §GGreater Bulgaria§!"
  form_eu_gBul_required_states_tt:0 "Controls §YMacedonia, Thrace, and Dobrudja§!.\n"
  form_eu_gBul_coring_states_tt:0 "Gains cores on all states in §YMacedonia, Thrace, and Dobrudja§!. \nGain claims on §YIstanbul, and Central Macedonia§!.
  form_gAlb_category:0 "Greater Albania!"
- form_gAlb:0 "Form §GGreater Albania§!."
+ form_gAlb:0 "Form §GGreater Albania§!"
  form_eu_alb_required_states_tt:0 "Controls §YKosovo, Western Macedonia, and Montenegro§!.\n"
  form_eu_gAlb_coring_states_tt:0 "Gains cores on §YKosovo, Western Macedonia, and Montenegro§!. \n"
  ### USA
@@ -151,7 +156,6 @@
  form_caro_coring_states_tt:0 "Gain cores on all of §YCarolinas§!.\n"
  form_glakes:0 "The §GGreat Lakes§!"
  form_glakes_coring_states_tt:0 "Gains cores on the States near the §YGreat Lakes§!."
- 
  glakes_integrate_category:0 "State Integrate." 
  glakes_integrate_southernOnt:0 "Integrate §YSouthern Ontario§!."
  ### New England
@@ -168,7 +172,7 @@
  csa_integrate_cuba:0 "Integrate §YCuba§!."
  csa_integrate_border:0 "Integrate the §YBorder States§!." 
  csa_integrate_okl:0 "Integrate the §YIndian Territories§!."
- csa_integrate_ter:0 "Integrate the §YNew Mexician Territories§!."
+ csa_integrate_ter:0 "Integrate the §YNew Mexican Territories§!."
  ### Federal Government Of the US
  form_fed:0 "Rebirth of the §GAmerican States§!"
  form_fed_coring_states_tt:0 "Gains cores on the §YGreater Pennsylvanian Area§!."

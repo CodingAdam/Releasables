@@ -938,10 +938,6 @@ form_germany_category = {
 			}
 		}
 	}
-}
-
-form_germany_category = {
-
 	form_ngc = {
 
 		icon = generic_form_nation
@@ -1079,9 +1075,6 @@ form_germany_category = {
 			}
 		}
 	}
-}
-form_germany_category = {
-
 	form_sgc = {
 
 		icon = generic_form_nation
@@ -1137,6 +1130,7 @@ form_germany_category = {
 				53 = { add_core_of = ROOT }
 				52 = { add_core_of = ROOT }
 				50 = { add_core_of = ROOT }
+				837 = { add_core_of = ROOT }
 			}
 		}
 
@@ -1149,6 +1143,7 @@ form_germany_category = {
 		}
 	}
 }
+
 form_ire_category = {
 
 	form_ire = {
@@ -4778,6 +4773,7 @@ form_gBul_category = {
 				821 = { add_claim_by = ROOT }
 				731 = { add_claim_by = ROOT }
 				341 = { add_claim_by = ROOT }
+				833 = { add_claim_by = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_gBul_flag
@@ -5294,6 +5290,7 @@ form_newEngland_category = {
 			}
 			hidden_effect = {
 				set_global_flag = form_newEng_flag
+				set_country_flag = newEng_flag
 			}
 		}
 
@@ -5326,7 +5323,7 @@ form_newEngland_category = {
 		}
 
 		visible = {
-			has_country_flag = fed_flag
+			has_country_flag = newEng_flag
 			NOT = { has_global_flag = nny_integ_flag }
 		}
 		days_remove = 30
@@ -5366,7 +5363,7 @@ form_newEngland_category = {
 		}
 
 		visible = {
-			has_country_flag = fed_flag
+			has_country_flag = newEng_flag
 			NOT = { has_global_flag = nb_integ_flag }
 		}
 		days_remove = 30
@@ -6898,7 +6895,6 @@ form_italy_category = {
 		available = {
 			is_subject = no
 			controls_state = 114
-			controls_state = 735
 			controls_state = 158
 		}
 
@@ -6912,10 +6908,10 @@ form_italy_category = {
 
 		complete_effect = {
 			set_cosmetic_tag = sarpie
-			735 = { add_core_of = ROOT }
 			114 = { add_core_of = ROOT }
 			158 = { add_core_of = ROOT }
-			
+			839 = { add_core_of = ROOT }
+			840 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = form_sarp_flag
 			}
@@ -6991,10 +6987,12 @@ form_romania_category = {
 				original_tag = TRA
 				original_tag = MLA
 				original_tag = WAL
+				original_tag = BUC
+				original_tag = BNT
 			}
 		}
 
-		available = {
+		available = { ### Make it more realistics
 			is_subject = no
 			# viva la frankrig
 			custom_trigger_tooltip = {
@@ -7043,6 +7041,59 @@ form_romania_category = {
 			}
 			hidden_effect = {
 				set_global_flag = form_rom_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	form_untpri = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = MLA
+				original_tag = WAL
+			}
+		}
+
+		available = { ### Make it more realistics
+			is_subject = no
+			# viva la frankrig
+			custom_trigger_tooltip = {
+				tooltip = form_untpri_required_states_tt
+				controls_state = 46
+				controls_state = 81
+				controls_state = 79
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = MLA
+				original_tag = WAL
+			}
+			NOT = { has_global_flag = form_untpri_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = untpri
+			# francois
+			custom_effect_tooltip = form_untpri_coring_states_tt
+			hidden_effect = {
+				46 = { add_core_of = ROOT }
+				81 = { add_core_of = ROOT }
+				79 = { add_core_of = ROOT }
+				766 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_untpri_flag
 			}
 		}
 
