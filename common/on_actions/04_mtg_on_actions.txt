@@ -1363,6 +1363,7 @@ on_actions = {
 					release = SHL
 					release = MEK
 					release = SIL
+					release = BDN
 				}
 				42 = { set_demilitarized_zone = no }
 				51 = { set_demilitarized_zone = no }

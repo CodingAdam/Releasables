@@ -1,0 +1,26 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		11829 
+	}
+	resources={
+		steel=5.000
+	}
+	history={
+		add_claim_by = GRE
+		owner = TUR
+		victory_points = {
+			11829 5 
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = TUR
+		add_core_of = IST
+
+	}
+	manpower=297567
+	buildings_max_level_factor=1.000
+	state_category=city
+}

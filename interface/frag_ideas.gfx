@@ -231,7 +231,7 @@ spriteTypes = {
 ### suffix from graphicalculturetype
 	spriteType = {
 		name = "GFX_idea_frag_generic_prince_of_terror_asian_2d"
-		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_female_asia.dds"
+		texturefile = "gfx/interface/ideas/idea_generic_army_asia_7.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_frag_generic_smooth_talking_charmer_asian_2d"

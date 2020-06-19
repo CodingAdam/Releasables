@@ -1,0 +1,27 @@
+state={
+	id=841
+	name="STATE_841"
+	history={
+		owner = DEN
+		victory_points = {
+			11251 1 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			332 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DEN
+
+	}
+	provinces={
+		332 11251 
+	}
+	manpower=191823
+	buildings_max_level_factor=1.000
+	state_category=town
+}

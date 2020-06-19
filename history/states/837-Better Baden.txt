@@ -7,7 +7,7 @@ state={
 	history={
 		owner = GER
 		victory_points = {
-			9517 2 
+			3530 2 
 		}
 		victory_points = {
 			3692 1
@@ -17,7 +17,7 @@ state={
 			arms_factory = 3
 		}
 		add_core_of = GER
-		add_core_of = WUR
+		add_core_of = BDN
 		set_demilitarized_zone = yes
 		1936.3.7 = {
 			set_demilitarized_zone = no
@@ -30,7 +30,7 @@ state={
 
 		}
 	}
-	manpower=2434000
+	manpower=1434000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_341"
 	resources={
 		chromium=45.000
-		steel=10.000
+		steel=5.000
 	}
 
 	history={
@@ -31,9 +31,9 @@ state={
 	}
 
 	provinces={
-		849 3879 9833 11829 13250 13251 
+		849 3879 9833 13250 13251 
 	}
-	manpower=850277
+	manpower=552680
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -1084,6 +1084,7 @@ form_germany_category = {
 				original_tag = BAY
 				original_tag = WUR
 				original_tag = AUS
+				original_tag = BDN
 			}
 		}
 
@@ -1104,6 +1105,12 @@ form_germany_category = {
 						controls_state = 50
 					}
 				}
+				OR = {
+					WUR = { is_subject_of = ROOT }
+					AND = {
+						controls_state = 837
+					}
+				}
 			}
 		}
 
@@ -1112,6 +1119,7 @@ form_germany_category = {
 				original_tag = BAY
 				original_tag = WUR
 				original_tag = AUS
+				original_tag = BDN
 			}
 			NOT = { has_global_flag = form_sgc_flag }
 		}
@@ -1119,6 +1127,7 @@ form_germany_category = {
 		complete_effect = {
 			annex_country = { target = WUR }
 			annex_country = { target = BAY }
+			annex_country = { target = BDN }
 			set_cosmetic_tag = sgc
 			custom_effect_tooltip = form_sgc_coring_states_tt
 			hidden_effect = {
@@ -1155,7 +1164,7 @@ form_ire_category = {
 				original_tag = NIR
 				original_tag = LEI
 				original_tag = MUN
-				original_tag = CON
+				original_tag = CNN
 			}
 		}
 
@@ -1172,7 +1181,7 @@ form_ire_category = {
 				original_tag = NIR
 				original_tag = LEI
 				original_tag = MUN
-				original_tag = CON
+				original_tag = CNN
 			}
 			NOT = { has_global_flag = form_ire_flag }
 		}
