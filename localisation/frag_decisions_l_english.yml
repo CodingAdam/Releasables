@@ -250,3 +250,8 @@
  form_pakistan:0 "Form §GPakistan§!"
  form_eu_pakistan_required_states_tt:0 "Controls §YBaluchistan, Sind, Punjab, Northern Kashmir, Quetta, and Peshawar§!."
  form_eu_pakistan_coring_states_tt:0 "Gain cores on §YBaluchistan, Sind, Punjab, Northern Kashmir, Quetta, Bangladesh, and Peshawar§!.\n"
+ ### East Africa Federation
+ form_eaf_category:0 "An East African Superstate!"
+ form_eaf:0 "Form the §GEast African Federation§!"
+ form_eu_eaf_required_states_tt:0 "Controls §YTanzania, Kenya, Uganda, Rwanda, and Burundi§!."
+ form_eu_eaf_coring_states_tt:0 "Gain cores on §YTanzania, Kenya, Uganda, Rwanda, and Burundi§!.\n"

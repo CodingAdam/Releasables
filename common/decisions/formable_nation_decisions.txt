@@ -3932,6 +3932,70 @@ form_grTibet_category = {
 		}
 	}
 }
+form_eaf_category = {
+
+	form_eaf = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = TZN
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = RWA
+				original_tag = BRD
+			}
+			
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_eu_eaf_required_states_tt
+				controls_state = 546
+				controls_state = 547
+				controls_state = 548
+				controls_state = 768
+				controls_state = 769
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = TZN
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = RWA
+				original_tag = BRD
+			}
+			NOT = { has_global_flag = form_eaf_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = eaf
+			custom_effect_tooltip = form_eu_eaf_coring_states_tt
+			hidden_effect = {
+				546 = { add_core_of = ROOT }
+				547 = { add_core_of = ROOT }
+				548 = { add_core_of = ROOT }
+				768 = { add_core_of = ROOT }
+				769 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_eaf_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_italy_category = {
 
 	form_lombardyVenetia = {
