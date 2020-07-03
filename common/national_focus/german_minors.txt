@@ -1,0 +1,228 @@
+focus_tree = {
+	id = german_minors
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			OR = {
+				tag = BRN
+				tag = PRE
+				tag = POM
+				tag = SIL
+				tag = MEK
+				tag = SAX
+				tag = BAY
+				tag = WUR
+				tag = BDN
+				tag = HES
+				tag = RHE
+				tag = HAN
+				tag = SHL
+			}
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = GER_rally_behind_the_banner
+		icon = icon = GFX_goal_unknown
+		x = 10
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = GER_german_nationalism
+		}
+	}
+	focus = {
+		id = GER_german_military_pride
+		icon = GFX_focus_generic_military_mission
+		x = 12
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = GER_rally_behind_the_banner }
+		mutually_exclusive = { focus = GER_peaceful_reunification }
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = GER_peaceful_reunification
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 8
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = GER_rally_behind_the_banner }
+		mutually_exclusive = { focus = GER_german_military_pride }
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = GER_invade_north
+		icon = GFX_goal_unknown
+		x = 13
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = GER_german_military_pride }
+
+		completion_reward = {
+			58 = { add_claim_by = ROOT }
+			59 = { add_claim_by = ROOT }
+			56 = { add_claim_by = ROOT }
+			57 = { add_claim_by = ROOT }
+			55 = { add_claim_by = ROOT }
+			838 = { add_claim_by = ROOT }
+			823 = { add_claim_by = ROOT }
+			51 = { add_claim_by = ROOT }
+			822 = { add_claim_by = ROOT }
+			42 = { add_claim_by = ROOT }
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = GER_invade_berlin
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { 
+			focus = GER_german_military_pride
+			focus = GER_peaceful_reunification 
+		}
+
+		completion_reward = {
+			64 = { add_claim_by = ROOT }
+			68 = { add_claim_by = ROOT }
+			61 = { add_claim_by = ROOT }
+			65 = { add_claim_by = ROOT }
+			60 = { add_claim_by = ROOT }
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = GER_invade_pomerania_and_silesia
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = GER_invade_berlin }
+
+		completion_reward = {
+			62 = { add_claim_by = ROOT }
+			63 = { add_claim_by = ROOT }
+			66 = { add_claim_by = ROOT }
+			67 = { add_claim_by = ROOT }
+			762 = { add_claim_by = ROOT }
+			add_political_power = 50
+		}
+	}
+}
