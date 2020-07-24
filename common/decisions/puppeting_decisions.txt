@@ -1,0 +1,228 @@
+puppeting_decisions = {
+	puppet_HOL = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				tag = HOL
+				tag = BRB 
+				tag = FRI 
+				tag = HLN
+			}
+		}
+		visible = {
+			controls_state = 7
+			controls_state = 36 
+			controls_state = 35
+			NOT = {has_country_flag = HOL_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 7
+			controls_state = 36 
+			controls_state = 35
+		}
+		complete_effect = {
+			country_event = puppet.1
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+		}
+	}
+	puppet_BEL = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				tag = BEL
+				tag = FLA 
+				tag = WLL 
+			}
+		}
+		visible = {
+			controls_state = 6
+			controls_state = 34 
+			NOT = {has_country_flag = BEL_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 6
+			controls_state = 34 
+			
+		}
+		complete_effect = {
+			country_event = puppet.2
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+		}
+	}
+	puppet_GRE = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				tag = GRE
+				tag = ATH 
+				tag = THE 
+				tag = CRE
+				tag = EPR
+				tag = PEL
+			}
+		}
+		visible = {
+			controls_state = 47 
+			controls_state = 185
+			controls_state = 186 
+			controls_state = 731
+			NOT = {has_country_flag = GRE_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 47 
+			controls_state = 185
+			controls_state = 186 
+			controls_state = 731
+			
+		}
+		complete_effect = {
+			country_event = puppet.3
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+		}
+	}
+	puppet_CRE = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				tag = CRE
+			}
+		}
+		visible = {
+			controls_state = 182
+			NOT = {has_country_flag = CRE_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 182
+			
+		}
+		complete_effect = {
+			country_event = puppet.4
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+		}
+	}
+	puppet_westSPA = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				tag = SPR
+				tag = NAV
+				tag = CAS
+				tag = TOL
+				tag = VAL
+				tag = GRA
+				tag = SEV
+				tag = BAD
+				tag = LEO	
+			}
+		}
+		visible = {
+			controls_state = 790
+			controls_state = 174
+			controls_state = 788
+			controls_state = 170
+			controls_state = 169
+			controls_state = 173
+			controls_state = 168
+			controls_state = 793
+			controls_state = 176
+			controls_state = 172
+			controls_state = 791
+			controls_state = 41
+			controls_state = 175
+			controls_state = 789
+			controls_state = 792
+			NOT = {has_country_flag = westSPA_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 790
+			controls_state = 174
+			controls_state = 788
+			controls_state = 170
+			controls_state = 169
+			controls_state = 173
+			controls_state = 168
+			controls_state = 793
+			controls_state = 176
+			controls_state = 172
+			controls_state = 791
+			controls_state = 41
+			controls_state = 175
+			controls_state = 789
+			controls_state = 792
+		}
+		complete_effect = {
+			country_event = puppet.5
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+		}
+	}
+	puppet_eastSPA = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				tag = ZAR
+				tag = CAT
+				tag = VAL	
+				tag = SPR
+			}
+		}
+		visible = {
+			controls_state = 165
+			controls_state = 794
+			controls_state = 166
+			controls_state = 167
+			NOT = {has_country_flag = eastSPA_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 165
+			controls_state = 794
+			controls_state = 166
+			controls_state = 167
+		}
+		complete_effect = {
+			country_event = puppet.6
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+		}
+	}
+}

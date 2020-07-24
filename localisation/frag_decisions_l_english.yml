@@ -3,11 +3,16 @@
  ### Reform Nations (Lame Nations)
  form_poland_category:0 "The Continued Fight for Polish Independence!"
  form_poland:0 "Restore §GPoland§!"
- 
  form_belgium:0 "Restore §GBelgium§!"
  form_netherlands:0 "Restore the §GNetherlands§!"
+ hol_integrate_category:0 "State Integration"
+ hol_integrate_flanders:0 "Integrate §YBelgian Flanders§!"
+ ### Ireland
  form_ire_category:0 "Restore Ireland!"
  form_ire:0 "Restore §GIreland§!"
+ form_celtic:0 "Unite the §GCeltic Union§!"
+ form_country_ireland_required_states_tt:0 "Controls all of §YIreland§! on the British Isles."
+ form_country_scotland_required_states_tt:0 "Controls all of §YScotland§! on the British Isles. \n"
  ### Romania
  form_romania_category:0 "Restore Romania!"
  form_romania:0 "Restore §GRomania§!"
@@ -21,7 +26,10 @@
  form_spain_category:0 "For Spanish Glory!"
  form_aragon:0 "Restore §GAragon§!"
  form_spr_spain_required_states_tt:0 "Controls all §YSpanish§! states in Europe."
+ form_iberia:0 "Restore the §GIberian Union§!"
+ form_portugal_required_states_tt:0  "Controls all §YPortuguese§! states in Europe."
  form_spr_spain_coring_states_tt:0 "Gain cores on all §YSpanish§! states in Europe and Spanish Africa.\n"
+ form_iber_coring_states_tt:0 "Gain cores on all §YIberian§! states."
  ### France 
  form_france:0 "Restore §GFrance§!"
  form_france_category:0 "The Revolution Will Not be in Vain!"
@@ -31,7 +39,7 @@
  ### Germany
  form_germany:0 "Restore §GGermany§!"
  form_germany_category:0 "Bismark's Legacy!"
- prs_integrate_category:0 "State Integration."
+ prs_integrate_category:0 "State Integration"
  prs_integrate_brn:0 "Integrate §YBrandenburg§!"
  prs_integrate_dnz:0 "Integrate §YDanzig§!"
  prs_integrate_poz:0 "Integrate §YPoznan§!"
@@ -42,12 +50,14 @@
  form_sgc:0 "Form the §GSouthern German Confederation§!"
  form_greaterAustria_category:0 "Recreate German Austria!"
  form_gerAus:0 "Unify §GGreater Austria§!"
- form_eu_gerAus_required_states_tt:0 "Controls all of §YAustria§!."
+ form_eu_gerAus_required_states_tt:0 "Controls all of §YGerman Austria§!."
  form_gerAus_coring_states_tt:0 "Gain cores on \n The §YSudetenland§!.\n The §YTrentino§!.\n The §YSolvenia§!.\n The §YEastern Sudentenland§!.\n"
  form_sgc_required_states_tt:0 "Controls §YSouthern Germany§!."
  form_sgc_coring_states_tt:0 "Gain cores on §YSouthern Germany§!."
  form_ngc_required_states_tt:0 "Controls §YNorthern Germany§!."
  form_ngc_coring_states_tt:0 "Gain cores on §YNorthern Germany§!."
+ aus_integrate_category:0 "State Integration"
+ aus_integrate_silesia:0 "Integrate §YSilesia§!"
  ### Italy 
  form_italy:0 "Restore §GItaly§!"
  form_italy_category:0 "Reunite Italy!"
@@ -156,7 +166,7 @@
  form_caro_coring_states_tt:0 "Gain cores on all of §YCarolinas§!.\n"
  form_glakes:0 "The §GGreat Lakes§!"
  form_glakes_coring_states_tt:0 "Gains cores on the States near the §YGreat Lakes§!."
- glakes_integrate_category:0 "State Integrate." 
+ glakes_integrate_category:0 "State Integration" 
  glakes_integrate_southernOnt:0 "Integrate §YSouthern Ontario§!."
  ### New England
  form_newEngland_category:0 "Recreate New England!"
@@ -167,7 +177,7 @@
  newEng_integrate_newBrun:0 "Integrate §YNew Brunswick and Nova Scotia§!." 
  ### CSA
  form_csa:0 "To Arms in §GDixie§!"
- csa_integrate_category:0 "Reintegrate the States." 
+ csa_integrate_category:0 "State Integration" 
  csa_integrate_northmex:0 "Integrate §YSonora and Chihuahua§!." 
  csa_integrate_cuba:0 "Integrate §YCuba§!."
  csa_integrate_border:0 "Integrate the §YBorder States§!." 
@@ -176,7 +186,7 @@
  ### Federal Government Of the US
  form_fed:0 "Rebirth of the §GAmerican States§!"
  form_fed_coring_states_tt:0 "Gains cores on the §YGreater Pennsylvanian Area§!."
- fed_integrate_category:0 "Reintegrate the States." 
+ fed_integrate_category:0 "State Integration" 
  fed_integrate_newYork:0 "Reintegrate §YNew York§!." 
  fed_integrate_newEng:0 "Reintegrate §YNew England§!." 
  fed_integrate_virginia:0 "Reintegrate §YVirginia§!." 
@@ -190,7 +200,7 @@
  ### The Pacific States
  form_pac:0 "Together in the §GPacific§!"
  form_pac_coring_states_tt:0 "Gain cores on the §YPacific Coast of America§!."
- pac_integrate_category:0 "Reintegrate the States." 
+ pac_integrate_category:0 "State Integration" 
  pac_integrate_baja:0 "Integrate §YBaja California§!."  
  pac_integrate_alaska:0 "Reintegrate the §YAlaska§!."
  pac_integrate_nevada:0 "Reintegrate the §YNevada§!."
@@ -198,6 +208,14 @@
  pac_integrate_southwest:0 "Reintegrate the §YSouthwest§!." 
  pac_integrate_cascadia:0 "Integrate §YCascadia§!."  
  pac_integrate_hawaii:0 "Reintegrate §YHawaii§!." 
+ ### Czech
+ form_westSlav_category:0 "The Western Slavs"
+ form_czech:0 "Form §GCzechia§!"
+ form_eu_czech_coring_states_tt:0 "Gain cores on all of §YCzechia§! in Europe.\n"
+ form_czechslovaki:0 "Form §GCzechoslovakia§!"
+ form_eu_czechslo_coring_states_tt:0 "Gain cores on all of §YCzechoslovakia§! in Europe.\n"
+ form_zapo:0 "Form §GZapadoslavia§!"
+ form_eu_zapo_coring_states_tt:0 "Gain cores on all of §YZapadoslavia§! in Europe.\n"
  ### Japan
  form_japan_category:0 "For the Emperor!"
  form_japan:0 "Restore §GJapan§!"

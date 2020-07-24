@@ -1,0 +1,179 @@
+############
+# Generic reunification event
+############
+
+add_namespace = claims
+
+#Focus Event
+country_event = {
+	id = claims.1  
+	title = claims.1.t
+	desc = claims.1.d
+	picture = GFX_report_event_vienna_award_negotiations
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = claims.1.a
+		ai_chance = { 
+			factor = 20 
+			modifier = {
+				OR = {
+					has_completed_focus = ITA_the_south
+				}
+				factor = 10
+			}
+			modifier = {
+				ROOT = {has_government = FROM} 
+				factor = 10
+			}
+		}
+		hidden_effect = {
+			FROM = {country_event = { days = 1 id = claims.2 }}
+		}
+	}
+	option = { # no
+		name = claims.1.b
+		ai_chance = { 
+			factor = 40 
+			modifier = {
+				ROOT = {is_subject = yes} 
+				factor = 2
+			}	
+		}
+		hidden_effect = {
+			FROM = {country_event = { days = 1 id = claims.4 }}
+		}
+	}
+}
+# The Meeting
+country_event = {
+	id = claims.2 
+	title = claims.2.t
+	desc = claims.2.d
+	picture = GFX_report_event_vienna_award_hungary
+	is_triggered_only = yes
+
+	option = { # Personal Union Under Root
+		name = claims.2.a
+		ai_chance = { 
+			factor = 20 
+		}
+		hidden_effect = {
+			FROM = {country_event = { days = 1 id = claims.3 }}
+		}
+	}
+	option = { # Personal Union under From
+		name = claims.2.b
+		FROM = { annex_country = {target = FROM transfer_troops = yes} }
+		ai_chance = { factor = 20 }
+	}
+}
+# Personal Union Under Root
+country_event = {
+	id = claims.3 
+	title = claims.3.t
+	desc = claims.3.d
+	picture = GFX_report_event_soviet_german_soldier_handshake
+	is_triggered_only = yes
+	
+	option = { # Perfect 
+		name = claims.3.a
+		ai_chance = { 
+			factor = 20 
+			modifier = {
+				ROOT = {has_government = FROM} 
+				factor = 10
+			}	
+		}
+		FROM = { annex_country = {target = ROOT transfer_troops = yes} }
+	}
+
+	option = { # Unacceptable
+		name = claims.3.b
+		ai_chance = { factor = 40 }
+		hidden_effect = {
+			FROM = {country_event = { days = 1 id = claims.4 }}
+			FROM = { set_country_flag = refused_annexation }
+		}
+	}
+}
+# Refusal
+country_event = {
+	id = claims.4 
+	title = claims.4.t
+	desc = claims.4.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+	
+	option = { # Submit
+		name = claims.4.a
+		trigger = {
+			has_country_flag = refused_annexation
+		}
+		ai_chance = { 
+			factor = 20 
+			modifier = {
+				ROOT = {has_government = FROM} 
+				factor = 10
+			}	
+		}
+		hidden_effect = {
+			clr_country_flag = refused_annexation
+		}
+	}
+	option = { # Annex War Goal 
+		name = claims.4.b
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+				}
+				factor = 100
+			}
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+			expire = 0
+		}
+	}
+	option = { # Claims
+		name = claims.4.c
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+					has_government = communism
+				}
+				factor = 70
+			}
+		}
+		every_state = {
+			limit = {
+				is_owned_by = FROM 
+			}
+			add_claim_by = ROOT 
+		}
+		
+	}
+	option = { # Back Down
+		name = claims.4.e
+		ai_chance = { 
+			factor = 10 
+			modifier = {
+				OR = {
+					has_government = democratic
+				}
+				factor = 10
+			}
+		}
+		add_stability = -0.05
+		add_political_power = -25
+	}
+	
+
+}

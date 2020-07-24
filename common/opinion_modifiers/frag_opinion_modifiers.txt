@@ -1,0 +1,21 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+
+	ita_brother = {
+		value = 35
+	}
+	recognized_state = {
+		value = 90
+		decay = 1
+	}
+	
+}

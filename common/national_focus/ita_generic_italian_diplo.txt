@@ -1,0 +1,868 @@
+focus_tree = {
+	id = generic_italian_diplo
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			OR = {
+			tag = LOM
+			tag = MOD
+			tag = PAM
+			tag = LUC
+			tag = VNC
+			tag = VAT
+			tag = TIR
+			tag = TUS
+			tag = SAR
+			tag = SAV
+			tag = SIC
+			tag = NAP
+			}
+		}
+	}
+	#Focus for Build Our Relations
+	focus = {
+		id = ITA_build_our_relations
+		icon = GFX_goal_generic_major_alliance
+		x = 15
+		y = 2
+		cost = 10
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = ita_formed_italy_tt
+				has_global_flag = form_ita_flag
+			}
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_road_to_reunification }
+		mutually_exclusive = { focus = ITA_construct_our_forces }
+		completion_reward = {
+			if = { 
+				limit = {
+					AND = { 
+						country_exists = LOM 
+						NOT = { original_tag = LOM } 
+					}
+				}
+				LOM = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = MOD 
+						NOT = { original_tag = MOD } 
+					}
+				}
+				MOD = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = PAM 
+						NOT = { original_tag = PAM } 
+					}
+				}
+				PAM = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = LUC 
+						NOT = { original_tag = PAM } 
+					}
+				}
+				LUC = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = VNC 
+						NOT = { original_tag = VNC } 
+					}
+				}
+				VNC = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = VAT 
+						NOT = { original_tag = VAT } 
+					}
+				}
+				VAT = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = TIR 
+						NOT = { original_tag = TIR } 
+					}
+				}
+				TIR = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = TUS 
+						NOT = { original_tag = TUS } 
+					}
+				}
+				TUS = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = SAR 
+						NOT = { original_tag = SAR } 
+					}
+				}
+				SAR = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = SAV 
+						NOT = { original_tag = SAV } 
+					}
+				}
+				SAV = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+				
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = SIC 
+						NOT = { original_tag = SIC } 
+					}
+				}
+				SIC = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+				}
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = NAP 
+						NOT = { original_tag = NAP }
+					}
+				}
+				NAP = {
+					add_opinion_modifier = { target = ROOT modifier = ita_brother }
+			    }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Question of Sardinia
+	focus = {
+		id = ITA_the_question_of_sardinia
+		icon = GFX_sardinia
+		x = 19
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_prepare_for_landings 
+			focus = ITA_construct_our_forces 
+			focus = ITA_build_our_relations 
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					AND = {
+						NOT = { country_exists = SAR }
+					}
+				}
+				114 = { add_claim_by = ROOT }
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = SAR 
+						NOT = { original_tag = SAR }
+					}
+				}
+				unlock_decision_tooltip = sar_claims
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revitalise Our Trade # TODO
+	focus = {
+		id = ITA_revitalise_our_trade
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 14
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_build_our_relations }
+		completion_reward = {
+			add_ideas = increased_trade
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prepare for Landings 
+	focus = {
+		id = ITA_prepare_for_landings
+		icon = GFX_goal_generic_amphibious_assault
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		bypass = {
+			has_tech = early_ship_hull_submarine
+			has_tech = basic_torpedo
+			has_tech = mtg_landing_craft
+		}
+		prerequisite = { focus = ITA_construct_our_forces }
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_landing_boat_tech_tt
+				bonus = 0.5
+				uses = 1
+				technology = mtg_landing_craft
+			}
+			add_tech_bonus = {
+				name = ITA_subs_tech_tt
+				bonus = 0.5
+				uses = 2
+				technology = early_ship_hull_submarine
+				technology = basic_torpedo
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Newfound Independence
+	focus = {
+		id = ITA_our_newfound_independence
+		icon = GFX_focus_ita_free
+		x = 7
+		y = 1
+		cost = 7
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = ITA_the_road_to_reunification }
+		completion_reward = {
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Through the Alps
+	focus = {
+		id = ITA_through_the_alps
+		icon = GFX_ita_aplino
+		x = 18
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_construct_our_forces }
+		completion_reward = {
+			custom_effect_tooltip = ITA_aplino_tt
+			add_tech_bonus = {
+				name = ITA_aplino_tech_tt
+				bonus = 1.0
+				uses = 1
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+			hidden_effect = {
+				division_template = {
+					name = "Elite Aplinos"
+					is_locked = yes
+					regiments = {
+						mountaineers = { x = 0 y = 0 }
+						mountaineers = { x = 0 y = 1 }
+						mountaineers = { x = 0 y = 2 }
+						
+						mountaineers = { x = 1 y = 0 }
+						mountaineers = { x = 1 y = 1 }
+						mountaineers = { x = 1 y = 2 }
+						
+						mountaineers = { x = 2 y = 0 }
+						mountaineers = { x = 2 y = 1 }
+						mountaineers = { x = 2 y = 2 }
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { 
+						AND = {
+							ROOT = { 
+								has_full_control_of_state = PREV 
+							} 
+							is_capital = yes
+						}
+					}
+					create_unit = {
+						division = "name = \"Elite Aplinos\"  division_template = \"Elite Aplinos\" start_experience_factor = 1 start_equipment_factor = 1"
+						owner = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish a Currency
+	focus = {
+		id = ITA_establish_a_currency
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_newfound_independence }
+		completion_reward = {
+			add_ideas = national_currency
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Road to Reunification
+	focus = {
+		id = ITA_the_road_to_reunification
+		icon = GFX_all_roads_lead_to_rome
+		x = 16
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = ITA_our_newfound_independence }
+		completion_reward = {
+			add_political_power = 120
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Construct Our Forces
+	focus = {
+		id = ITA_construct_our_forces
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_the_road_to_reunification }
+		mutually_exclusive = { focus = ITA_build_our_relations }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {		
+			add_ideas = ita_militarism
+			army_experience = 10
+		}
+	}
+
+	#Focus for The North
+	focus = {
+		id = ITA_the_north
+		icon = GFX_NorthIta_map
+		x = 17
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = {
+					AND = {
+						NOT = { country_exists = SAV }
+						NOT = { country_exists = LOM }
+						NOT = { country_exists = TIR }
+						NOT = { country_exists = VNC }
+						NOT = { country_exists = TUS }
+						NOT = { country_exists = MOD }
+						NOT = { country_exists = LUC }
+						NOT = { country_exists = PAM }
+					}
+				}
+				162 = { add_claim_by = ROOT }
+				797 = { add_claim_by = ROOT }
+				799 = { add_claim_by = ROOT }
+				798 = { add_claim_by = ROOT }
+				158 = { add_claim_by = ROOT }
+				159 = { add_claim_by = ROOT }
+				806 = { add_claim_by = ROOT }
+				39 = { add_claim_by = ROOT }
+				160 = { add_claim_by = ROOT }
+				830 = { add_claim_by = ROOT }
+				829 = { add_claim_by = ROOT }
+				739 = { add_claim_by = ROOT }
+				845 = { add_claim_by = ROOT }
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = TUS 
+						NOT = { original_tag = TUS }
+					}
+				}
+				unlock_decision_tooltip = tus_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = MOD 
+						NOT = { original_tag = MOD }
+					}
+				}
+				unlock_decision_tooltip = mod_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = PAM 
+						NOT = { original_tag = PAM }
+					}
+				}
+				unlock_decision_tooltip = pam_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = LUC 
+						NOT = { original_tag = LUC }
+					}
+				}
+				unlock_decision_tooltip = luc_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = SAV 
+						NOT = { original_tag = SAV }
+					}
+				}
+				unlock_decision_tooltip = sav_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = LOM 
+						NOT = { original_tag = LOM }
+					}
+				}
+				unlock_decision_tooltip = lom_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = VNC 
+						NOT = { original_tag = VNC }
+					}
+				}
+				unlock_decision_tooltip = vnc_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = TIR 
+						NOT = { original_tag = TIR }
+					}
+				}
+				unlock_decision_tooltip = tir_claims
+			}
+		}
+		prerequisite = { 
+			focus = ITA_through_the_alps 
+			focus = ITA_build_our_relations 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The South
+	focus = {
+		id = ITA_the_south
+		icon = GFX_southIta_map
+		x = 15
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = {
+					AND = {
+						NOT = { country_exists = SIC }
+						NOT = { country_exists = NAP }
+						NOT = { country_exists = VAT }
+					}
+				}
+				157 = { add_claim_by = ROOT }
+				117 = { add_claim_by = ROOT }
+				156 = { add_claim_by = ROOT }
+				115 = { add_claim_by = ROOT }
+				800 = { add_claim_by = ROOT }
+				161 = { add_claim_by = ROOT }
+				161 = { add_claim_by = ROOT }
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = NAP 
+						NOT = { original_tag = NAP }
+					}
+				}
+				unlock_decision_tooltip = nap_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = SIC 
+						NOT = { original_tag = SIC }
+					}
+				}
+				unlock_decision_tooltip = sic_claims
+			}
+			if = {
+				limit = {
+					AND = { 
+						country_exists = VAT 
+						NOT = { original_tag = VAT }
+					}
+				}
+				unlock_decision_tooltip = vat_claims
+			}
+			
+			
+		}
+		prerequisite = { 
+			focus = ITA_build_our_relations 
+			focus = ITA_construct_our_forces 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for University of where-ever
+	focus = {
+		id = ITA_university_of_blank
+		icon = GFX_focus_research2
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_construct_our_forces 
+			focus = ITA_build_our_relations 
+			focus = ITA_establish_a_currency 
+		}
+		available = {
+			num_of_factories > 15
+		}	
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Government
+	focus = {
+		id = ITA_a_new_government
+		icon = GFX_goal_generic_neutrality_focus
+		x = 8
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_our_newfound_independence }
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = has_idea_low_legitimacy_tt
+				NOT = { has_idea = low_legitimacy }
+			}
+		}
+		completion_reward = {
+			remove_ideas = low_legitimacy
+			add_ideas = increasing_legitimacy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Autarky
+	focus = {
+		id = ITA_promote_autarky
+		icon = GFX_goal_generic_construction2
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_establish_a_currency }
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_generic_autarky
+				bonus = 1.0
+				uses = 2
+				technology = excavation1
+				technology = excavation2
+				technology = excavation3
+				technology = excavation4
+				technology = excavation5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Armed Neutrality
+	focus = {
+		id = ITA_armed_neutrality
+		icon = GFX_goal_generic_small_arms
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_sends_our_diplomats }
+		mutually_exclusive = { focus = ITA_deterence }
+		completion_reward = {
+			remove_ideas = moderate_legitimacy
+			add_ideas = armed_neutrality
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for On the World Stage 
+	focus = {
+		id = ITA_on_the_world_stage
+		icon = GFX_goal_generic_demand_territory
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			add_stability = 0.20
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 2
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+		}
+		prerequisite = { 
+			focus = ITA_armed_neutrality 
+			focus = ITA_deterence 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Risorgimento! 
+	focus = {
+		id = ITA_risorgimento
+		icon = GFX_formed_ita
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_the_south 
+		}
+		prerequisite = { 
+			focus = ITA_the_north 
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ita_formed_italy_tt
+				has_country_flag = root_formed_ita
+			}
+		} 
+		completion_reward = {
+			add_stability = 0.20
+			add_war_support = 0.25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sends Our Diplomats
+	focus = {
+		id = ITA_sends_our_diplomats
+		icon = GFX_goal_generic_improve_relations
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ITA_a_new_government 
+		}
+		prerequisite = { 
+			focus = ITA_establish_a_currency 
+		}
+		completion_reward = {
+			every_country = { 
+				limit = {
+					capital_scope = { is_on_continent = europe }
+					is_major = yes
+				}
+				add_opinion_modifier = { target = ROOT modifier = recognized_state }
+			}
+			remove_ideas = increasing_legitimacy
+			add_ideas = moderate_legitimacy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deterence 
+	focus = {
+		id = ITA_deterence
+		icon = GFX_goal_generic_defence
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_sends_our_diplomats }
+		mutually_exclusive = { focus = ITA_armed_neutrality }
+		completion_reward = {
+			remove_ideas = moderate_legitimacy
+			add_ideas = frag_deterence
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Defensive Block
+	focus = {
+		id = ITA_defensive_block
+		icon = GFX_goal_anschluss
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ITA_sends_our_diplomats }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = reformed_nation_tt
+				has_completed_focus = ITA_deterence
+			}
+		} 
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Successor Government
+	focus = {
+		id = ITA_a_successor_government
+		icon = GFX_focus_befriend_italy
+		x = 16
+		y = 3
+		cost = 7
+		available_if_capitulated = yes
+		available = {
+			controls_state = 160
+			controls_state = 117
+			controls_state = 2
+		} 
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+			remove_ideas = low_legitimacy
+			add_ideas = ita_successor_government
+		}
+		prerequisite = { 
+			focus = ITA_construct_our_forces 
+			focus = ITA_build_our_relations 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

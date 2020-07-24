@@ -1,0 +1,26 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_frag_generic_weak_economy"
+		texturefile = "gfx/interface/ideas/broken_econ.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_frag_generic_weak_government"
+		texturefile = "gfx/interface/ideas/government.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_frag_generic_low_legitimacy"
+		texturefile = "gfx/interface/ideas/low_legit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_frag_generic_increasing_legitimacy"
+		texturefile = "gfx/interface/ideas/increasing_legit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_frag_generic_currency"
+		texturefile = "gfx/interface/ideas/currency.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_frag_ita_new_government"
+		texturefile = "gfx/interface/ideas/ita_new_government.dds"
+	}
+}
