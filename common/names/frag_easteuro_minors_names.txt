@@ -1,0 +1,234 @@
+﻿#Poland's Releasables
+WAR = {
+	male = {
+		names = { Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			 Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			 Leszek
+		}
+		surnames = { 
+			Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+		 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+		 	Aleksandrowicz Koter
+		  }
+	}
+	female = {
+		names = { "Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta" }
+		surnames = { "Nowakowska" "Kowalska" "Wiśniewska" "Kamińska" "Lewandowska" "Zielińska" "Szymańska" "Dąbrowska" "Kozłowska" "Jankowska" "Kwiatkowska" "Wojciechowska" "Piotrowska" "Grabowska" }
+	}
+	surnames = { "Kowalczyk" "Wójcik" "Woźniak" "Mazur" "Krawczyk" "Kaczmarek" }
+}
+
+GAL = {
+	male = {
+		names = { Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			 Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			 Leszek
+		}
+		surnames = { 
+			Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+		 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+		 	Aleksandrowicz Koter
+		  }
+	}
+	female = {
+		names = { "Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta" }
+		surnames = { "Nowakowska" "Kowalska" "Wiśniewska" "Kamińska" "Lewandowska" "Zielińska" "Szymańska" "Dąbrowska" "Kozłowska" "Jankowska" "Kwiatkowska" "Wojciechowska" "Piotrowska" "Grabowska" }
+	}
+	surnames = { "Kowalczyk" "Wójcik" "Woźniak" "Mazur" "Krawczyk" "Kaczmarek" }
+}
+
+POZ = {
+	male = {
+		names = { Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			 Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			 Leszek
+		}
+		surnames = { 
+			Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+		 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+		 	Aleksandrowicz Koter
+		  }
+	}
+	female = {
+		names = { "Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta" }
+		surnames = { "Nowakowska" "Kowalska" "Wiśniewska" "Kamińska" "Lewandowska" "Zielińska" "Szymańska" "Dąbrowska" "Kozłowska" "Jankowska" "Kwiatkowska" "Wojciechowska" "Piotrowska" "Grabowska" }
+	}
+	surnames = { "Kowalczyk" "Wójcik" "Woźniak" "Mazur" "Krawczyk" "Kaczmarek" }
+}
+
+DNZ = {
+	male = {
+		names = { Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			 Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			 Leszek
+		}
+		surnames = { 
+			Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+		 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+		 	Aleksandrowicz Koter
+		  }
+	}
+	female = {
+		names = { "Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta" }
+		surnames = { "Nowakowska" "Kowalska" "Wiśniewska" "Kamińska" "Lewandowska" "Zielińska" "Szymańska" "Dąbrowska" "Kozłowska" "Jankowska" "Kwiatkowska" "Wojciechowska" "Piotrowska" "Grabowska" }
+	}
+	surnames = { "Kowalczyk" "Wójcik" "Woźniak" "Mazur" "Krawczyk" "Kaczmarek" }
+}
+# Romania's Releasables
+WAL = {
+	male = {
+		names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea
+		 }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+
+MLA = {
+	male = {
+		names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea
+		 }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+TRA = {
+	male = {
+		names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea
+		 }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+BUC = {
+	male = {
+		names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+			Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+			Grigore Henric Horatiu Iacob Ilie Ioan Ion Iosif Iulian
+			Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+			Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		  }
+	}
+	female = {
+		names = { Andrea
+		 }
+	}
+	surnames = {
+		Chifu Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+	 }
+	callsigns = { }
+}
+# Czech's Releasables
+CRU = {
+	male = {
+		names = { Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+                                 Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+                                 Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+                                 Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { Jelena Ludmila }
+	}
+	surnames = { 
+			Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+                        Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+                        Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+                        Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+                        Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
+}
+BOH = {
+	male = {
+		names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
+		surnames = { "Havlíček" "Dvořák" "Novák" "Kolář" "Novotný" "Macháček" "Veselý" "Vaněk" "Němec" "Malý" "Adamec" "Suchý" "Havlík"
+		"Horváth" "Majer" "Kocian" "Chalupa" "Ferko" }
+	}
+	female = {
+		names = { "Marie" "Anna" "Hana" "Božena" "Alžběta" "Marta" }
+		surnames = { "Havlíčková" "Dvořáková" "Nováková" "Kolářová" "Novotná" "Macháčková" "Veselá" "Vaňková" "Němcová" "Malá" "Adamcová" "Suchá" "Havlíková"
+		"Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" }
+	}
+}
+MOV = {
+	male = {
+		names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
+		surnames = { "Havlíček" "Dvořák" "Novák" "Kolář" "Novotný" "Macháček" "Veselý" "Vaněk" "Němec" "Malý" "Adamec" "Suchý" "Havlík"
+		"Horváth" "Majer" "Kocian" "Chalupa" "Ferko" }
+	}
+	female = {
+		names = { "Marie" "Anna" "Hana" "Božena" "Alžběta" "Marta" }
+		surnames = { "Havlíčková" "Dvořáková" "Nováková" "Kolářová" "Novotná" "Macháčková" "Veselá" "Vaňková" "Němcová" "Malá" "Adamcová" "Suchá" "Havlíková"
+		"Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" }
+	}
+}
+# Courland 
+COU = {
+	male = {
+		names = { Aaron Abrams Alberts Aleksandrs Aloisz Andrejs Arkadij Armands Arnolds Atis
+		Brunis Bruno Eduards Eliass Elmars Emils Evgenijs Filips Fricis Gustavs
+		Heinrihs Hermanis Izaks Janis Jazeps Jekabs Johans Juris Karlis Krisjanis
+		Leo Mark Martins Mihails Mikelis Nikolajs Oskars Pauls Peteris Rihards
+		Roberts Romans Sandis Sergejs Valdemars Valerians Valter Vilis Vladimirs Zigfrids
+		  }
+	}
+	female = {
+		names = { Anna }
+	}
+	surnames = { 
+		Abakovskis Apsenieks Balodis Baumanis Berkis Berzin Betins Braons Caks Cakste
+		Caps Celmins Dalins Dambitis Darzins Desslers Eizenteins Goppers Halsmans
+		Irbitis Kalnins Kalpaks Kucis Kovalevskis Krogzems Kronvalds Kuks Kviesis Lacis
+		Leiko Loskis Maters Matisons Meierovics Mihelssons Milenbahs Millers Needra Ozolins
+		Petrovs Plieksans Pumpurs Rothko Simanis Stucka Tumins Ulmanis Veidenbaums
+	}
+	callsigns = { }
+}

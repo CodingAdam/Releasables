@@ -1,3 +1,4 @@
+# Pacifica
 pac_integrate_category = {
 
 	pac_integrate_baja = {
@@ -1345,4 +1346,138 @@ aus_integrate_category = {
 			}
 		}
 	}
+}
+yug_integrate_category = {
+	
+	yug_integrate_albania = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				tag = YUG
+				tag = CRO
+				tag = BOS
+				tag = BNT
+				tag = SLV
+				tag = KOS
+				tag = MAC
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 44
+		}
+
+		visible = {
+			OR = {
+				has_cosmetic_tag = YUG
+				original_tag = YUG
+			}
+			
+			NOT = { has_country_flag = albania_yug}
+		}
+		days_remove = 30
+		remove_effect = {
+			44 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = albania_yug
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	yug_integrate_bulgaria = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			is_west_slav_culture = yes
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 48
+			controls_state = 212
+			controls_state = 211
+		}
+
+		visible = {
+			OR = {
+				has_cosmetic_tag = YUG
+				original_tag = YUG
+			}
+			NOT = { has_country_flag = bulgaria_yug}
+		}
+		days_remove = 70
+		remove_effect = {
+			48 = { add_core_of = ROOT }
+			212 = { add_core_of = ROOT }
+			211 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = bulgaria_yug
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	yug_integrate_zara_istria = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			is_west_slav_culture = yes
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 830
+			controls_state = 163
+			controls_state = 736
+		}
+
+		visible = {
+			OR = {
+				has_cosmetic_tag = YUG
+				original_tag = YUG
+			}
+			NOT = { has_country_flag = screw_ita}
+		}
+		days_remove = 70
+		remove_effect = {
+			830 = { add_core_of = ROOT }
+			736 = { add_core_of = ROOT }
+			163 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = screw_ita
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0.5
+				is_west_slav_culture = yes
+			}
+		}
+	}
+
+
 }

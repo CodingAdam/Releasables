@@ -3,7 +3,7 @@ ideas = {
 		
 		GER_german_nationalism = {
 
-				picture = 
+				#picture = 
 
 				allowed = {
 					always = no

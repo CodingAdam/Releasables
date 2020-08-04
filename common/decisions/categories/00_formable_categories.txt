@@ -528,3 +528,19 @@ ita_claims = {
 	
 	}
 }
+yug_integrate_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+form_prussia_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}

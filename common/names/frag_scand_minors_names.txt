@@ -1,0 +1,83 @@
+﻿#Spain's Releasables
+LPI = {
+	male = {
+		names = { Lásse Lársa Dommá Curtnas Jussá Jusát Sáppá Tobejas Uðði Vide Viktor Márte Máðen Máhtte Lejo Leammá Eaddji Válter Julejus Juhán Jovssut Jovvá Jonsá Bávlos Bánnos Ále Áksel Áigin Áibmu
+		}
+	}
+	female = {
+		names = { Agát Helbme Merjá Buohttá Dárjá Ellá Lohcca }
+	}
+	surnames = { Brandtzæg Brænne Aabel Gjertsen Giæver Gunderson Grimstad Castberg Christoffersen Agdestein Didriksen Dokken Egede Eggen Eliassen Engelstad Heikinheimo Hokkanen Holappa Alatalo Alén Janhonen Järvelä Joensuu Jokinen Eerola Elomaa Eloranta Eskola Haanpää Bolander Brodd Brorson Brundin Bruun Ceder Cederström Cronholm Ålund Almlöf Almqvist Ahrén Afzelius Adelsköld Dahl Djoos Edgren Egnell Ehrling Bergsten Björklund Blix
+	}
+	callsigns = { Anvil Hammer Fury Arrow Storm Bear Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog }
+}
+GOT = {
+	male = {
+		names = { Dan David Fredrik Gustav Johan Martin Olof Nils Peter Per Dennis Alexander Felix Magnus 
+		Tobias Erik Niklas Björn Emil Robin Jonas John Rikard Daniel Anton Andreas
+		}
+	}
+	female = {
+		names = { Anna Linda Sara Caroline Eira }
+	}
+	
+	surnames = { Andersson Anward Björk Johansson Kiby Lind Norrevik Palmqvist Zetterman Wester Cornelius
+			Hasselström Knubb Sjöman Dahlberg Borg Wendel Sparrhult Oltner Hemmingsson Jenelius
+			Nisshagen Karlsson Bodlund Elgerot Lundström Blomberg Viklund Lindgren Lagerqvist
+			Brolin Cederholm Wickerström Tisander Rickne Ivarsson Åslund Sjöberg Norrevik Ekre
+			Sjöberg Lerström Hargelid Carlberg Ström Hultdin Renström
+	 }
+}
+ALD = {
+	male = {
+		names = { Dan David Fredrik Gustav Johan Martin Olof Nils Peter Per Dennis Alexander Felix Magnus 
+		Tobias Erik Niklas Björn Emil Robin Jonas John Rikard Daniel Anton Andreas
+		}
+	}
+	female = {
+		names = { Anna Linda Sara Caroline Eira }
+	}
+	
+	surnames = { Andersson Anward Björk Johansson Kiby Lind Norrevik Palmqvist Zetterman Wester Cornelius
+			Hasselström Knubb Sjöman Dahlberg Borg Wendel Sparrhult Oltner Hemmingsson Jenelius
+			Nisshagen Karlsson Bodlund Elgerot Lundström Blomberg Viklund Lindgren Lagerqvist
+			Brolin Cederholm Wickerström Tisander Rickne Ivarsson Åslund Sjöberg Norrevik Ekre
+			Sjöberg Lerström Hargelid Carlberg Ström Hultdin Renström
+	 }
+}
+FAR = {
+	male = {
+		names = { Aage Adam Albert Anders Asmund Axel Carl Christian Edvard Edvin
+		Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob
+		Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto
+		Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm  }
+	}
+	female = {
+		names = { Karen Alma Elsa Else Monica }
+	}
+	surnames = { 
+		Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso  Eberlin Falsen
+		Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Hansen Have
+		Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
+		Stemman Suenson Thygeson Trampe Urne  Wadenstierna Wedel-Heinen Zytphen-Adeler 
+		}
+	callsigns = { }
+}
+GRN = {
+	male = {
+		names = { Aage Adam Albert Anders Asmund Axel Carl Christian Edvard Edvin
+		Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob
+		Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto
+		Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm  }
+	}
+	female = {
+		names = { Karen Alma Elsa Else Monica }
+	}
+	surnames = { 
+		Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso  Eberlin Falsen
+		Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Hansen Have
+		Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
+		Stemman Suenson Thygeson Trampe Urne  Wadenstierna Wedel-Heinen Zytphen-Adeler 
+		}
+	callsigns = { }
+}

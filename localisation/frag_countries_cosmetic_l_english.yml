@@ -313,7 +313,13 @@
  trader_fascism_ADJ:0 "Villager"
  trader_neutrality_ADJ:0 "Villager"
  ##### 
- BOE_subject:0 "$OVERLORDADJ$ Borneo"
+ BOE_subject:0 "$OVERLORDADJ$ Borneo" 
+ BOH_GER_fascism_autonomy_satellite:0 "Böhmen-Mähren"
+ BOH_GER_fascism_autonomy_satellite_DEF:0 "the State of Böhmen-Mähren"
+ BOH_GER_fascism_autonomy_reichskommissariat:0 "Reichskommissariat Böhmen und Mähren"
+ BOH_GER_fascism_autonomy_reichskommissariat_DEF:0 "the Reichskommissariat Böhmen und Mähren"
+ BOH_GER_fascism_autonomy_reichsprotectorate:0 "Protektorat Böhmen und Mähren"
+ BOH_GER_fascism_autonomy_reichsprotectorate_DEF:0 "the Reichsprotektorat Böhmen und Mähren"
  #####
 ###### Tsargrad
  IST_SOV_autonomy_dominion:0 "Tsargrad"
@@ -479,6 +485,18 @@
  iberia_democratic_ADJ:0 "Iberian"
  iberia_fascism_ADJ:0 "Iberian"
  iberia_neutrality_ADJ:0 "Iberian"  
+ prussia_communism:0 "Brandenburg-Prussian Union"
+ prussia_democratic:0 "United Prussian Republics"
+ prussia_fascism:0 "Prussian Empire"
+ prussia_neutrality:0 "Prussia"
+ prussia_communism_DEF:0 "the Brandenburg-Prussian Union"
+ prussia_democratic_DEF:0 "the United Prussian Republics"
+ prussia_fascism_DEF:0 "the Prussian Empire"
+ prussia_neutrality_DEF:0 "Prussia"
+ prussia_communism_ADJ:0 "Brandenburger-Prussian"
+ prussia_democratic_ADJ:0 "Prussian"
+ prussia_fascism_ADJ:0 "Prussian"
+ prussia_neutrality_ADJ:0 "Prussian"
 
 
  

@@ -58,6 +58,9 @@
  form_ngc_coring_states_tt:0 "Gain cores on §YNorthern Germany§!."
  aus_integrate_category:0 "State Integration"
  aus_integrate_silesia:0 "Integrate §YSilesia§!"
+ form_prussia_category:0 "A Army With a State"
+ form_prussia:0 "Restore §GPrussia§!"
+ form_eu_prus_coring_states_tt:0 "Gain cores on §YPrussia§!."
  ### Italy 
  form_italy:0 "Restore §GItaly§!"
  form_italy_category:0 "Reunite Italy!"
@@ -156,6 +159,10 @@
  form_gAlb:0 "Form §GGreater Albania§!"
  form_eu_alb_required_states_tt:0 "Controls §YKosovo, Western Macedonia, and Montenegro§!.\n"
  form_eu_gAlb_coring_states_tt:0 "Gains cores on §YKosovo, Western Macedonia, and Montenegro§!. \n"
+ yug_integrate_category:0 "State Integration"
+ yug_integrate_albania:0 "Integrate §YAlbania§!"
+ yug_integrate_bulgaria:0 "Integrate §YBulgaria§!"
+ yug_integrate_zara_istria:0 "Integrate §YIstria and Zara§!"
  ### USA
  form_usa:0 "Restore the §GUnited States§!"
  form_usa_category:0 "Restore the Constitution!"

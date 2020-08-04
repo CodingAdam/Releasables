@@ -1129,6 +1129,7 @@ form_france_category = {
 				21 = { add_core_of = ROOT }
 				23 = { add_core_of = ROOT }
 				735 = { add_core_of = ROOT }
+				846 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_fra_flag
@@ -1435,6 +1436,7 @@ form_spain_category = {
 			166 = { add_core_of = ROOT }
 			165 = { add_core_of = ROOT }
 			794 = { add_core_of = ROOT }
+			846 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = form_ara_flag
 			}
@@ -2478,7 +2480,6 @@ form_yugoslavia_category = {
 				controls_state = 106
 				controls_state = 817
 				controls_state = 818
-				controls_state = 819
 				controls_state = 820
 				controls_state = 821
 				controls_state = 827
@@ -2517,7 +2518,6 @@ form_yugoslavia_category = {
 				 736 = { add_core_of = ROOT }
 				 817 = { add_core_of = ROOT }
 				 818 = { add_core_of = ROOT }
-				 819 = { add_core_of = ROOT }
 				 820 = { add_core_of = ROOT }
 				 821 = { add_core_of = ROOT }
 				 827 = { add_core_of = ROOT }
@@ -5709,6 +5709,66 @@ form_westSlav_category = {
 			}
 			hidden_effect = {
 				set_global_flag = form_czesl_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_prussia_category = {
+
+	form_prussia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			tag = PRE
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				###controls_state = 844
+				###controls_state = 85
+				controls_state = 63
+				controls_state = 62
+				controls_state = 68
+				controls_state = 66
+				controls_state = 67
+				controls_state = 64
+			}
+		}
+
+		visible = {
+			original_tag = PRE
+			NOT = { has_global_flag = form_pru_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = prussia
+			# francois
+			custom_effect_tooltip = form_eu_prus_coring_states_tt
+			hidden_effect = {
+				844 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				63 = { add_core_of = ROOT }
+				62 = { add_core_of = ROOT }
+				68 = { add_core_of = ROOT }
+				66 = { add_core_of = ROOT }
+				67 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				64 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				762 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_pru_flag
 			}
 		}
 

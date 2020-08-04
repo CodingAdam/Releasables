@@ -1,0 +1,61 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+
+is_german_culture = {
+	OR = {
+		tag = BDN
+		tag = TEU
+		tag = RHE
+		tag = POM
+		tag = BRN
+		tag = SIL
+		tag = HES
+		tag = SHL
+		tag = WUR
+		tag = HAN
+		tag = SAX
+		tag = PRE
+		tag = MEK
+		tag = BAY
+		tag = GER
+		tag = AUS
+	}
+}
+is_czech_culture = {
+	OR = {
+		tag = CZE
+		tag = BOH
+		tag = MOV
+	}
+}
+is_dutch_culture = {
+	OR = {
+		tag = HLN
+		tag = HOL
+		tag = BRB
+		tag = FRI
+	}
+}
+is_west_slav_culture = {
+	OR = {
+		tag = YUG
+		tag = CRO
+		tag = BOS
+		tag = BNT
+		tag = SLV
+		tag = KOS
+		tag = MAC
+	}
+}

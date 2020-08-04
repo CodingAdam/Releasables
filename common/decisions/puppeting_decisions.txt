@@ -1,4 +1,5 @@
 puppeting_decisions = {
+	# Netherlands
 	puppet_HOL = {
 		icon = generic_nationalism
 		allowed = {
@@ -30,8 +31,17 @@ puppeting_decisions = {
 				factor = 0
 				has_government = fascism
 			}
+			modifier = {
+				factor = 0
+				AND = {
+					7 = {is_core_of = ROOT}
+					36 = {is_core_of = ROOT}
+					35 = {is_core_of = ROOT}
+				}
+			}
 		}
 	}
+	# Belgium
 	puppet_BEL = {
 		icon = generic_nationalism
 		allowed = {
@@ -61,8 +71,16 @@ puppeting_decisions = {
 				factor = 0
 				has_government = fascism
 			}
+			modifier = {
+				factor = 0
+				AND = {
+					6 = {is_core_of = ROOT}
+					34 = {is_core_of = ROOT}
+				}
+			}
 		}
 	}
+	# Greece
 	puppet_GRE = {
 		icon = generic_nationalism
 		allowed = {
@@ -99,6 +117,15 @@ puppeting_decisions = {
 				factor = 0
 				has_government = fascism
 			}
+			modifier = {
+				factor = 0
+				AND = {
+					47 = {is_core_of = ROOT}
+					185 = {is_core_of = ROOT}
+					186 = {is_core_of = ROOT}
+					731 = {is_core_of = ROOT}
+				}
+			}
 		}
 	}
 	puppet_CRE = {
@@ -126,8 +153,13 @@ puppeting_decisions = {
 				factor = 0
 				has_government = fascism
 			}
+			modifier = {
+				factor = 0
+				182 = {is_core_of = ROOT}
+			}
 		}
 	}
+	# Spain
 	puppet_westSPA = {
 		icon = generic_nationalism
 		allowed = {
@@ -188,6 +220,26 @@ puppeting_decisions = {
 				factor = 0
 				has_government = fascism
 			}
+			modifier = {
+				factor = 0
+				AND = {
+					790 = {is_core_of = ROOT}
+					174 = {is_core_of = ROOT}
+					788 = {is_core_of = ROOT}
+					170 = {is_core_of = ROOT}
+					169 = {is_core_of = ROOT}
+					173 = {is_core_of = ROOT}
+					168 = {is_core_of = ROOT}
+					793 = {is_core_of = ROOT}
+					176 = {is_core_of = ROOT}
+					172 = {is_core_of = ROOT}
+					791 = {is_core_of = ROOT}
+					41 = {is_core_of = ROOT}
+					175 = {is_core_of = ROOT}
+					792 = {is_core_of = ROOT}
+					789 = {is_core_of = ROOT}
+				}
+			}
 		}
 	}
 	puppet_eastSPA = {
@@ -222,6 +274,91 @@ puppeting_decisions = {
 			modifier = {
 				factor = 0
 				has_government = fascism
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					165 = {is_core_of = ROOT}
+					794 = {is_core_of = ROOT}
+					166 = {is_core_of = ROOT}
+					167 = {is_core_of = ROOT}
+				}
+			}
+		}
+	}
+	# Czechia
+	puppet_czech = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				is_czech_culture = yes
+			}
+		}
+		visible = {
+			controls_state = 9
+			controls_state = 75
+			NOT = {has_country_flag = CZE_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 9
+			controls_state = 75
+		}
+		complete_effect = {
+			country_event = puppet.7
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+			modifier = {
+				factor = 0.5
+				is_german_culture = yes
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					9 = {is_core_of = ROOT}
+					75 = {is_core_of = ROOT}
+				}
+			}
+		}
+	}
+	# Slovakia
+	puppet_slovak = {
+		icon = generic_nationalism
+		allowed = {
+			NOT = {
+				tag = SLO
+			}
+		}
+		visible = {
+			controls_state = 70
+			controls_state = 71
+			NOT = {has_country_flag = SLO_ANX}
+		}
+		available = {
+			is_subject = no
+			controls_state = 70
+			controls_state = 71
+		}
+		complete_effect = {
+			country_event = puppet.8
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+			modifier = {
+				AND = {
+					70 = {is_core_of = ROOT}
+					71 = {is_core_of = ROOT}
+				}
+				factor = 0
 			}
 		}
 	}
