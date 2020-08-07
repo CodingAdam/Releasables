@@ -1399,7 +1399,7 @@ yug_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			is_west_slav_culture = yes
+			is_south_slav_culture = yes
 		}
 
 		available = {
@@ -1418,9 +1418,7 @@ yug_integrate_category = {
 		}
 		days_remove = 70
 		remove_effect = {
-			48 = { add_core_of = ROOT }
-			212 = { add_core_of = ROOT }
-			211 = { add_core_of = ROOT }
+			core_bulg = yes
 			hidden_effect = {
 				set_global_flag = bulgaria_yug
 			}
@@ -1439,7 +1437,7 @@ yug_integrate_category = {
 		icon = hol_draw_up_staff_plans
 
 		allowed = {
-			is_west_slav_culture = yes
+			is_south_slav_culture = yes
 		}
 
 		available = {
@@ -1474,7 +1472,7 @@ yug_integrate_category = {
 			}
 			modifier = {
 				factor = 0.5
-				is_west_slav_culture = yes
+				is_south_slav_culture = yes
 			}
 		}
 	}

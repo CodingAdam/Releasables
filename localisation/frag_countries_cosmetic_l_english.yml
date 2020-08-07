@@ -497,6 +497,18 @@
  prussia_democratic_ADJ:0 "Prussian"
  prussia_fascism_ADJ:0 "Prussian"
  prussia_neutrality_ADJ:0 "Prussian"
+ balkan_communism:0 "Balkan Union"
+ balkan_democratic:0 "Balkan Federation"
+ balkan_fascism:0 "Balkania"
+ balkan_neutrality:0 "Balkan League"
+ balkan_communism_DEF:0 "the Balkan Union"
+ balkan_democratic_DEF:0 "the United Balkan Republics"
+ balkan_fascism_DEF:0 "Balkania"
+ balkan_neutrality_DEF:0 "the Balkan League"
+ balkan_communism_ADJ:0 "Balkan"
+ balkan_democratic_ADJ:0 "Balkan"
+ balkan_fascism_ADJ:0 "Balkanian"
+ balkan_neutrality_ADJ:0 "Balkan" 
 
 
  

@@ -163,6 +163,9 @@
  yug_integrate_albania:0 "Integrate §YAlbania§!"
  yug_integrate_bulgaria:0 "Integrate §YBulgaria§!"
  yug_integrate_zara_istria:0 "Integrate §YIstria and Zara§!"
+ form_balkan_category:0 "The Balkan League"
+ form_balkan:0 "Unite the §GBalkans§!"
+ form_eu_balk_coring_states_tt: "Core all states in the §YBalkans§!"
  ### USA
  form_usa:0 "Restore the §GUnited States§!"
  form_usa_category:0 "Restore the Constitution!"

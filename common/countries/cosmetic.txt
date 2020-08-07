@@ -524,3 +524,7 @@ prussia = {
 	color = rgb { 92 93 94 }
 	color_ui = rgb { 92 93 94 }
 } 
+balkan = {
+	color = rgb { 29 18 135 }
+	color_ui = rgb { 29 18 135 }
+} 

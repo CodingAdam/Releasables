@@ -48,7 +48,7 @@ is_dutch_culture = {
 		tag = FRI
 	}
 }
-is_west_slav_culture = {
+is_south_slav_culture = { 
 	OR = {
 		tag = YUG
 		tag = CRO
@@ -57,5 +57,14 @@ is_west_slav_culture = {
 		tag = SLV
 		tag = KOS
 		tag = MAC
+	}
+}
+is_romanian_culture = { 
+	OR = {
+		tag = ROM
+		tag = WAL
+		tag = TRA
+		tag = MLA
+		tag = BUC
 	}
 }

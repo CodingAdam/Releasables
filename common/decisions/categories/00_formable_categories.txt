@@ -544,3 +544,11 @@ form_prussia_category = {
 	
 	}
 }
+form_balkan_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}

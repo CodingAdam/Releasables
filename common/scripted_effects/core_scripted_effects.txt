@@ -1,0 +1,99 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+#####################################
+### emergency_factory_conversion ####
+#####################################
+
+core_yugo = {
+    45 = { add_core_of = ROOT }
+	102 = { add_core_of = ROOT }
+    103 = { add_core_of = ROOT }
+	104 = { add_core_of = ROOT }
+	105 = { add_core_of = ROOT }
+	106 = { add_core_of = ROOT }
+	107 = { add_core_of = ROOT }
+    108 = { add_core_of = ROOT }
+    109 = { add_core_of = ROOT }
+    163 = { add_core_of = ROOT }
+    736 = { add_core_of = ROOT }
+    764 = { add_core_of = ROOT }
+    817 = { add_core_of = ROOT }
+    818 = { add_core_of = ROOT }
+    820 = { add_core_of = ROOT }
+    821 = { add_core_of = ROOT }
+    827 = { add_core_of = ROOT }
+    828 = { add_core_of = ROOT }
+    830 = { add_core_of = ROOT }
+}
+core_romania = {
+	46 = { add_core_of = ROOT }
+	76 = { add_core_of = ROOT }
+	77 = { add_core_of = ROOT }
+	78 = { add_core_of = ROOT }
+	79 = { add_core_of = ROOT }
+	80 = { add_core_of = ROOT }
+	81 = { add_core_of = ROOT }
+	82 = { add_core_of = ROOT }
+	83 = { add_core_of = ROOT }
+	84 = { add_core_of = ROOT }
+	766 = { add_core_of = ROOT }
+	815 = { add_core_of = ROOT }
+	831 = { add_core_of = ROOT }
+}
+core_gre = {
+	47 = { add_core_of = ROOT }
+	182 = { add_core_of = ROOT }
+	184 = { add_core_of = ROOT }
+	185 = { add_core_of = ROOT }
+	186 = { add_core_of = ROOT }
+	187 = { add_core_of = ROOT }
+	731 = { add_core_of = ROOT }
+}
+core_bulg = {
+	48 = { add_core_of = ROOT }
+	211 = { add_core_of = ROOT }
+	212 = { add_core_of = ROOT }
+}
+core_swe = {
+	124 = { add_core_of = ROOT }
+	138 = { add_core_of = ROOT }
+	139 = { add_core_of = ROOT }
+	140 = { add_core_of = ROOT }
+	141 = { add_core_of = ROOT }
+	38 = { add_core_of = ROOT }
+	666 = { add_core_of = ROOT }
+}
+core_nor = {
+	110 = { add_core_of = ROOT }
+	142 = { add_core_of = ROOT }
+	143 = { add_core_of = ROOT }
+	144 = { add_core_of = ROOT }
+}
+core_den = {
+	37 = { add_core_of = ROOT }
+	99 = { add_core_of = ROOT }
+	841 = { add_core_of = ROOT }
+}
+core_fin = {
+	111 = { add_core_of = ROOT }
+	145 = { add_core_of = ROOT }
+	148 = { add_core_of = ROOT }
+	149 = { add_core_of = ROOT }
+	150 = { add_core_of = ROOT }
+}
