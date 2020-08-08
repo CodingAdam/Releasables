@@ -528,3 +528,15 @@ balkan = {
 	color = rgb { 29 18 135 }
 	color_ui = rgb { 29 18 135 }
 } 
+UCA = {
+	color = rgb { 27 151 204 }
+	color_ui = rgb { 27 151 204 }
+}
+westSib = {
+	color = rgb { 133 159 168 }
+	color_ui = rgb { 133 159 168 }
+}
+SOV = {
+	color = rgb { 201 119 97 }
+	color_ui = rgb { 201 119 97 }
+}

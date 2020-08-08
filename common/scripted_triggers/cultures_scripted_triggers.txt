@@ -68,3 +68,54 @@ is_romanian_culture = {
 		tag = BUC
 	}
 }
+is_central_rus_culture = {
+	OR = {
+		tag = NOV
+		tag = PRM
+		tag = MUS
+		tag = KZN
+	}
+}
+is_mountain_rus_culture = {
+	OR = {
+		tag = DON
+		tag = KUB
+		tag = MTN
+		tag = CHE
+		tag = DAG
+	}
+}
+is_siberian_culture = {
+	OR = {
+		tag = KAM
+		tag = YAK
+		tag = OKH
+		tag = PRI
+		tag = SAK
+		tag = AMU
+		tag = CTA
+		tag = ULA
+		tag = IRK
+		tag = KRA
+		tag = KMO
+		tag = GNO
+		tag = NVO
+		tag = TOM
+	}
+}
+is_west_sib_culture = {
+	OR = {
+		tag = CYA
+		tag = TYU
+		tag = OMK
+		tag = SVE
+		tag = TOB
+	}
+}
+is_caucacus_culture = {
+	OR = {
+		tag = GEO
+		tag = ARM
+		tag = AZR
+	}
+}

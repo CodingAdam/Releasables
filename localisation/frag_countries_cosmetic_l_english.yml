@@ -365,6 +365,7 @@
  ISR_MLT_autonomy_reichsprotectorate:0 "Jerusalem"
  ISR_MLT_autonomy_reichskommissariat:0 "Jerusalem"
 #####
+ # Heavenly Kingdom
  heaven_communism:0 "Holy Commune"
  heaven_democratic:0 "Holy Republic"
  heaven_fascism:0 "Heavenly Empire"
@@ -377,6 +378,7 @@
  heaven_democratic_ADJ:0 "Heavenly"
  heaven_fascism_ADJ:0 "Heavenly"
  heaven_neutrality_ADJ:0 "Heavenly"
+ # Greater Tibet 
  grTibet_communism:0 "People's Republic of the Tibetan Plateau"
  grTibet_democratic:0 "Bod Republic"
  grTibet_fascism:0 "Greater Tibetan Empire"
@@ -389,6 +391,7 @@
  grTibet_democratic_ADJ:0 "Tibetan"
  grTibet_fascism_ADJ:0 "Tibetan"
  grTibet_neutrality_ADJ:0 "Tibetan"
+ # Legations
  legation_communism:0 "Independent Communes"
  legation_democratic:0 "Legation Cities"
  legation_fascism:0 "Legation Cities"
@@ -401,6 +404,7 @@
  legation_democratic_ADJ:0 "Legation"
  legation_fascism_ADJ:0 "Legation"
  legation_neutrality_ADJ:0 "Legation"
+ # Turan
  turan_communism:0 "Turkic People's Federation"
  turan_democratic:0 "Turan"
  turan_fascism:0 "Empire of Turan"
@@ -413,6 +417,7 @@
  turan_democratic_ADJ:0 "Turani"
  turan_fascism_ADJ:0 "Turani"
  turan_neutrality_ADJ:0 "Turani"
+ # Greater Syria
  grsyria_communism:0 "Levantine Democratic Republic"
  grsyria_democratic:0 "Levantine Republic"
  grsyria_fascism:0 "Greater Syria"
@@ -425,6 +430,7 @@
  grsyria_democratic_ADJ:0 "Levantine"
  grsyria_fascism_ADJ:0 "Syrian"
  grsyria_neutrality_ADJ:0 "Syrian"
+ # East African Union
  eaf_communism:0 "Union of East African Republics"
  eaf_democratic:0 "East African Federation"
  eaf_fascism:0 "East African Empire"
@@ -437,6 +443,7 @@
  eaf_democratic_ADJ:0 "East African"
  eaf_fascism_ADJ:0 "East African"
  eaf_neutrality_ADJ:0 "East African"
+ # Pre-Romania
  untpri_communism:0 "United Romanian Communes"
  untpri_democratic:0 "United Principalities"
  untpri_fascism:0 "United Romanian States"
@@ -449,6 +456,7 @@
  untpri_democratic_ADJ:0 "Romanian"
  untpri_fascism_ADJ:0 "Romanian"
  untpri_neutrality_ADJ:0 "Romanian"
+ # Zapadoslavia
  zapo_communism:0 "Zapadoslavian SSR"
  zapo_democratic:0 "Zapadoslavian Republic"
  zapo_fascism:0 "Zapadoslavian State"
@@ -461,6 +469,7 @@
  zapo_democratic_ADJ:0 "Zapadoslavian"
  zapo_fascism_ADJ:0 "Zapadoslavian"
  zapo_neutrality_ADJ:0 "Zapadoslavian"
+ # Celtic Union
  celtic_communism:0 "Celtic SSR"
  celtic_democratic:0 "United Celtic Republics"
  celtic_fascism:0 "Pan-Celtic Empire"
@@ -473,6 +482,7 @@
  celtic_democratic_ADJ:0 "Celtic"
  celtic_fascism_ADJ:0 "Celtic"
  celtic_neutrality_ADJ:0 "Celtic"
+ # United Iberia
  iberia_communism:0 "Iberian Communes"
  iberia_democratic:0 "Iberia"
  iberia_fascism:0 "Iberian Empire"
@@ -485,6 +495,7 @@
  iberia_democratic_ADJ:0 "Iberian"
  iberia_fascism_ADJ:0 "Iberian"
  iberia_neutrality_ADJ:0 "Iberian"  
+ # Cool Prussia
  prussia_communism:0 "Brandenburg-Prussian Union"
  prussia_democratic:0 "United Prussian Republics"
  prussia_fascism:0 "Prussian Empire"
@@ -497,6 +508,7 @@
  prussia_democratic_ADJ:0 "Prussian"
  prussia_fascism_ADJ:0 "Prussian"
  prussia_neutrality_ADJ:0 "Prussian"
+ # United Balkans
  balkan_communism:0 "Balkan Union"
  balkan_democratic:0 "Balkan Federation"
  balkan_fascism:0 "Balkania"
@@ -509,6 +521,31 @@
  balkan_democratic_ADJ:0 "Balkan"
  balkan_fascism_ADJ:0 "Balkanian"
  balkan_neutrality_ADJ:0 "Balkan" 
-
+ # Central Asia
+ UCA_communism:0 "Central Asian Union"
+ UCA_democratic:0 "Central Asian Federation"
+ UCA_fascism:0 "Central Asian Empire"
+ UCA_neutrality:0 "Central Asia"
+ UCA_communism_DEF:0 "the Socialist States of Central Asia"
+ UCA_democratic_DEF:0 "the United Central Asian Federation"
+ UCA_fascism_DEF:0 "the Central Asian Empire"
+ UCA_neutrality_DEF:0 "Central Asia"
+ UCA_communism_ADJ:0 "Central Asian"
+ UCA_democratic_ADJ:0 "Central Asian"
+ UCA_fascism_ADJ:0 "Central Asian"
+ UCA_neutrality_ADJ:0 "Central Asian"
+ # West Siberia
+ westSib_communism:0 "West Siberian Soviet"
+ westSib_democratic:0 "West Siberian Federation"
+ westSib_fascism:0 "West Siberian State"
+ westSib_neutrality:0 "West Siberia"
+ westSib_communism_DEF:0 "the Socialist States of Western Siberia"
+ westSib_democratic_DEF:0 "the West Siberian Federation"
+ westSib_fascism_DEF:0 "the West Siberian State"
+ westSib_neutrality_DEF:0 "West Siberia"
+ westSib_communism_ADJ:0 "West Siberian"
+ westSib_democratic_ADJ:0 "West Siberian"
+ westSib_fascism_ADJ:0 "West Siberian"
+ westSibs_neutrality_ADJ:0 "West Siberian"
 
  

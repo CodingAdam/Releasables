@@ -552,3 +552,19 @@ form_balkan_category = {
 	
 	}
 }
+form_centralAsia_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+rus_integrate_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
