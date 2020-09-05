@@ -28,7 +28,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_rally_behind_the_banner
-		icon = icon = GFX_goal_unknown
+		icon = focus_german_nationalism
 		x = 10
 		y = 0
 
@@ -55,36 +55,7 @@ focus_tree = {
 			add_ideas = GER_german_nationalism
 		}
 	}
-	focus = {
-		id = GER_german_military_pride
-		icon = GFX_focus_generic_military_mission
-		x = 12
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		prerequisite = { focus = GER_rally_behind_the_banner }
-		mutually_exclusive = { focus = GER_peaceful_reunification }
-
-		completion_reward = {
-			add_war_support = 0.1
-		}
-	}
+	### Peace Path
 	focus = {
 		id = GER_peaceful_reunification
 		icon = GFX_goal_molotov_ribbentrop_pact
@@ -115,6 +86,38 @@ focus_tree = {
 			add_stability = 0.1
 		}
 	}
+	### War Path
+	focus = {
+		id = GER_german_military_pride
+		icon = GFX_focus_generic_military_mission
+		x = 12
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = GER_rally_behind_the_banner }
+		mutually_exclusive = { focus = GER_peaceful_reunification }
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	
 	focus = {
 		id = GER_invade_north
 		icon = GFX_goal_unknown
