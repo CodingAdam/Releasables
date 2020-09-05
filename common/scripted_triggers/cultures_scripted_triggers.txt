@@ -1,0 +1,121 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+
+is_german_culture = {
+	OR = {
+		tag = BDN
+		tag = TEU
+		tag = RHE
+		tag = POM
+		tag = BRN
+		tag = SIL
+		tag = HES
+		tag = SHL
+		tag = WUR
+		tag = HAN
+		tag = SAX
+		tag = PRE
+		tag = MEK
+		tag = BAY
+		tag = GER
+		tag = AUS
+	}
+}
+is_czech_culture = {
+	OR = {
+		tag = CZE
+		tag = BOH
+		tag = MOV
+	}
+}
+is_dutch_culture = {
+	OR = {
+		tag = HLN
+		tag = HOL
+		tag = BRB
+		tag = FRI
+	}
+}
+is_south_slav_culture = { 
+	OR = {
+		tag = YUG
+		tag = CRO
+		tag = BOS
+		tag = BNT
+		tag = SLV
+		tag = KOS
+		tag = MAC
+	}
+}
+is_romanian_culture = { 
+	OR = {
+		tag = ROM
+		tag = WAL
+		tag = TRA
+		tag = MLA
+		tag = BUC
+	}
+}
+is_central_rus_culture = {
+	OR = {
+		tag = NOV
+		tag = PRM
+		tag = MUS
+		tag = KZN
+	}
+}
+is_mountain_rus_culture = {
+	OR = {
+		tag = DON
+		tag = KUB
+		tag = MTN
+		tag = CHE
+		tag = DAG
+	}
+}
+is_siberian_culture = {
+	OR = {
+		tag = KAM
+		tag = YAK
+		tag = OKH
+		tag = PRI
+		tag = SAK
+		tag = AMU
+		tag = CTA
+		tag = ULA
+		tag = IRK
+		tag = KRA
+		tag = KMO
+		tag = GNO
+		tag = NVO
+		tag = TOM
+	}
+}
+is_west_sib_culture = {
+	OR = {
+		tag = CYA
+		tag = TYU
+		tag = OMK
+		tag = SVE
+		tag = TOB
+	}
+}
+is_caucacus_culture = {
+	OR = {
+		tag = GEO
+		tag = ARM
+		tag = AZR
+	}
+}

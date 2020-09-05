@@ -1,0 +1,673 @@
+﻿add_namespace = puppet
+
+country_event = { # Netherlands
+	id = puppet.1
+	title = puppet.1.t
+	desc = puppet.1.d
+	is_triggered_only = yes
+	
+	option = { # Release
+		name = puppet.1.a
+		ai_chance = {
+			factor = 90
+		}
+		HLN = {
+			add_state_core = 7
+			add_state_core = 36
+			add_state_core = 35
+			add_state_core = 835
+			add_state_core = 836
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = HLN
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			HLN = { transfer_state = PREV }
+			HLN = { set_cosmetic_tag = HOL }
+		}
+		ROOT = {
+			puppet = HLN
+		}
+	}
+	option = { # Release Netherlands, give Flanders and Limburg to Belgium
+		name = puppet.1.b
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			AND = {
+				OR = {
+					is_in_faction_with = BEL
+					BEL = { is_subject_of = ROOT }
+					is_in_faction_with = FLA
+					FLA = { is_subject_of = ROOT }
+				}
+				NOT = { 835 = {is_core_of = ROOT} }
+				NOT = { 836 = {is_core_of = ROOT} }
+			}
+		}
+		HLN = {
+			add_state_core = 35
+			add_state_core = 36
+			add_state_core = 7
+		}
+		if = {
+			limit = {
+				FLA = {
+					 is_subject_of = ROOT 
+					 is_in_faction_with = ROOT
+				}
+			}
+			835 = { add_core_of = FLA }
+			836 = { add_core_of = FLA }
+			FLA = { transfer_state = 835 }
+			FLA = { transfer_state = 836 }
+		}
+		if = {
+			limit = {
+				BEL = {
+					 is_subject_of = ROOT 
+					 is_in_faction_with = ROOT
+				}
+			}
+			835 = { add_core_of = BEL }
+			836 = { add_core_of = BEL }
+			BEL = { transfer_state = 835 }
+			BEL = { transfer_state = 836 }
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = HLN
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			HLN = { transfer_state = PREV }
+			HLN = { set_cosmetic_tag = HOL }
+		}
+		ROOT = {
+			puppet = HLN
+		}
+	}
+	option = { # Annex
+		name = puppet.1.c
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = HOL_ANX
+	}
+}
+country_event = { # Belgium
+	id = puppet.2
+	title = puppet.2.t
+	desc = puppet.2.d
+	is_triggered_only = yes
+	
+	option = { # Release
+		name = puppet.2.a
+		ai_chance = {
+			factor = 90
+		}
+		FLA = {
+			add_state_core = 6
+			add_state_core = 834
+			add_state_core = 34
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = FLA
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			FLA = { transfer_state = PREV }
+			FLA = { set_cosmetic_tag = BEL }
+		}
+		ROOT = {
+			puppet = FLA
+		}
+	}
+	
+	option = { # Flanders to Netherlands, Wallonie puppet
+		name = puppet.2.b
+		ai_chance = {
+			factor = 100
+		}
+		trigger = {
+			OR = {
+				is_in_faction_with = HOL
+				HOL = { is_subject_of = ROOT }
+				is_in_faction_with = HLN
+				HLN = { is_subject_of = ROOT }
+				is_dutch_culture = yes
+			}
+		}
+		if = {
+			limit = {
+				HOL = {
+					 is_subject_of = ROOT 
+					 is_in_faction_with = ROOT
+				}
+			}
+			6 = { add_core_of = HOL }
+			HOL = { transfer_state = 6 }
+		}
+		if = {
+			limit = {
+				HLN = {
+					 is_subject_of = ROOT 
+					 is_in_faction_with = ROOT
+				}
+			}
+			6 = { add_core_of = HLN }
+			HLN = { transfer_state = 6 }
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = WLL
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			WLL = { transfer_state = PREV }
+		}
+		ROOT = {
+			puppet = WLL
+		}
+	}
+	option = { # Release with Pas-de-Calais
+		name = puppet.2.c
+		ai_chance = {
+			factor = 90
+		}
+		trigger = {
+			29 = { is_owned_by = ROOT }
+			NOT = { 29 = { is_core_of = ROOT} }
+		}
+		FLA = {
+			add_state_core = 6
+			add_state_core = 834
+			add_state_core = 34
+			add_state_core = 29
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = FLA
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			FLA = { transfer_state = PREV }
+			FLA = { set_cosmetic_tag = BEL }
+		}
+		ROOT = {
+			puppet = FLA
+		}
+	}
+	option = { # Annex
+		name = puppet.2.f
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = BEL_ANX
+	}
+}
+country_event = { # Greece
+	id = puppet.3
+	title = puppet.3.t
+	desc = puppet.3.d
+	is_triggered_only = yes
+	
+	option = { # Release
+		name = puppet.3.a
+		ai_chance = {
+			factor = 100
+		}
+		ATH = {
+			add_state_core = 731
+			add_state_core = 187
+			add_state_core = 186
+			add_state_core = 185
+			add_state_core = 184
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = ATH
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			ATH = { transfer_state = PREV }
+			ATH = { set_cosmetic_tag = GRE }
+		}
+		ROOT = {
+			puppet = ATH
+		}
+	}
+	option = { # Release and give Thrace to Bulgaria
+		name = puppet.3.b
+		ai_chance = {
+			factor = 150
+		}
+		trigger = {
+			OR = {
+				is_in_faction_with = BUL
+				BUL = { is_subject_of = ROOT }
+			}
+		}
+		BUL = {transfer_state = 184}
+		ATH = {
+			add_state_core = 731
+			add_state_core = 187
+			add_state_core = 186
+			add_state_core = 185
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = ATH
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			ATH = { transfer_state = PREV }
+			ATH = { set_cosmetic_tag = GRE }
+		}
+		ROOT = {
+			puppet = ATH
+		}
+	}
+	option = { # Annex
+		name = puppet.3.c
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = GRE_ANX
+	}
+}
+country_event = { # Crete
+	id = puppet.4
+	title = puppet.4.t
+	desc = puppet.4.d
+	is_triggered_only = yes
+	
+	option = { # Release
+		name = puppet.4.a
+		ai_chance = {
+			factor = 100
+		}
+		CRE = { transfer_state = 182 }
+		ROOT = {
+			puppet = ATH
+		}
+	}
+	option = { # Give to Greece
+		name = puppet.4.b
+		ai_chance = {
+			factor = 200
+		}
+		trigger = {
+			OR = {
+				is_in_faction_with = GRE
+				GRE = { is_subject_of = ROOT }
+				is_in_faction_with = ATH
+				ATH = { is_subject_of = ROOT }
+			}
+		}
+		if = {
+			limit = {
+				GRE = {
+					OR = {
+						 is_subject_of = ROOT 
+						 is_in_faction_with = ROOT
+					}
+				}
+			}
+			182 = { add_core_of = GRE }
+			GRE = { transfer_state = 182 }
+		}
+		if = {
+			limit = {
+				ATH = {
+					OR = {
+						 is_subject_of = ROOT 
+						 is_in_faction_with = ROOT
+					}
+				}
+			}
+			182 = { add_core_of = ATH }
+			ATH = { transfer_state = 182 }
+		}
+	}
+	option = { # Annex
+		name = puppet.4.c
+		ai_chance = {
+			factor = 50
+		}
+		set_country_flag = CRE_ANX
+	}
+}
+country_event = { # Central Iberia
+	id = puppet.5
+	title = puppet.5.t
+	desc = puppet.5.d
+	is_triggered_only = yes
+	
+	option = { # Release
+		name = puppet.5.a
+		ai_chance = {
+			factor = 100
+		}
+		CAS = {
+			add_state_core = 790
+			add_state_core = 174
+			add_state_core = 788
+			add_state_core = 170
+			add_state_core = 169
+			add_state_core = 173
+			add_state_core = 168
+			add_state_core = 793
+			add_state_core = 176
+			add_state_core = 172
+			add_state_core = 791
+			add_state_core = 41
+			add_state_core = 175
+			add_state_core = 789
+			add_state_core = 792
+			add_state_core = 171
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = CAS
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			CAS = { transfer_state = PREV }
+			CAS = { set_cosmetic_tag = SPR }
+		}
+		ROOT = {
+			puppet = CAS
+		}
+	}
+	option = { # Give Galicia to Portugal
+		name = puppet.5.b
+		ai_chance = {
+			factor = 70
+		}
+		trigger = {
+			AND = {
+				OR = {
+					is_in_faction_with = POR
+					POR = { is_subject_of = ROOT }
+				}
+				171 = { is_owned_by = ROOT }
+			}
+			
+		}
+		CAS = {
+			add_state_core = 790
+			add_state_core = 174
+			add_state_core = 788
+			add_state_core = 170
+			add_state_core = 169
+			add_state_core = 173
+			add_state_core = 168
+			add_state_core = 793
+			add_state_core = 176
+			add_state_core = 172
+			add_state_core = 791
+			add_state_core = 41
+			add_state_core = 175
+			add_state_core = 789
+			add_state_core = 792
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = CAS
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			CAS = { transfer_state = PREV }
+			CAS = { set_cosmetic_tag = SPR }
+		}
+		ROOT = {
+			puppet = CAS
+		}
+		171 = { add_core_of = ATH }
+		POR = { transfer_state = 171 }
+	}
+	option = { # Annex
+		name = puppet.5.c
+		ai_chance = {
+			factor = 50
+		}
+		set_country_flag = westSPR_ANX
+	}
+}
+country_event = { # East Iberia
+	id = puppet.6
+	title = puppet.6.t
+	desc = puppet.6.d
+	is_triggered_only = yes
+	
+	option = { # Release (Aragon)
+		name = puppet.6.a
+		ai_chance = {
+			factor = 100
+		}
+		CAT = {
+			add_state_core = 165
+			add_state_core = 794
+			add_state_core = 166
+			add_state_core = 167
+			add_state_core = 177
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = CAT
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			CAT = { transfer_state = PREV }
+			CAT = { set_cosmetic_tag = ara }
+		}
+		ROOT = {
+			puppet = CAT
+		}
+	}
+	option = { # Give it to Spain
+		name = puppet.6.b
+		ai_chance = {
+			factor = 150
+		}
+		trigger = {
+			OR = {
+				is_in_faction_with = CAS
+				CAS = { is_subject_of = ROOT }
+			}
+			
+		}
+		CAS = {
+			add_state_core = 165
+			add_state_core = 794
+			add_state_core = 166
+			add_state_core = 167
+			add_state_core = 177
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = CAS
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			CAS = { transfer_state = PREV }
+		}
+	}
+	option = { # Give it to Spain and Puppet Cataluna
+		name = puppet.6.e
+		ai_chance = {
+			factor = 90
+		}
+		trigger = {
+			OR = {
+				is_in_faction_with = CAS
+				CAS = { is_subject_of = ROOT }
+			}
+			
+		}
+		CAS = {
+			add_state_core = 794
+			add_state_core = 166
+			add_state_core = 167
+			add_state_core = 177
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = CAS
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			CAS = { transfer_state = PREV }
+		}
+		CAT = { transfer_state = 165 } 
+		ROOT = {
+			puppet = CAT
+		}
+	}
+	option = { # Annex
+		name = puppet.6.c
+		ai_chance = {
+			factor = 50
+		}
+		set_country_flag = eastSPR_ANX
+	}
+}
+country_event = { # Czechia
+	id = puppet.7
+	title = puppet.7.t
+	desc = puppet.7.d
+	is_triggered_only = yes
+	
+	option = { # Release 
+		name = puppet.7.a
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0.1
+				is_german_culture = yes
+			}
+		}
+		BOH = {
+			add_state_core = 813
+			add_state_core = 9
+			add_state_core = 72
+			add_state_core = 74
+			add_state_core = 75
+			add_state_core = 69
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = BOH
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			BOH = { transfer_state = PREV }
+			BOH = { set_cosmetic_tag = CZE_ONLY }
+		}
+		ROOT = {
+			puppet = BOH
+		}
+	}
+	option = { # Keep the Sudetenland
+		name = puppet.7.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				is_german_culture = yes
+			}
+		}
+		trigger = {
+			is_german_culture = yes
+		}
+		BOH = {
+			add_state_core = 9
+			add_state_core = 75
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = BOH
+				is_owned_by = ROOT
+				NOT = { state = 69 }
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			BOH = { transfer_state = PREV }
+		}
+		if = {
+			limit = {
+				NOT = {ROOT = {original_tag = GER}}
+			}
+			BOH = { set_cosmetic_tag = bohmov }
+		}
+		ROOT = {
+			puppet = BOH
+			set_autonomy = { target = BOH autonomy_state = autonomy_reichsprotectorate }
+		}
+	}
+	option = { # Annex
+		name = puppet.7.e
+		ai_chance = {
+			factor = 50
+		}
+		set_country_flag = CZE_ANX
+	}
+}
+country_event = { # Slovakia
+	id = puppet.8
+	title = puppet.8.t
+	desc = puppet.8.d
+	is_triggered_only = yes
+	
+	option = { # Release 
+		name = puppet.8.a
+		ai_chance = {
+			factor = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = SLO
+				is_owned_by = ROOT
+				NOT = {is_core_of = ROOT}
+				NOT = {is_claimed_by = ROOT}
+			}
+			SLO = { transfer_state = PREV }
+		}
+		ROOT = {
+			puppet = SLO
+		}
+	}
+	option = { # Annex
+		name = puppet.8.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 3
+				tag = HUN
+			}
+			modifier = {
+				factor = 3
+				is_czech_culture = yes
+			}
+		}
+		set_country_flag = SLO_ANX
+	}
+}

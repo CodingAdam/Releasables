@@ -488,3 +488,83 @@ form_eaf_category = {
 	
 	}
 }
+aus_integrate_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+hol_integrate_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+form_westSlav_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+puppeting_decisions = {
+	
+	icon = generic_independence
+
+	allowed = {
+	
+	}
+}
+ita_claims = {
+	
+	icon = border_war
+
+	allowed = {
+	
+	}
+}
+yug_integrate_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+form_prussia_category = {
+	
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+form_balkan_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+form_centralAsia_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
+rus_integrate_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+	
+	}
+}
