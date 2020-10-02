@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+		### Economy Stuff
 		broken_eco = {
 			picture = frag_generic_weak_economy
 			modifier = {
@@ -8,6 +9,77 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.50
 				industrial_capacity_factory = -0.4
 				consumer_goods_factor = 0.35
+			}
+		}
+		improved_eco_balanced_1 = { 
+			picture = idea_economic_improvement
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = -0.20
+				production_factory_efficiency_gain_factor = -0.50
+				industrial_capacity_factory = -0.4
+				consumer_goods_factor = 0.10
+			}
+		}
+	
+		improved_eco_balanced_2 = {
+			picture = idea_economic_improvement
+			modifier = {
+				stability_factor = -0.25
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.25
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.35
+			}
+		}
+		improved_eco_balanced_3 = {
+			picture = idea_economic_improvement
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.25
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.10
+			}
+		}
+		improved_eco_controlled_1 = { (Grant Subsidies)
+			picture = idea_economic_improvement
+			modifier = {
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.55
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.10
+			}
+		}
+		improved_eco_controlled_2 = { (TAXES)
+			picture = idea_economic_improvement
+			modifier = {
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.25
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.10
+			}
+		}
+		improved_eco_controlled_3 = {
+			picture = idea_economic_improvement
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.30
+				consumer_goods_factor = 0.05
+			}
+		}
+		nationalized_eco = {
+			picture = idea_man_five_year_plan_industry
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.20
+				consumer_goods_factor = 0.07
+				war_support_factor = 0.05
+				fascism_acceptance = 0.50
 			}
 		}
 		broken_government = {
