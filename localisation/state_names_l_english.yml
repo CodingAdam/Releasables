@@ -818,7 +818,7 @@
  STATE_817:0 "Syrmia"
  STATE_818:0 "Kosovo"
  STATE_819:0 "Shanghai"
- STATE_820:0 "Vranya"
+ STATE_820:0 "Pirot"
  STATE_821:0 "Western Macedonia"
  STATE_822:0 "Saarland"
  STATE_823:0 "Eastern Rhineland"
@@ -846,3 +846,4 @@
  STATE_845:0 "Friuli"
  STATE_846:0 "Roussillon"
  STATE_847:0 "Bács-Kiskun"
+ STATE_848:0 "Ticino"
