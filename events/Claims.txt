@@ -17,9 +17,6 @@ country_event = {
 		ai_chance = { 
 			factor = 20 
 			modifier = {
-				OR = {
-					has_completed_focus = ITA_the_south
-				}
 				factor = 10
 			}
 			modifier = {

@@ -431,12 +431,6 @@ form_grTibet_category = {
 	allowed = {
 	}
 }
-form_turan_category = {
-	icon = generic_formable_nations
-
-	allowed = {
-	}
-}
 form_grsyria_category = {
 	icon = generic_formable_nations
 
@@ -566,5 +560,37 @@ rus_integrate_category = {
 
 	allowed = {
 	
+	}
+}
+form_greater_greece_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_form_greater_greece
+
+	allowed = {
+		#has_dlc = "#TODO" # NICE
+	}
+}
+
+form_turan_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_form_turan
+
+	allowed = {
+		#has_dlc = "#TODO"
+	}
+}
+
+form_macedonian_empire_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_byzantine_empire
+
+	allowed = {
+		#has_dlc = "#TODO"
 	}
 }

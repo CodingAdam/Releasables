@@ -1,0 +1,26 @@
+state={
+	id=816
+	name="STATE_816"
+	state_category = metropolis
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 2
+			6732 = {
+				naval_base = 9
+
+			}
+		}
+		add_core_of = USA
+		add_core_of = MAS
+		victory_points = {
+			6732 20 
+		}
+	}	
+	provinces={
+		6732 715 718 908 3710 3906 905
+	}
+	manpower=4349614			
+	buildings_max_level_factor=1.000
+}

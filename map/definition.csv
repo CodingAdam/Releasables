@@ -13232,8 +13232,9 @@
 13231;184;117;163;land;false;hills;1
 13232;122;77;196;land;false;plains;1
 13233;230;236;122;land;false;mountain;1
-13234;151;71;236;land;true;urban;1
-13235;243;155;117;land;false;hills;1
+13234;210;241;113;land;false;hills;2
+13235;233;179;9;land;false;mountain;2
+### MOD
 13236;155;107;23;land;false;plains;1
 13237;187;252;13;land;false;mountain;1
 13238;124;233;159;land;false;plains;1
@@ -13261,3 +13262,5 @@
 13260;176;12;233;land;true;hills;1
 13261;63;161;227;land;true;hills;1
 13262;125;209;238;land;false;mountain;1
+13263;151;71;236;land;true;urban;1
+13264;243;155;117;land;false;hills;1

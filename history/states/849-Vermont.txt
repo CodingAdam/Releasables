@@ -1,0 +1,22 @@
+state={
+	id=849
+	name="STATE_849"
+	state_category = town
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		add_core_of = VMT
+		victory_points = {
+			9675 1 
+		}
+	}
+	provinces={
+		7629 4445 9675
+	}
+	manpower=369611		
+	buildings_max_level_factor=1.000
+}

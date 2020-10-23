@@ -1,20 +1,22 @@
-
 state={
 	id=736
 	name="STATE_736"
+	
+	state_category = city
 
 	history={
 		victory_points = {
-			11735 2 
+			11735 1 
 		}
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = YUG
+		add_core_of = SLV
 		add_core_of = CRO
 		buildings = {
 			infrastructure = 2
 			11735 = {
-				naval_base = 2
+				naval_base = 4
 
 			}
 
@@ -27,5 +29,4 @@ state={
 	}
 	manpower=243949
 	buildings_max_level_factor=1.000
-	state_category=town
 }

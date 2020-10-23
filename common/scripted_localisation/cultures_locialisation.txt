@@ -1,0 +1,11 @@
+﻿defined_text = {
+	name = has_major_culture
+	text = {
+		trigger = {
+			check_variable = { major_nationality = 1 }
+		}
+		localization_key = "cul_swiss"
+	}
+
+
+}

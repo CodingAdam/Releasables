@@ -3,7 +3,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_south
 			AND = {
 				country_exists = NAP 
 				NOT = { controls_state = 157 }
@@ -29,7 +28,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_south
 			AND = {
 				country_exists = SIC 
 				NOT = { controls_state = 115 }
@@ -51,7 +49,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_south
 			AND = {
 				country_exists = VAT 
 				NOT = { controls_state = 800 }
@@ -77,7 +74,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = TUS 
 				NOT = { controls_state = 162 }
@@ -99,7 +95,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = MOD 
 				NOT = { controls_state = 797 }
@@ -121,7 +116,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = LUC 
 				NOT = { controls_state = 797 }
@@ -143,7 +137,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = PAM 
 				NOT = { controls_state = 798 }
@@ -165,7 +158,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = SAV
 				NOT = { controls_state = 158 }
@@ -187,7 +179,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = LOM 
 				NOT = { controls_state = 159 }
@@ -209,7 +200,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = TIR 
 				NOT = { controls_state = 806 }
@@ -233,7 +223,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = VNC 
 				NOT = { controls_state = 160 }
@@ -261,7 +250,6 @@ ita_claims = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITA_the_north
 			AND = {
 				country_exists = SAR 
 				NOT = { controls_state = 114 }

@@ -186,6 +186,7 @@ SAM = "countries/Samoa.txt"
 HAW = "countries/Hawaii.txt"
 SLV = "countries/Slovenia.txt"
 BOS = "countries/Bosnia.txt"
+HRZ = "countries/Herzegovina.txt"
 MAC = "countries/Macedonia.txt"
 NIR = "countries/Northern Ireland.txt"
 CAT = "countries/Catalonia.txt"
@@ -202,6 +203,8 @@ SAX = "countries/Saxony.txt"
 HAN = "countries/Hanover.txt"
 WUR = "countries/Wurtemberg.txt"
 SHL = "countries/Schleswig-Holstein.txt"
+KUR = "countries/Kurdistan.txt"
+TRA = "countries/Transylvania.txt"
 ###
 
 ### Spain Tags
@@ -246,7 +249,6 @@ WLL = "countries/Wallonie.txt"
 
 ### Romanian Tags
 WAL = "countries/Wallachia.txt"
-TRA = "countries/Transylvania.txt"
 MLA = "countries/Moldavia.txt"
 BUC = "countries/Bucovina.txt"
 
@@ -387,7 +389,6 @@ WYO = "countries/Wyoming.txt"
 
 ### Turkish Tags
 AKD = "countries/Akdeniz.txt"
-KUR = "countries/Kurdistan.txt"
 IST = "countries/Istanbul.txt"
 IZM = "countries/Izmir.txt"
 ANK = "countries/Ankara.txt"
@@ -435,6 +436,7 @@ KSH = "countries/Kashmir.txt"
 ### Dead Tags
 NEN = "countries/NewEngland.txt"
 MIL = "countries/Milan.txt"
+#Man the Guns
 ###HAN = "countries/Hannover.txt"
 ###HAW = "countries/Hawaii.txt"
 ###MCK = "countries/Mecklenburg.txt"
@@ -444,11 +446,15 @@ MIL = "countries/Milan.txt"
 ###COR = "countries/Corsica.txt"
 ###BRT = "countries/Brittany.txt"
 ###BAV = "countries/Bavaria.txt"
+#Battle for the Bosporus
+###TRA = "countries/Transylvania.txt"
+###KUR = "countries/Kurdistan.txt"
+###KOS = "countries/Kosovo.txt"
 
 ### Other Tags
 BOH = "countries/Bohemia.txt"
 MOV = "countries/Moravia.txt"
-KOS = "countries/Kosovo.txt"
+
 BNT = "countries/Banat.txt"
 COU = "countries/Courland.txt"
 BOE = "countries/Borneo.txt"

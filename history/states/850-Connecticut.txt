@@ -1,0 +1,27 @@
+state={
+	id=850
+	name="STATE_850"
+	state_category = metropolis
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 2
+			9832 = {
+				naval_base = 7
+			}
+		}
+		add_core_of = USA
+		add_core_of = CNE
+		victory_points = {
+			6909 3 
+		}
+		
+	}	
+	
+	provinces={
+		11830 9850 9847 6909 9832
+	}
+	manpower=1686903			
+	buildings_max_level_factor=1.000
+}
